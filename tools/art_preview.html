@@ -1,0 +1,35 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Kanamon art preview</title>
+<style>
+ body{font-family:-apple-system,"Hiragino Maru Gothic ProN",sans-serif;background:#fdf6ea;margin:16px}
+ #grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px}
+ .c{background:#fff;border-radius:14px;padding:6px;text-align:center;box-shadow:0 2px 6px #0002}
+ .c img{width:136px;height:136px}
+ .c.miss{opacity:.45}
+ .n{font-size:13px;font-weight:700;color:#5a3b2b}
+ .e{font-size:11px;color:#957}
+ #controls{margin-bottom:10px}
+</style></head><body>
+<div id="controls">
+ <label><input type="checkbox" id="shiny"> shiny</label>
+ <label>filter <input id="f" placeholder="ids, comma separated"></label>
+ <span id="stat"></span>
+</div>
+<div id="grid"></div>
+<script type="module">
+import { KANAMON } from '../js/data/kanamon.js';
+import { ART, monUrl } from '../js/art/creatures.js';
+const grid = document.getElementById('grid');
+function draw() {
+  const shiny = document.getElementById('shiny').checked;
+  const f = document.getElementById('f').value.split(',').map(s => s.trim()).filter(Boolean);
+  const list = KANAMON.filter(m => !f.length || f.includes(m.id));
+  grid.innerHTML = list.map(m => `<div class="c ${ART[m.id] ? '' : 'miss'}"><img src="${monUrl(m.id, shiny)}"><div class="n">${m.no}. ${m.name}</div><div class="e">${m.id} · ${m.en}</div></div>`).join('');
+  document.getElementById('stat').textContent = `${KANAMON.filter(m => ART[m.id]).length}/${KANAMON.length} drawn`;
+}
+document.getElementById('shiny').onchange = draw;
+document.getElementById('f').oninput = draw;
+const q = new URLSearchParams(location.search).get('ids');
+if (q) document.getElementById('f').value = q;
+draw();
+</script></body></html>

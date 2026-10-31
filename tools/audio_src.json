@@ -1,0 +1,5162 @@
+[
+ {
+  "file": "v_c7252b85.mp3",
+  "text": "あ",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_c1252213.mp3",
+  "text": "い",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_c3252539.mp3",
+  "text": "う",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_cd2534f7.mp3",
+  "text": "え",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_cf25381d.mp3",
+  "text": "お",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_ce25368a.mp3",
+  "text": "か",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_c8252d18.mp3",
+  "text": "き",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_ca25303e.mp3",
+  "text": "く",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_d4253ffc.mp3",
+  "text": "け",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_d6254322.mp3",
+  "text": "こ",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_d02539b0.mp3",
+  "text": "さ",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_d2253cd6.mp3",
+  "text": "し",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_dc254c94.mp3",
+  "text": "す",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_de254fba.mp3",
+  "text": "せ",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_d8254648.mp3",
+  "text": "そ",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_da25496e.mp3",
+  "text": "た",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_e425592c.mp3",
+  "text": "ち",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_e1255473.mp3",
+  "text": "つ",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_e3255799.mp3",
+  "text": "て",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_ed256757.mp3",
+  "text": "と",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_ef256a7d.mp3",
+  "text": "な",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_ee2568ea.mp3",
+  "text": "に",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_e925610b.mp3",
+  "text": "ぬ",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_e8255f78.mp3",
+  "text": "ね",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_eb256431.mp3",
+  "text": "の",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_ea25629e.mp3",
+  "text": "は",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_f7257715.mp3",
+  "text": "ひ",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_f0256c10.mp3",
+  "text": "ふ",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_fd258087.mp3",
+  "text": "へ",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_fe25821a.mp3",
+  "text": "ほ",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_fb257d61.mp3",
+  "text": "ま",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_fa257bce.mp3",
+  "text": "み",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_8524c39f.mp3",
+  "text": "む",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_8424c20c.mp3",
+  "text": "め",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_8724c6c5.mp3",
+  "text": "も",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_8124bd53.mp3",
+  "text": "や",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_8324c079.mp3",
+  "text": "ゆ",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_8d24d037.mp3",
+  "text": "よ",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_8c24cea4.mp3",
+  "text": "ら",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_8f24d35d.mp3",
+  "text": "り",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_8e24d1ca.mp3",
+  "text": "る",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_8924c9eb.mp3",
+  "text": "れ",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_8824c858.mp3",
+  "text": "ろ",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_8a24cb7e.mp3",
+  "text": "わ",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_9624de62.mp3",
+  "text": "ん",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_c9252eab.mp3",
+  "text": "が",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_cb2531d1.mp3",
+  "text": "ぎ",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_d525418f.mp3",
+  "text": "ぐ",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_d72544b5.mp3",
+  "text": "げ",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_d1253b43.mp3",
+  "text": "ご",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_d3253e69.mp3",
+  "text": "ざ",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_dd254e27.mp3",
+  "text": "じ",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_df25514d.mp3",
+  "text": "ず",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_d92547db.mp3",
+  "text": "ぜ",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_db254b01.mp3",
+  "text": "ぞ",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_e5255abf.mp3",
+  "text": "だ",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_e2255606.mp3",
+  "text": "で",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_ec2565c4.mp3",
+  "text": "ど",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_f52573ef.mp3",
+  "text": "ば",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_f6257582.mp3",
+  "text": "び",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_f32570c9.mp3",
+  "text": "ぶ",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_fc257ef4.mp3",
+  "text": "べ",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_f9257a3b.mp3",
+  "text": "ぼ",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_f425725c.mp3",
+  "text": "ぱ",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_f1256da3.mp3",
+  "text": "ぴ",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_f2256f36.mp3",
+  "text": "ぷ",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_ff2583ad.mp3",
+  "text": "ぺ",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_f82578a8.mp3",
+  "text": "ぽ",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_ad6d9b01.mp3",
+  "text": "きゃ",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_af6d9e27.mp3",
+  "text": "きゅ",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_b16da14d.mp3",
+  "text": "きょ",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_255269cf.mp3",
+  "text": "しゃ",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_235266a9.mp3",
+  "text": "しゅ",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_21526383.mp3",
+  "text": "しょ",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_d5e55e7d.mp3",
+  "text": "ちゃ",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_cfe5550b.mp3",
+  "text": "ちゅ",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_d1e55831.mp3",
+  "text": "ちょ",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_4dca2d4b.mp3",
+  "text": "にゃ",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_53ca36bd.mp3",
+  "text": "にゅ",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_51ca3397.mp3",
+  "text": "にょ",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_a5afb122.mp3",
+  "text": "ひゃ",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_9fafa7b0.mp3",
+  "text": "ひゅ",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_a1afaad6.mp3",
+  "text": "ひょ",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_15b58a37.mp3",
+  "text": "みゃ",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_13b58711.mp3",
+  "text": "みゅ",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_11b583eb.mp3",
+  "text": "みょ",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_3512b67a.mp3",
+  "text": "りゃ",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_2f12ad08.mp3",
+  "text": "りゅ",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_3112b02e.mp3",
+  "text": "りょ",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_1d411416.mp3",
+  "text": "ぎゃ",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_1f41173c.mp3",
+  "text": "ぎゅ",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_21411a62.mp3",
+  "text": "ぎょ",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_c6065c2c.mp3",
+  "text": "じゃ",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_c4065906.mp3",
+  "text": "じゅ",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_c20655e0.mp3",
+  "text": "じょ",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_7daba093.mp3",
+  "text": "びゃ",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_83abaa05.mp3",
+  "text": "びゅ",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_81aba6df.mp3",
+  "text": "びょ",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_bdd19960.mp3",
+  "text": "ぴゃ",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_c3d1a2d2.mp3",
+  "text": "ぴゅ",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_c1d19fac.mp3",
+  "text": "ぴょ",
+  "voice": "f",
+  "group": "kana"
+ },
+ {
+  "file": "v_6bfd7fb9.mp3",
+  "text": "たね",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_f5bc5102.mp3",
+  "text": "はっぱ",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_0e2fbe5d.mp3",
+  "text": "もり",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_449cfef6.mp3",
+  "text": "ひのこ",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_0b50a4e2.mp3",
+  "text": "ほのお",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_c08bc66c.mp3",
+  "text": "たいよう",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_819013b1.mp3",
+  "text": "しずく",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_79ccb126.mp3",
+  "text": "なみ",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_79607d32.mp3",
+  "text": "うみ",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_a02df086.mp3",
+  "text": "いちご",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_c8c502fa.mp3",
+  "text": "あひる",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_6349d10d.mp3",
+  "text": "かさ",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_5515d443.mp3",
+  "text": "きのこ",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_6aa7caec.mp3",
+  "text": "さくら",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_db49c96c.mp3",
+  "text": "たまご",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_4c5a1a9c.mp3",
+  "text": "ひよこ",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_b420102d.mp3",
+  "text": "にわとり",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_62738bd9.mp3",
+  "text": "けむし",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_b5301d41.mp3",
+  "text": "ちょうちょ",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_9dee00b1.mp3",
+  "text": "ねこ",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_8c5c1ded.mp3",
+  "text": "いぬ",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_9bcce6ac.mp3",
+  "text": "なす",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_703523aa.mp3",
+  "text": "おにぎり",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_65899f02.mp3",
+  "text": "とけい",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_a160bc2a.mp3",
+  "text": "うし",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_c48c1b6f.mp3",
+  "text": "どんぐり",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_d7c27271.mp3",
+  "text": "たぬき",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_a8f81f32.mp3",
+  "text": "ふくろう",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_97c1a76d.mp3",
+  "text": "はち",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_612bc3d8.mp3",
+  "text": "むし",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_5bcdecf1.mp3",
+  "text": "かぶとむし",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_7a66863a.mp3",
+  "text": "りんご",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_7655901c.mp3",
+  "text": "へび",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_6d52db27.mp3",
+  "text": "しか",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_8cc1961c.mp3",
+  "text": "はな",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_7a08231f.mp3",
+  "text": "せみ",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_6549d433.mp3",
+  "text": "かに",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_a5fddb07.mp3",
+  "text": "たこ",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_655be088.mp3",
+  "text": "いか",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_859d6811.mp3",
+  "text": "さかな",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_db4d7823.mp3",
+  "text": "さめ",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_8f488351.mp3",
+  "text": "かめ",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_e8d99fc5.mp3",
+  "text": "くらげ",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_390fda81.mp3",
+  "text": "くじら",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_87d098c7.mp3",
+  "text": "ふね",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_cd2f6de1.mp3",
+  "text": "すいか",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_92d3de17.mp3",
+  "text": "かえる",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_8d37420f.mp3",
+  "text": "わに",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_f44027f4.mp3",
+  "text": "くも",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_21feb78f.mp3",
+  "text": "かみなり",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_96caa036.mp3",
+  "text": "にじ",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_515bc10c.mp3",
+  "text": "いし",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_a95c4b94.mp3",
+  "text": "いわ",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_798a3dd7.mp3",
+  "text": "やま",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_a72621dc.mp3",
+  "text": "ゆき",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_2c610669.mp3",
+  "text": "ゆきだるま",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_7f11e2b6.mp3",
+  "text": "こおり",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_04f9f366.mp3",
+  "text": "そり",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_213ad724.mp3",
+  "text": "みかん",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_b025c259.mp3",
+  "text": "まくら",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_81d1d921.mp3",
+  "text": "てぶくろ",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_a083d341.mp3",
+  "text": "やかん",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_6330442c.mp3",
+  "text": "もち",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_2ec950e7.mp3",
+  "text": "とり",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_abdccd9a.mp3",
+  "text": "つき",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_c4cfc258.mp3",
+  "text": "まんげつ",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_6257af37.mp3",
+  "text": "ほし",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_0a5a40b2.mp3",
+  "text": "おばけ",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_06a7bbde.mp3",
+  "text": "ろうそく",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_a9300a5d.mp3",
+  "text": "ちょうちん",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_ed0dc7f4.mp3",
+  "text": "よる",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_6c33aa60.mp3",
+  "text": "こうもり",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_040e97c0.mp3",
+  "text": "るり",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_2032ee57.mp3",
+  "text": "めがね",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_6996dec4.mp3",
+  "text": "えんぴつ",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_933e6adc.mp3",
+  "text": "らっぱ",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_4c315790.mp3",
+  "text": "てがみ",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_9e580dab.mp3",
+  "text": "ほん",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_f77375aa.mp3",
+  "text": "はさみ",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_c9c9fc91.mp3",
+  "text": "ぬいぐるみ",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_d11dc57a.mp3",
+  "text": "れいぞうこ",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_8a03b2d1.mp3",
+  "text": "でんしゃ",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_91f81ed3.mp3",
+  "text": "しんかんせん",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_0d062843.mp3",
+  "text": "くるま",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_003cd603.mp3",
+  "text": "ひこうき",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_ea221882.mp3",
+  "text": "じてんしゃ",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_c251ccf8.mp3",
+  "text": "ふうせん",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_f9300230.mp3",
+  "text": "だんご",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_520366f9.mp3",
+  "text": "すし",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_062fb1c5.mp3",
+  "text": "もも",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_8207d652.mp3",
+  "text": "ぶどう",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_8352443e.mp3",
+  "text": "にんじん",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_e6c46261.mp3",
+  "text": "のり",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_a0f6a475.mp3",
+  "text": "ごはん",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_430110c5.mp3",
+  "text": "ぞう",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_3125f594.mp3",
+  "text": "おはよう",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_2c944c3c.mp3",
+  "text": "こんにちは",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_aa4b7a73.mp3",
+  "text": "こんばんは",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_92053795.mp3",
+  "text": "ありがとう",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_d068c4eb.mp3",
+  "text": "さようなら",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_cf1e619b.mp3",
+  "text": "おやすみ",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_bde0060a.mp3",
+  "text": "いただきます",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_839c7d0a.mp3",
+  "text": "ごちそうさま",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_7e69b666.mp3",
+  "text": "ごめんね",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_2e2fb600.mp3",
+  "text": "はじめまして",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_4d6ac54a.mp3",
+  "text": "あか",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_4e6ac6dd.mp3",
+  "text": "あお",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_2ea2911b.mp3",
+  "text": "きいろ",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_4ac013bd.mp3",
+  "text": "みどり",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_2b527341.mp3",
+  "text": "しろ",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_eb4019c9.mp3",
+  "text": "くろ",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_df5e1e02.mp3",
+  "text": "ちゃいろ",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_cc06de48.mp3",
+  "text": "むらさき",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_7f5c0976.mp3",
+  "text": "いち",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_cd4d6219.mp3",
+  "text": "さん",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_d50da22c.mp3",
+  "text": "よん",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_69328c35.mp3",
+  "text": "ろく",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_8eccd235.mp3",
+  "text": "なな",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_8aa982b3.mp3",
+  "text": "きゅう",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_d617afc0.mp3",
+  "text": "じゅう",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_1ba13b99.mp3",
+  "text": "ひとつ",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_9c0779bb.mp3",
+  "text": "ふたつ",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_809d1349.mp3",
+  "text": "みっつ",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_cb970688.mp3",
+  "text": "よっつ",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_8e084023.mp3",
+  "text": "いつつ",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_516acb96.mp3",
+  "text": "あし",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_79b627a3.mp3",
+  "text": "みみ",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_973f958d.mp3",
+  "text": "くち",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_134bb5f0.mp3",
+  "text": "あたま",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_32b42684.mp3",
+  "text": "おおきい",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_d5dd8fa9.mp3",
+  "text": "ちいさい",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_3f2ae455.mp3",
+  "text": "あつい",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_7ba67fbc.mp3",
+  "text": "さむい",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_9b09a99f.mp3",
+  "text": "かわいい",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_fd2d59a0.mp3",
+  "text": "おいしい",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_0e57159e.mp3",
+  "text": "はやい",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_029221a3.mp3",
+  "text": "たのしい",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_7a20e3ff.mp3",
+  "text": "つよい",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_aac03256.mp3",
+  "text": "はれ",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_8369874c.mp3",
+  "text": "あめ",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_fee4fb5a.mp3",
+  "text": "くもり",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_5a49c2e2.mp3",
+  "text": "かぜ",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_685be541.mp3",
+  "text": "いえ",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_da49cfb5.mp3",
+  "text": "がっこう",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_8b3f412d.mp3",
+  "text": "こうえん",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_5db5fb8f.mp3",
+  "text": "みせ",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_ab4670ce.mp3",
+  "text": "えき",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_894879df.mp3",
+  "text": "かわ",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_5bb83700.mp3",
+  "text": "まち",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_23666d7a.mp3",
+  "text": "びょういん",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_5cb5f9fc.mp3",
+  "text": "みず",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_984d9115.mp3",
+  "text": "おちゃ",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_4d2be658.mp3",
+  "text": "ぎゅうにゅう",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_89ca8bbf.mp3",
+  "text": "にく",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_2589e502.mp3",
+  "text": "やさい",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_43ee506f.mp3",
+  "text": "おかし",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_02d6e775.mp3",
+  "text": "おくすり",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_63dbbcb4.mp3",
+  "text": "おかあさん",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_c5bdb40b.mp3",
+  "text": "おとうさん",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_722e655c.mp3",
+  "text": "おねえさん",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_c4e2d8c2.mp3",
+  "text": "おにいさん",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_408ad488.mp3",
+  "text": "おばあちゃん",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_62cbb47e.mp3",
+  "text": "おじいちゃん",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_42ea063f.mp3",
+  "text": "あかちゃん",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_6b434494.mp3",
+  "text": "ともだち",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_1be16a58.mp3",
+  "text": "たべます",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_8e170edf.mp3",
+  "text": "のみます",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_4fa514eb.mp3",
+  "text": "みます",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_e243988f.mp3",
+  "text": "いきます",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_899a85b1.mp3",
+  "text": "ねます",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_1bd7102a.mp3",
+  "text": "はしります",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_5def530a.mp3",
+  "text": "およぎます",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_876114d1.mp3",
+  "text": "よみます",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_43bcd13c.mp3",
+  "text": "あそびます",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_e99a76b7.mp3",
+  "text": "うたいます",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_13b3a77c.mp3",
+  "text": "にちようび",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_31981fb2.mp3",
+  "text": "げつようび",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_8228f4a9.mp3",
+  "text": "かようび",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_aee2ce5b.mp3",
+  "text": "すいようび",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_2fafd46d.mp3",
+  "text": "もくようび",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_082fdc7c.mp3",
+  "text": "きんようび",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_ee502bef.mp3",
+  "text": "どようび",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_4f6ac870.mp3",
+  "text": "あさ",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_adafbdba.mp3",
+  "text": "ひる",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_d6336e2c.mp3",
+  "text": "わたし",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_a9b4349c.mp3",
+  "text": "ぼく",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_caf51aea.mp3",
+  "text": "これ",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_8dccd0a2.mp3",
+  "text": "なに",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_55c5bcb5.mp3",
+  "text": "どこ",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_72c16d2e.mp3",
+  "text": "はい",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_b9b8d387.mp3",
+  "text": "いいえ",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_5545e96c.mp3",
+  "text": "えん",
+  "voice": "f",
+  "group": "word"
+ },
+ {
+  "file": "v_f3d15e76.mp3",
+  "text": "たねもん",
+  "voice": "f",
+  "group": "name"
+ },
+ {
+  "file": "v_e66ec1e9.mp3",
+  "text": "はっぱもん",
+  "voice": "f",
+  "group": "name"
+ },
+ {
+  "file": "v_443d93ba.mp3",
+  "text": "もりもん",
+  "voice": "f",
+  "group": "name"
+ },
+ {
+  "file": "v_26e6a79d.mp3",
+  "text": "ひのこもん",
+  "voice": "f",
+  "group": "name"
+ },
+ {
+  "file": "v_069cb2c9.mp3",
+  "text": "ほのおもん",
+  "voice": "f",
+  "group": "name"
+ },
+ {
+  "file": "v_7da571bb.mp3",
+  "text": "たいようもん",
+  "voice": "f",
+  "group": "name"
+ },
+ {
+  "file": "v_3e32722e.mp3",
+  "text": "しずくもん",
+  "voice": "f",
+  "group": "name"
+ },
+ {
+  "file": "v_590b6bad.mp3",
+  "text": "なみもん",
+  "voice": "f",
+  "group": "name"
+ },
+ {
+  "file": "v_dc320239.mp3",
+  "text": "うみもん",
+  "voice": "f",
+  "group": "name"
+ },
+ {
+  "file": "v_2b9a210d.mp3",
+  "text": "いちごもん",
+  "voice": "f",
+  "group": "name"
+ },
+ {
+  "file": "v_1a92a7a1.mp3",
+  "text": "あひるもん",
+  "voice": "f",
+  "group": "name"
+ },
+ {
+  "file": "v_5d038b8a.mp3",
+  "text": "かさもん",
+  "voice": "f",
+  "group": "name"
+ },
+ {
+  "file": "v_319915c0.mp3",
+  "text": "きのこもん",
+  "voice": "f",
+  "group": "name"
+ },
+ {
+  "file": "v_a3cf743b.mp3",
+  "text": "さくらもん",
+  "voice": "f",
+  "group": "name"
+ },
+ {
+  "file": "v_0902acbb.mp3",
+  "text": "たまごもん",
+  "voice": "f",
+  "group": "name"
+ },
+ {
+  "file": "v_8095d10b.mp3",
+  "text": "ひよこもん",
+  "voice": "f",
+  "group": "name"
+ },
+ {
+  "file": "v_dcd3efaa.mp3",
+  "text": "にわとりもん",
+  "voice": "f",
+  "group": "name"
+ },
+ {
+  "file": "v_122c8a96.mp3",
+  "text": "けむしもん",
+  "voice": "f",
+  "group": "name"
+ },
+ {
+  "file": "v_056261de.mp3",
+  "text": "ちょうちょもん",
+  "voice": "f",
+  "group": "name"
+ },
+ {
+  "file": "v_ccf7c72e.mp3",
+  "text": "ねこもん",
+  "voice": "f",
+  "group": "name"
+ },
+ {
+  "file": "v_c59e376a.mp3",
+  "text": "いぬもん",
+  "voice": "f",
+  "group": "name"
+ },
+ {
+  "file": "v_945975fb.mp3",
+  "text": "なすもん",
+  "voice": "f",
+  "group": "name"
+ },
+ {
+  "file": "v_da1bdd71.mp3",
+  "text": "おにぎりもん",
+  "voice": "f",
+  "group": "name"
+ },
+ {
+  "file": "v_3566dfe9.mp3",
+  "text": "とけいもん",
+  "voice": "f",
+  "group": "name"
+ },
+ {
+  "file": "v_afd945f1.mp3",
+  "text": "うしもん",
+  "voice": "f",
+  "group": "name"
+ },
+ {
+  "file": "v_5d2e71cc.mp3",
+  "text": "どんぐりもん",
+  "voice": "f",
+  "group": "name"
+ },
+ {
+  "file": "v_3b6164ee.mp3",
+  "text": "たぬきもん",
+  "voice": "f",
+  "group": "name"
+ },
+ {
+  "file": "v_86ff5439.mp3",
+  "text": "ふくろうもん",
+  "voice": "f",
+  "group": "name"
+ },
+ {
+  "file": "v_9b94b8ea.mp3",
+  "text": "はちもん",
+  "voice": "f",
+  "group": "name"
+ },
+ {
+  "file": "v_9ecc3207.mp3",
+  "text": "むしもん",
+  "voice": "f",
+  "group": "name"
+ },
+ {
+  "file": "v_1eb0ad6e.mp3",
+  "text": "かぶとむしもん",
+  "voice": "f",
+  "group": "name"
+ },
+ {
+  "file": "v_778ac5e1.mp3",
+  "text": "りんごもん",
+  "voice": "f",
+  "group": "name"
+ },
+ {
+  "file": "v_7bfe788b.mp3",
+  "text": "へびもん",
+  "voice": "f",
+  "group": "name"
+ },
+ {
+  "file": "v_1d4cd144.mp3",
+  "text": "しかもん",
+  "voice": "f",
+  "group": "name"
+ },
+ {
+  "file": "v_355b4e8b.mp3",
+  "text": "はなもん",
+  "voice": "f",
+  "group": "name"
+ },
+ {
+  "file": "v_e8ca8b5c.mp3",
+  "text": "せみもん",
+  "voice": "f",
+  "group": "name"
+ },
+ {
+  "file": "v_5ef80190.mp3",
+  "text": "かにもん",
+  "voice": "f",
+  "group": "name"
+ },
+ {
+  "file": "v_19b93724.mp3",
+  "text": "たこもん",
+  "voice": "f",
+  "group": "name"
+ },
+ {
+  "file": "v_de94a3d7.mp3",
+  "text": "いかもん",
+  "voice": "f",
+  "group": "name"
+ },
+ {
+  "file": "v_ddcd168e.mp3",
+  "text": "さかなもん",
+  "voice": "f",
+  "group": "name"
+ },
+ {
+  "file": "v_abab5fa0.mp3",
+  "text": "さめもん",
+  "voice": "f",
+  "group": "name"
+ },
+ {
+  "file": "v_b54463ce.mp3",
+  "text": "かめもん",
+  "voice": "f",
+  "group": "name"
+ },
+ {
+  "file": "v_b844db62.mp3",
+  "text": "くらげもん",
+  "voice": "f",
+  "group": "name"
+ },
+ {
+  "file": "v_b3f8581e.mp3",
+  "text": "くじらもん",
+  "voice": "f",
+  "group": "name"
+ },
+ {
+  "file": "v_2035cee4.mp3",
+  "text": "ふねもん",
+  "voice": "f",
+  "group": "name"
+ },
+ {
+  "file": "v_98ff2a7e.mp3",
+  "text": "すいかもん",
+  "voice": "f",
+  "group": "name"
+ },
+ {
+  "file": "v_c0e25814.mp3",
+  "text": "かえるもん",
+  "voice": "f",
+  "group": "name"
+ },
+ {
+  "file": "v_9887766c.mp3",
+  "text": "わにもん",
+  "voice": "f",
+  "group": "name"
+ },
+ {
+  "file": "v_fb49f983.mp3",
+  "text": "くももん",
+  "voice": "f",
+  "group": "name"
+ },
+ {
+  "file": "v_a6f571ec.mp3",
+  "text": "かみなりもん",
+  "voice": "f",
+  "group": "name"
+ },
+ {
+  "file": "v_aebf66dd.mp3",
+  "text": "にじもん",
+  "voice": "f",
+  "group": "name"
+ },
+ {
+  "file": "v_b63a9d5b.mp3",
+  "text": "いしもん",
+  "voice": "f",
+  "group": "name"
+ },
+ {
+  "file": "v_530dd623.mp3",
+  "text": "いわもん",
+  "voice": "f",
+  "group": "name"
+ },
+ {
+  "file": "v_e957b4d4.mp3",
+  "text": "やまもん",
+  "voice": "f",
+  "group": "name"
+ },
+ {
+  "file": "v_38b8374b.mp3",
+  "text": "ゆきもん",
+  "voice": "f",
+  "group": "name"
+ },
+ {
+  "file": "v_48951346.mp3",
+  "text": "ゆきだるまもん",
+  "voice": "f",
+  "group": "name"
+ },
+ {
+  "file": "v_6bc9f15d.mp3",
+  "text": "こおりもん",
+  "voice": "f",
+  "group": "name"
+ },
+ {
+  "file": "v_04ac84ed.mp3",
+  "text": "そりもん",
+  "voice": "f",
+  "group": "name"
+ },
+ {
+  "file": "v_95c19dd3.mp3",
+  "text": "みかんもん",
+  "voice": "f",
+  "group": "name"
+ },
+ {
+  "file": "v_4e4ddb16.mp3",
+  "text": "まくらもん",
+  "voice": "f",
+  "group": "name"
+ },
+ {
+  "file": "v_bf0130be.mp3",
+  "text": "てぶくろもん",
+  "voice": "f",
+  "group": "name"
+ },
+ {
+  "file": "v_db7407de.mp3",
+  "text": "やかんもん",
+  "voice": "f",
+  "group": "name"
+ },
+ {
+  "file": "v_12bce57b.mp3",
+  "text": "もちもん",
+  "voice": "f",
+  "group": "name"
+ },
+ {
+  "file": "v_54063404.mp3",
+  "text": "とりもん",
+  "voice": "f",
+  "group": "name"
+ },
+ {
+  "file": "v_eb576341.mp3",
+  "text": "つきもん",
+  "voice": "f",
+  "group": "name"
+ },
+ {
+  "file": "v_a406f087.mp3",
+  "text": "まんげつもん",
+  "voice": "f",
+  "group": "name"
+ },
+ {
+  "file": "v_c25cde34.mp3",
+  "text": "ほしもん",
+  "voice": "f",
+  "group": "name"
+ },
+ {
+  "file": "v_cc0735b9.mp3",
+  "text": "おばけもん",
+  "voice": "f",
+  "group": "name"
+ },
+ {
+  "file": "v_c4bff2c5.mp3",
+  "text": "ろうそくもん",
+  "voice": "f",
+  "group": "name"
+ },
+ {
+  "file": "v_817c1fba.mp3",
+  "text": "ちょうちんもん",
+  "voice": "f",
+  "group": "name"
+ },
+ {
+  "file": "v_e4df9983.mp3",
+  "text": "よるもん",
+  "voice": "f",
+  "group": "name"
+ },
+ {
+  "file": "v_49d6b8cf.mp3",
+  "text": "こうもりもん",
+  "voice": "f",
+  "group": "name"
+ },
+ {
+  "file": "v_4f86ec2f.mp3",
+  "text": "るりもん",
+  "voice": "f",
+  "group": "name"
+ },
+ {
+  "file": "v_5c055554.mp3",
+  "text": "めがねもん",
+  "voice": "f",
+  "group": "name"
+ },
+ {
+  "file": "v_ec1af573.mp3",
+  "text": "えんぴつもん",
+  "voice": "f",
+  "group": "name"
+ },
+ {
+  "file": "v_33aa884b.mp3",
+  "text": "らっぱもん",
+  "voice": "f",
+  "group": "name"
+ },
+ {
+  "file": "v_b4d2191f.mp3",
+  "text": "てがみもん",
+  "voice": "f",
+  "group": "name"
+ },
+ {
+  "file": "v_1cf37ac8.mp3",
+  "text": "ほんもん",
+  "voice": "f",
+  "group": "name"
+ },
+ {
+  "file": "v_5aa4bf71.mp3",
+  "text": "はさみもん",
+  "voice": "f",
+  "group": "name"
+ },
+ {
+  "file": "v_ea76a30e.mp3",
+  "text": "ぬいぐるみもん",
+  "voice": "f",
+  "group": "name"
+ },
+ {
+  "file": "v_5b276a21.mp3",
+  "text": "れいぞうこもん",
+  "voice": "f",
+  "group": "name"
+ },
+ {
+  "file": "v_2f18234e.mp3",
+  "text": "でんしゃもん",
+  "voice": "f",
+  "group": "name"
+ },
+ {
+  "file": "v_1465b430.mp3",
+  "text": "しんかんせんもん",
+  "voice": "f",
+  "group": "name"
+ },
+ {
+  "file": "v_8381a9c0.mp3",
+  "text": "くるまもん",
+  "voice": "f",
+  "group": "name"
+ },
+ {
+  "file": "v_7eefe080.mp3",
+  "text": "ひこうきもん",
+  "voice": "f",
+  "group": "name"
+ },
+ {
+  "file": "v_31c7bf69.mp3",
+  "text": "じてんしゃもん",
+  "voice": "f",
+  "group": "name"
+ },
+ {
+  "file": "v_699c0327.mp3",
+  "text": "ふうせんもん",
+  "voice": "f",
+  "group": "name"
+ },
+ {
+  "file": "v_6d9dddbf.mp3",
+  "text": "だんごもん",
+  "voice": "f",
+  "group": "name"
+ },
+ {
+  "file": "v_ba7137b6.mp3",
+  "text": "すしもん",
+  "voice": "f",
+  "group": "name"
+ },
+ {
+  "file": "v_4af0bd62.mp3",
+  "text": "もももん",
+  "voice": "f",
+  "group": "name"
+ },
+ {
+  "file": "v_39f6b059.mp3",
+  "text": "ぶどうもん",
+  "voice": "f",
+  "group": "name"
+ },
+ {
+  "file": "v_6d362b25.mp3",
+  "text": "にんじんもん",
+  "voice": "f",
+  "group": "name"
+ },
+ {
+  "file": "v_fe814efe.mp3",
+  "text": "のりもん",
+  "voice": "f",
+  "group": "name"
+ },
+ {
+  "file": "v_cd597e32.mp3",
+  "text": "ごはんもん",
+  "voice": "f",
+  "group": "name"
+ },
+ {
+  "file": "v_60b0f462.mp3",
+  "text": "ぞうもん",
+  "voice": "f",
+  "group": "name"
+ },
+ {
+  "file": "v_e0079e49.mp3",
+  "text": "んもん",
+  "voice": "f",
+  "group": "name"
+ },
+ {
+  "file": "v_29819c5f.mp3",
+  "text": "にょきにょき",
+  "voice": "f",
+  "group": "atk"
+ },
+ {
+  "file": "v_d5e53c01.mp3",
+  "text": "ひらひら",
+  "voice": "f",
+  "group": "atk"
+ },
+ {
+  "file": "v_48279339.mp3",
+  "text": "ざわざわ",
+  "voice": "f",
+  "group": "atk"
+ },
+ {
+  "file": "v_70c7a489.mp3",
+  "text": "めらめら",
+  "voice": "f",
+  "group": "atk"
+ },
+ {
+  "file": "v_b83f0165.mp3",
+  "text": "ぼうぼう",
+  "voice": "f",
+  "group": "atk"
+ },
+ {
+  "file": "v_ce62f6e1.mp3",
+  "text": "ぎらぎら",
+  "voice": "f",
+  "group": "atk"
+ },
+ {
+  "file": "v_015d1831.mp3",
+  "text": "ぽちゃん",
+  "voice": "f",
+  "group": "atk"
+ },
+ {
+  "file": "v_e36af610.mp3",
+  "text": "ざぶーん",
+  "voice": "f",
+  "group": "atk"
+ },
+ {
+  "file": "v_3b090d06.mp3",
+  "text": "どどーん",
+  "voice": "f",
+  "group": "atk"
+ },
+ {
+  "file": "v_28455fa5.mp3",
+  "text": "ころころ",
+  "voice": "f",
+  "group": "atk"
+ },
+ {
+  "file": "v_50b9c445.mp3",
+  "text": "がーがー",
+  "voice": "f",
+  "group": "atk"
+ },
+ {
+  "file": "v_888a4571.mp3",
+  "text": "くるくる",
+  "voice": "f",
+  "group": "atk"
+ },
+ {
+  "file": "v_6e157f85.mp3",
+  "text": "ぽこぽこ",
+  "voice": "f",
+  "group": "atk"
+ },
+ {
+  "file": "v_84b1de65.mp3",
+  "text": "はらはら",
+  "voice": "f",
+  "group": "atk"
+ },
+ {
+  "file": "v_00f5baaa.mp3",
+  "text": "ころん",
+  "voice": "f",
+  "group": "atk"
+ },
+ {
+  "file": "v_2d2be9b5.mp3",
+  "text": "ぴよぴよ",
+  "voice": "f",
+  "group": "atk"
+ },
+ {
+  "file": "v_09c2ca30.mp3",
+  "text": "こけこっこー",
+  "voice": "f",
+  "group": "atk"
+ },
+ {
+  "file": "v_8e1ef225.mp3",
+  "text": "もぞもぞ",
+  "voice": "f",
+  "group": "atk"
+ },
+ {
+  "file": "v_63566d3a.mp3",
+  "text": "ひらり",
+  "voice": "f",
+  "group": "atk"
+ },
+ {
+  "file": "v_2c2cc715.mp3",
+  "text": "にゃー",
+  "voice": "f",
+  "group": "atk"
+ },
+ {
+  "file": "v_f41d3bc1.mp3",
+  "text": "わんわん",
+  "voice": "f",
+  "group": "atk"
+ },
+ {
+  "file": "v_2ca35d5c.mp3",
+  "text": "どすん",
+  "voice": "f",
+  "group": "atk"
+ },
+ {
+  "file": "v_4b1a0565.mp3",
+  "text": "もぐもぐ",
+  "voice": "f",
+  "group": "atk"
+ },
+ {
+  "file": "v_f8d7f587.mp3",
+  "text": "ちくたく",
+  "voice": "f",
+  "group": "atk"
+ },
+ {
+  "file": "v_f82f9bbb.mp3",
+  "text": "もー",
+  "voice": "f",
+  "group": "atk"
+ },
+ {
+  "file": "v_678cc273.mp3",
+  "text": "こつん",
+  "voice": "f",
+  "group": "atk"
+ },
+ {
+  "file": "v_711c9c45.mp3",
+  "text": "ぽんぽこ",
+  "voice": "f",
+  "group": "atk"
+ },
+ {
+  "file": "v_6f111f15.mp3",
+  "text": "ほーほー",
+  "voice": "f",
+  "group": "atk"
+ },
+ {
+  "file": "v_2b3aa501.mp3",
+  "text": "ぶんぶん",
+  "voice": "f",
+  "group": "atk"
+ },
+ {
+  "file": "v_4a1be525.mp3",
+  "text": "かさかさ",
+  "voice": "f",
+  "group": "atk"
+ },
+ {
+  "file": "v_33445b61.mp3",
+  "text": "どーん",
+  "voice": "f",
+  "group": "atk"
+ },
+ {
+  "file": "v_f435d632.mp3",
+  "text": "ころりん",
+  "voice": "f",
+  "group": "atk"
+ },
+ {
+  "file": "v_31f0215f.mp3",
+  "text": "にょろにょろ",
+  "voice": "f",
+  "group": "atk"
+ },
+ {
+  "file": "v_1de099d9.mp3",
+  "text": "ぴょーん",
+  "voice": "f",
+  "group": "atk"
+ },
+ {
+  "file": "v_95a7492d.mp3",
+  "text": "ぱっ",
+  "voice": "f",
+  "group": "atk"
+ },
+ {
+  "file": "v_a5d296a5.mp3",
+  "text": "みーんみーん",
+  "voice": "f",
+  "group": "atk"
+ },
+ {
+  "file": "v_ce04aa0f.mp3",
+  "text": "ちょきちょき",
+  "voice": "f",
+  "group": "atk"
+ },
+ {
+  "file": "v_3d4725d3.mp3",
+  "text": "にゅるにゅる",
+  "voice": "f",
+  "group": "atk"
+ },
+ {
+  "file": "v_7a96f8dd.mp3",
+  "text": "すいすい",
+  "voice": "f",
+  "group": "atk"
+ },
+ {
+  "file": "v_8ebc8295.mp3",
+  "text": "ぴちぴち",
+  "voice": "f",
+  "group": "atk"
+ },
+ {
+  "file": "v_d9c18ecc.mp3",
+  "text": "がぶっ",
+  "voice": "f",
+  "group": "atk"
+ },
+ {
+  "file": "v_a1a07639.mp3",
+  "text": "のそのそ",
+  "voice": "f",
+  "group": "atk"
+ },
+ {
+  "file": "v_d8007c1d.mp3",
+  "text": "ふよふよ",
+  "voice": "f",
+  "group": "atk"
+ },
+ {
+  "file": "v_86d5cbda.mp3",
+  "text": "ぷしゅー",
+  "voice": "f",
+  "group": "atk"
+ },
+ {
+  "file": "v_2bbef741.mp3",
+  "text": "ぷかぷか",
+  "voice": "f",
+  "group": "atk"
+ },
+ {
+  "file": "v_c8509a15.mp3",
+  "text": "ごろごろ",
+  "voice": "f",
+  "group": "atk"
+ },
+ {
+  "file": "v_035d0c61.mp3",
+  "text": "けろけろ",
+  "voice": "f",
+  "group": "atk"
+ },
+ {
+  "file": "v_786023c5.mp3",
+  "text": "がぶがぶ",
+  "voice": "f",
+  "group": "atk"
+ },
+ {
+  "file": "v_002a5e61.mp3",
+  "text": "もくもく",
+  "voice": "f",
+  "group": "atk"
+ },
+ {
+  "file": "v_05fd7b41.mp3",
+  "text": "ぴかっ",
+  "voice": "f",
+  "group": "atk"
+ },
+ {
+  "file": "v_0ebe9d6b.mp3",
+  "text": "きらり",
+  "voice": "f",
+  "group": "atk"
+ },
+ {
+  "file": "v_1910e975.mp3",
+  "text": "こつこつ",
+  "voice": "f",
+  "group": "atk"
+ },
+ {
+  "file": "v_e11c9d42.mp3",
+  "text": "ごつん",
+  "voice": "f",
+  "group": "atk"
+ },
+ {
+  "file": "v_f9063d1f.mp3",
+  "text": "ずしーん",
+  "voice": "f",
+  "group": "atk"
+ },
+ {
+  "file": "v_e5915411.mp3",
+  "text": "しんしん",
+  "voice": "f",
+  "group": "atk"
+ },
+ {
+  "file": "v_887208cc.mp3",
+  "text": "ぽふっ",
+  "voice": "f",
+  "group": "atk"
+ },
+ {
+  "file": "v_f8edda7d.mp3",
+  "text": "かちかち",
+  "voice": "f",
+  "group": "atk"
+ },
+ {
+  "file": "v_8c58f205.mp3",
+  "text": "すいーっ",
+  "voice": "f",
+  "group": "atk"
+ },
+ {
+  "file": "v_bae590d8.mp3",
+  "text": "じゅわっ",
+  "voice": "f",
+  "group": "atk"
+ },
+ {
+  "file": "v_7c8319dd.mp3",
+  "text": "すやすや",
+  "voice": "f",
+  "group": "atk"
+ },
+ {
+  "file": "v_9290fa8d.mp3",
+  "text": "ぎゅっ",
+  "voice": "f",
+  "group": "atk"
+ },
+ {
+  "file": "v_7813facb.mp3",
+  "text": "しゅっしゅっ",
+  "voice": "f",
+  "group": "atk"
+ },
+ {
+  "file": "v_9d397b2f.mp3",
+  "text": "びよーん",
+  "voice": "f",
+  "group": "atk"
+ },
+ {
+  "file": "v_5e295c85.mp3",
+  "text": "ぱたぱた",
+  "voice": "f",
+  "group": "atk"
+ },
+ {
+  "file": "v_5c16e02d.mp3",
+  "text": "ぴょん",
+  "voice": "f",
+  "group": "atk"
+ },
+ {
+  "file": "v_55f79339.mp3",
+  "text": "きらきら",
+  "voice": "f",
+  "group": "atk"
+ },
+ {
+  "file": "v_65bd9360.mp3",
+  "text": "きらっ",
+  "voice": "f",
+  "group": "atk"
+ },
+ {
+  "file": "v_96a98957.mp3",
+  "text": "ばあ",
+  "voice": "f",
+  "group": "atk"
+ },
+ {
+  "file": "v_bafc27f1.mp3",
+  "text": "ゆらゆら",
+  "voice": "f",
+  "group": "atk"
+ },
+ {
+  "file": "v_aff68d05.mp3",
+  "text": "ぺろーん",
+  "voice": "f",
+  "group": "atk"
+ },
+ {
+  "file": "v_9c397ff7.mp3",
+  "text": "しーん",
+  "voice": "f",
+  "group": "atk"
+ },
+ {
+  "file": "v_c22cb25d.mp3",
+  "text": "ばさばさ",
+  "voice": "f",
+  "group": "atk"
+ },
+ {
+  "file": "v_2e2bdd68.mp3",
+  "text": "きらりん",
+  "voice": "f",
+  "group": "atk"
+ },
+ {
+  "file": "v_f33fa506.mp3",
+  "text": "じーっ",
+  "voice": "f",
+  "group": "atk"
+ },
+ {
+  "file": "v_7c4ad4c5.mp3",
+  "text": "かきかき",
+  "voice": "f",
+  "group": "atk"
+ },
+ {
+  "file": "v_b84d393c.mp3",
+  "text": "ぷっぷー",
+  "voice": "f",
+  "group": "atk"
+ },
+ {
+  "file": "v_9167198f.mp3",
+  "text": "ぺたっ",
+  "voice": "f",
+  "group": "atk"
+ },
+ {
+  "file": "v_b2306de9.mp3",
+  "text": "ぱらぱら",
+  "voice": "f",
+  "group": "atk"
+ },
+ {
+  "file": "v_169017e5.mp3",
+  "text": "ちょきん",
+  "voice": "f",
+  "group": "atk"
+ },
+ {
+  "file": "v_f3919340.mp3",
+  "text": "ぎゅー",
+  "voice": "f",
+  "group": "atk"
+ },
+ {
+  "file": "v_73de5b58.mp3",
+  "text": "ひんやり",
+  "voice": "f",
+  "group": "atk"
+ },
+ {
+  "file": "v_37627c9e.mp3",
+  "text": "がたんごとん",
+  "voice": "f",
+  "group": "atk"
+ },
+ {
+  "file": "v_61e2c2b8.mp3",
+  "text": "びゅーん",
+  "voice": "f",
+  "group": "atk"
+ },
+ {
+  "file": "v_7c8a56e5.mp3",
+  "text": "ぶーぶー",
+  "voice": "f",
+  "group": "atk"
+ },
+ {
+  "file": "v_fc517dad.mp3",
+  "text": "ごー",
+  "voice": "f",
+  "group": "atk"
+ },
+ {
+  "file": "v_f46ff425.mp3",
+  "text": "ちりんちりん",
+  "voice": "f",
+  "group": "atk"
+ },
+ {
+  "file": "v_0b042ce5.mp3",
+  "text": "ふわふわ",
+  "voice": "f",
+  "group": "atk"
+ },
+ {
+  "file": "v_dc36223e.mp3",
+  "text": "ぱくっ",
+  "voice": "f",
+  "group": "atk"
+ },
+ {
+  "file": "v_ba0ea305.mp3",
+  "text": "ぱくぱく",
+  "voice": "f",
+  "group": "atk"
+ },
+ {
+  "file": "v_7b22117c.mp3",
+  "text": "ぷるん",
+  "voice": "f",
+  "group": "atk"
+ },
+ {
+  "file": "v_6a8a2b22.mp3",
+  "text": "ぷちっ",
+  "voice": "f",
+  "group": "atk"
+ },
+ {
+  "file": "v_2f179331.mp3",
+  "text": "ぽりぽり",
+  "voice": "f",
+  "group": "atk"
+ },
+ {
+  "file": "v_cd823d13.mp3",
+  "text": "ぱりっ",
+  "voice": "f",
+  "group": "atk"
+ },
+ {
+  "file": "v_46948619.mp3",
+  "text": "ほかほか",
+  "voice": "f",
+  "group": "atk"
+ },
+ {
+  "file": "v_14e2764b.mp3",
+  "text": "ぱおーん",
+  "voice": "f",
+  "group": "atk"
+ },
+ {
+  "file": "v_38dc0d9a.mp3",
+  "text": "りんご です",
+  "voice": "f",
+  "group": "sent"
+ },
+ {
+  "file": "v_488a9661.mp3",
+  "text": "ねこ です",
+  "voice": "f",
+  "group": "sent"
+ },
+ {
+  "file": "v_7f4b2225.mp3",
+  "text": "いぬ です",
+  "voice": "f",
+  "group": "sent"
+ },
+ {
+  "file": "v_16a69f85.mp3",
+  "text": "かさ です",
+  "voice": "f",
+  "group": "sent"
+ },
+ {
+  "file": "v_e067a535.mp3",
+  "text": "はい そう です",
+  "voice": "f",
+  "group": "sent"
+ },
+ {
+  "file": "v_4988a334.mp3",
+  "text": "これ は りんご です",
+  "voice": "f",
+  "group": "sent"
+ },
+ {
+  "file": "v_55fdbd1c.mp3",
+  "text": "これ は とけい です",
+  "voice": "f",
+  "group": "sent"
+ },
+ {
+  "file": "v_5f483c71.mp3",
+  "text": "これ は ほし です",
+  "voice": "f",
+  "group": "sent"
+ },
+ {
+  "file": "v_9403f7a3.mp3",
+  "text": "これ は さかな です",
+  "voice": "f",
+  "group": "sent"
+ },
+ {
+  "file": "v_91e76a81.mp3",
+  "text": "これ は なん です か",
+  "voice": "f",
+  "group": "sent"
+ },
+ {
+  "file": "v_859874bc.mp3",
+  "text": "あれ は なん です か",
+  "voice": "f",
+  "group": "sent"
+ },
+ {
+  "file": "v_9eccc590.mp3",
+  "text": "りんご は あか です",
+  "voice": "f",
+  "group": "sent"
+ },
+ {
+  "file": "v_16e0321c.mp3",
+  "text": "そら は あお です",
+  "voice": "f",
+  "group": "sent"
+ },
+ {
+  "file": "v_031f6ffc.mp3",
+  "text": "いちご が すき です",
+  "voice": "f",
+  "group": "sent"
+ },
+ {
+  "file": "v_51cf583d.mp3",
+  "text": "ねこ が すき です",
+  "voice": "f",
+  "group": "sent"
+ },
+ {
+  "file": "v_77029268.mp3",
+  "text": "うみ が すき です",
+  "voice": "f",
+  "group": "sent"
+ },
+ {
+  "file": "v_ed1e20e1.mp3",
+  "text": "すし が だいすき です",
+  "voice": "f",
+  "group": "sent"
+ },
+ {
+  "file": "v_e8de6017.mp3",
+  "text": "ぞう は おおきい です",
+  "voice": "f",
+  "group": "sent"
+ },
+ {
+  "file": "v_640cb622.mp3",
+  "text": "あり は ちいさい です",
+  "voice": "f",
+  "group": "sent"
+ },
+ {
+  "file": "v_4eb07c78.mp3",
+  "text": "ねこ は かわいい です",
+  "voice": "f",
+  "group": "sent"
+ },
+ {
+  "file": "v_4160113e.mp3",
+  "text": "わたし の ねこ です",
+  "voice": "f",
+  "group": "sent"
+ },
+ {
+  "file": "v_88fe2d8e.mp3",
+  "text": "せんせい の かさ です",
+  "voice": "f",
+  "group": "sent"
+ },
+ {
+  "file": "v_1bba9218.mp3",
+  "text": "りんご が みっつ",
+  "voice": "f",
+  "group": "sent"
+ },
+ {
+  "file": "v_756cdece.mp3",
+  "text": "おにぎり を ください",
+  "voice": "f",
+  "group": "sent"
+ },
+ {
+  "file": "v_f3762764.mp3",
+  "text": "みず を ください",
+  "voice": "f",
+  "group": "sent"
+ },
+ {
+  "file": "v_273a39ac.mp3",
+  "text": "みかん を ください",
+  "voice": "f",
+  "group": "sent"
+ },
+ {
+  "file": "v_130748db.mp3",
+  "text": "おくすり を ください",
+  "voice": "f",
+  "group": "sent"
+ },
+ {
+  "file": "v_f42a0db9.mp3",
+  "text": "きょう は はれ です",
+  "voice": "f",
+  "group": "sent"
+ },
+ {
+  "file": "v_0768dfc7.mp3",
+  "text": "きょう は あめ です",
+  "voice": "f",
+  "group": "sent"
+ },
+ {
+  "file": "v_43fc793a.mp3",
+  "text": "なつ は あつい です",
+  "voice": "f",
+  "group": "sent"
+ },
+ {
+  "file": "v_83caab92.mp3",
+  "text": "ふゆ は さむい です",
+  "voice": "f",
+  "group": "sent"
+ },
+ {
+  "file": "v_981166b0.mp3",
+  "text": "みかん は おいしい です",
+  "voice": "f",
+  "group": "sent"
+ },
+ {
+  "file": "v_f4d4fb85.mp3",
+  "text": "りんご を たべます",
+  "voice": "f",
+  "group": "sent"
+ },
+ {
+  "file": "v_230498b8.mp3",
+  "text": "ごはん を たべます",
+  "voice": "f",
+  "group": "sent"
+ },
+ {
+  "file": "v_83c261e4.mp3",
+  "text": "みず を のみます",
+  "voice": "f",
+  "group": "sent"
+ },
+ {
+  "file": "v_be86759f.mp3",
+  "text": "おちゃ を のみます",
+  "voice": "f",
+  "group": "sent"
+ },
+ {
+  "file": "v_163603f9.mp3",
+  "text": "ほし を みます",
+  "voice": "f",
+  "group": "sent"
+ },
+ {
+  "file": "v_060df197.mp3",
+  "text": "ほん を よみます",
+  "voice": "f",
+  "group": "sent"
+ },
+ {
+  "file": "v_8456fdf9.mp3",
+  "text": "うみ に いきます",
+  "voice": "f",
+  "group": "sent"
+ },
+ {
+  "file": "v_9f49e698.mp3",
+  "text": "がっこう に いきます",
+  "voice": "f",
+  "group": "sent"
+ },
+ {
+  "file": "v_47ddcf26.mp3",
+  "text": "やま に いきます",
+  "voice": "f",
+  "group": "sent"
+ },
+ {
+  "file": "v_63dd8a6e.mp3",
+  "text": "みせ に いきます",
+  "voice": "f",
+  "group": "sent"
+ },
+ {
+  "file": "v_3855a938.mp3",
+  "text": "にんじん を たべません",
+  "voice": "f",
+  "group": "sent"
+ },
+ {
+  "file": "v_468deaaf.mp3",
+  "text": "ぎゅうにゅう を のみません",
+  "voice": "f",
+  "group": "sent"
+ },
+ {
+  "file": "v_1440e1d7.mp3",
+  "text": "がっこう に いきません",
+  "voice": "f",
+  "group": "sent"
+ },
+ {
+  "file": "v_e103f3db.mp3",
+  "text": "すし を たべました",
+  "voice": "f",
+  "group": "sent"
+ },
+ {
+  "file": "v_fb567438.mp3",
+  "text": "うみ に いきました",
+  "voice": "f",
+  "group": "sent"
+ },
+ {
+  "file": "v_32822e9b.mp3",
+  "text": "にじ を みました",
+  "voice": "f",
+  "group": "sent"
+ },
+ {
+  "file": "v_63a3493b.mp3",
+  "text": "いぬ と ねこ が すき です",
+  "voice": "f",
+  "group": "sent"
+ },
+ {
+  "file": "v_d1bca42d.mp3",
+  "text": "おかあさん と うみ に いきました",
+  "voice": "f",
+  "group": "sent"
+ },
+ {
+  "file": "v_50ebac84.mp3",
+  "text": "おじいちゃん の めがね です",
+  "voice": "f",
+  "group": "sent"
+ },
+ {
+  "file": "v_4651b305.mp3",
+  "text": "せいかい！",
+  "voice": "f",
+  "group": "line"
+ },
+ {
+  "file": "v_663a1c4c.mp3",
+  "text": "すごい！",
+  "voice": "f",
+  "group": "line"
+ },
+ {
+  "file": "v_94b89948.mp3",
+  "text": "いいね！",
+  "voice": "f",
+  "group": "line"
+ },
+ {
+  "file": "v_81d1e610.mp3",
+  "text": "やったね！",
+  "voice": "f",
+  "group": "line"
+ },
+ {
+  "file": "v_3f133e32.mp3",
+  "text": "そのとおり！",
+  "voice": "f",
+  "group": "line"
+ },
+ {
+  "file": "v_fd1e87fe.mp3",
+  "text": "ざんねん",
+  "voice": "f",
+  "group": "line"
+ },
+ {
+  "file": "v_6502cf4e.mp3",
+  "text": "おしい！",
+  "voice": "f",
+  "group": "line"
+ },
+ {
+  "file": "v_5c71ffe1.mp3",
+  "text": "もう いちど！",
+  "voice": "f",
+  "group": "line"
+ },
+ {
+  "file": "v_16f3ada8.mp3",
+  "text": "よく できました！",
+  "voice": "f",
+  "group": "line"
+ },
+ {
+  "file": "v_7c85eb2f.mp3",
+  "text": "おめでとう！",
+  "voice": "f",
+  "group": "line"
+ },
+ {
+  "file": "v_64ae6dbc.mp3",
+  "text": "しんか！",
+  "voice": "f",
+  "group": "line"
+ },
+ {
+  "file": "v_1b9056c3.mp3",
+  "text": "あれ？ ようすが へんだ…",
+  "voice": "f",
+  "group": "line"
+ },
+ {
+  "file": "v_1a8d6753.mp3",
+  "text": "つかまえた！",
+  "voice": "f",
+  "group": "line"
+ },
+ {
+  "file": "v_825b78c8.mp3",
+  "text": "あらわれた！",
+  "voice": "f",
+  "group": "line"
+ },
+ {
+  "file": "v_ade351b2.mp3",
+  "text": "つよく なった！",
+  "voice": "f",
+  "group": "line"
+ },
+ {
+  "file": "v_c9f05fd5.mp3",
+  "text": "にげた！",
+  "voice": "f",
+  "group": "line"
+ },
+ {
+  "file": "v_6b890fe8.mp3",
+  "text": "うまく にげた！",
+  "voice": "f",
+  "group": "line"
+ },
+ {
+  "file": "v_5c5b865f.mp3",
+  "text": "あたらしい ことば！",
+  "voice": "f",
+  "group": "line"
+ },
+ {
+  "file": "v_c1de96dd.mp3",
+  "text": "はんこを もらった！",
+  "voice": "f",
+  "group": "line"
+ },
+ {
+  "file": "v_ec694af9.mp3",
+  "text": "ぜんぶ あつめよう！",
+  "voice": "f",
+  "group": "line"
+ },
+ {
+  "file": "v_3d00b58d.mp3",
+  "text": "かなもんずかん",
+  "voice": "f",
+  "group": "line"
+ },
+ {
+  "file": "v_b709b20f.mp3",
+  "text": "かなもん",
+  "voice": "f",
+  "group": "line"
+ },
+ {
+  "file": "v_8fbb666a.mp3",
+  "text": "ひらがなの ぼうけん",
+  "voice": "f",
+  "group": "line"
+ },
+ {
+  "file": "v_c1b49766.mp3",
+  "text": "げんきに なったよ！",
+  "voice": "f",
+  "group": "line"
+ },
+ {
+  "file": "v_32c285fc.mp3",
+  "text": "おかえり！",
+  "voice": "f",
+  "group": "line"
+ },
+ {
+  "file": "v_6d69025c.mp3",
+  "text": "ただいま！",
+  "voice": "f",
+  "group": "line"
+ },
+ {
+  "file": "v_ae3ecd9a.mp3",
+  "text": "きょうは",
+  "voice": "f",
+  "group": "line"
+ },
+ {
+  "file": "v_4264e1a9.mp3",
+  "text": "きょうも きてくれて ありがとう！",
+  "voice": "f",
+  "group": "line"
+ },
+ {
+  "file": "v_f5e83f17.mp3",
+  "text": "よみかたは？",
+  "voice": "f",
+  "group": "line"
+ },
+ {
+  "file": "v_2a703539.mp3",
+  "text": "どれ かな？",
+  "voice": "f",
+  "group": "line"
+ },
+ {
+  "file": "v_ba884ecc.mp3",
+  "text": "どっち？",
+  "voice": "f",
+  "group": "line"
+ },
+ {
+  "file": "v_a720cadd.mp3",
+  "text": "なまえを つくろう！",
+  "voice": "f",
+  "group": "line"
+ },
+ {
+  "file": "v_241386de.mp3",
+  "text": "ならべて みよう！",
+  "voice": "f",
+  "group": "line"
+ },
+ {
+  "file": "v_bb1fba92.mp3",
+  "text": "なんて いう？",
+  "voice": "f",
+  "group": "line"
+ },
+ {
+  "file": "v_8b92f710.mp3",
+  "text": "いくつ？",
+  "voice": "f",
+  "group": "line"
+ },
+ {
+  "file": "v_3f4e484d.mp3",
+  "text": "なにいろ？",
+  "voice": "f",
+  "group": "line"
+ },
+ {
+  "file": "v_5e335789.mp3",
+  "text": "どういう いみ？",
+  "voice": "f",
+  "group": "line"
+ },
+ {
+  "file": "v_237d8578.mp3",
+  "text": "よく きいてね",
+  "voice": "f",
+  "group": "line"
+ },
+ {
+  "file": "v_83dc552b.mp3",
+  "text": "さいしょの おとは？",
+  "voice": "f",
+  "group": "line"
+ },
+ {
+  "file": "v_4f5bbde6.mp3",
+  "text": "いけ！",
+  "voice": "f",
+  "group": "line"
+ },
+ {
+  "file": "v_5c86e64c.mp3",
+  "text": "がんばれ！",
+  "voice": "f",
+  "group": "line"
+ },
+ {
+  "file": "v_2e1b7039.mp3",
+  "text": "もどって！",
+  "voice": "f",
+  "group": "line"
+ },
+ {
+  "file": "v_e09a9076.mp3",
+  "text": "つかれちゃった…",
+  "voice": "f",
+  "group": "line"
+ },
+ {
+  "file": "v_1969f5e0.mp3",
+  "text": "びょういんで やすもう",
+  "voice": "f",
+  "group": "line"
+ },
+ {
+  "file": "v_5f467e35.mp3",
+  "text": "たまごが かえった！",
+  "voice": "f",
+  "group": "line"
+ },
+ {
+  "file": "v_a2c25c1c.mp3",
+  "text": "ひいてる！",
+  "voice": "f",
+  "group": "line"
+ },
+ {
+  "file": "v_932a05b6.mp3",
+  "text": "つれた！",
+  "voice": "f",
+  "group": "line"
+ },
+ {
+  "file": "v_61e0effa.mp3",
+  "text": "そだった！",
+  "voice": "f",
+  "group": "line"
+ },
+ {
+  "file": "v_0e67c419.mp3",
+  "text": "レベル アップ！",
+  "voice": "f",
+  "group": "line"
+ },
+ {
+  "file": "v_9f3358fc.mp3",
+  "text": "かった！",
+  "voice": "f",
+  "group": "line"
+ },
+ {
+  "file": "v_cdd6a80e.mp3",
+  "text": "ヒント！",
+  "voice": "f",
+  "group": "line"
+ },
+ {
+  "file": "v_d9f7e87b.mp3",
+  "text": "しゅっぱつ！",
+  "voice": "f",
+  "group": "line"
+ },
+ {
+  "file": "v_cbe1294c.mp3",
+  "text": "よく がんばったね！",
+  "voice": "f",
+  "group": "line"
+ },
+ {
+  "file": "v_855f6664.mp3",
+  "text": "きょうの おつかい",
+  "voice": "f",
+  "group": "line"
+ },
+ {
+  "file": "v_bff8a2ca.mp3",
+  "text": "できた！",
+  "voice": "f",
+  "group": "line"
+ },
+ {
+  "file": "v_5c89a9ad.mp3",
+  "text": "きらきらの かなもんだ！",
+  "voice": "f",
+  "group": "line"
+ },
+ {
+  "file": "v_51fd6d92.mp3",
+  "text": "あたまに め が はえている。 どんぐりが すき。",
+  "voice": "f",
+  "group": "desc"
+ },
+ {
+  "file": "v_29b49f6e.mp3",
+  "text": "おおきな はっぱで そらを とぶ。",
+  "voice": "f",
+  "group": "desc"
+ },
+ {
+  "file": "v_dd1739af.mp3",
+  "text": "せなかに ちいさな もりが ある。",
+  "voice": "f",
+  "group": "desc"
+ },
+ {
+  "file": "v_43dcea2d.mp3",
+  "text": "しっぽの ひが ぽかぽか あたたかい。",
+  "voice": "f",
+  "group": "desc"
+ },
+ {
+  "file": "v_438a4d5f.mp3",
+  "text": "げんきに なると ほのおが おおきく なる。",
+  "voice": "f",
+  "group": "desc"
+ },
+ {
+  "file": "v_a916fe8f.mp3",
+  "text": "あさに なると たいようと いっしょに おきる。",
+  "voice": "f",
+  "group": "desc"
+ },
+ {
+  "file": "v_600a51ad.mp3",
+  "text": "あたまの しずくは いつも つめたい。",
+  "voice": "f",
+  "group": "desc"
+ },
+ {
+  "file": "v_8f0e9b13.mp3",
+  "text": "なみに のって あそぶのが だいすき。",
+  "voice": "f",
+  "group": "desc"
+ },
+ {
+  "file": "v_f6c49a1a.mp3",
+  "text": "うみの なかで いちばん やさしい。",
+  "voice": "f",
+  "group": "desc"
+ },
+ {
+  "file": "v_4a9bde36.mp3",
+  "text": "あまい においが する。",
+  "voice": "f",
+  "group": "desc"
+ },
+ {
+  "file": "v_1300934b.mp3",
+  "text": "いけで すいすい およぐ。",
+  "voice": "f",
+  "group": "desc"
+ },
+ {
+  "file": "v_489bad69.mp3",
+  "text": "あめの ひに げんきに なる。",
+  "voice": "f",
+  "group": "desc"
+ },
+ {
+  "file": "v_4b103b51.mp3",
+  "text": "もりの かげで ひるねを する。",
+  "voice": "f",
+  "group": "desc"
+ },
+ {
+  "file": "v_de37613d.mp3",
+  "text": "はるに なると はなびらを まく。",
+  "voice": "f",
+  "group": "desc"
+ },
+ {
+  "file": "v_505af5f0.mp3",
+  "text": "ときどき なかから こえが する。",
+  "voice": "f",
+  "group": "desc"
+ },
+ {
+  "file": "v_ab3d2ff4.mp3",
+  "text": "たまごの からを ぼうしに している。",
+  "voice": "f",
+  "group": "desc"
+ },
+ {
+  "file": "v_0120ac3f.mp3",
+  "text": "あさ いちばんに おおきな こえで なく。",
+  "voice": "f",
+  "group": "desc"
+ },
+ {
+  "file": "v_80f6e92f.mp3",
+  "text": "はっぱを たくさん たべる。",
+  "voice": "f",
+  "group": "desc"
+ },
+ {
+  "file": "v_a0681046.mp3",
+  "text": "はなから はなへ とんでいく。",
+  "voice": "f",
+  "group": "desc"
+ },
+ {
+  "file": "v_43488da0.mp3",
+  "text": "すずの おとが すき。",
+  "voice": "f",
+  "group": "desc"
+ },
+ {
+  "file": "v_e1e809a6.mp3",
+  "text": "さんぽが だいすき。",
+  "voice": "f",
+  "group": "desc"
+ },
+ {
+  "file": "v_819d64f8.mp3",
+  "text": "つやつやで むらさきいろ。",
+  "voice": "f",
+  "group": "desc"
+ },
+ {
+  "file": "v_f1ef3fd7.mp3",
+  "text": "おべんとうの なかで ねている。",
+  "voice": "f",
+  "group": "desc"
+ },
+ {
+  "file": "v_065599eb.mp3",
+  "text": "じかんを ぜったいに まちがえない。",
+  "voice": "f",
+  "group": "desc"
+ },
+ {
+  "file": "v_f0650b08.mp3",
+  "text": "のんびり くさを たべる。",
+  "voice": "f",
+  "group": "desc"
+ },
+ {
+  "file": "v_8f698126.mp3",
+  "text": "ぼうしを なくすと なきだす。",
+  "voice": "f",
+  "group": "desc"
+ },
+ {
+  "file": "v_92311e84.mp3",
+  "text": "はっぱを のせて へんしんする。",
+  "voice": "f",
+  "group": "desc"
+ },
+ {
+  "file": "v_d48707f9.mp3",
+  "text": "よるに なると めを さます。",
+  "voice": "f",
+  "group": "desc"
+ },
+ {
+  "file": "v_636060c2.mp3",
+  "text": "はちみつを みんなに わける。",
+  "voice": "f",
+  "group": "desc"
+ },
+ {
+  "file": "v_938e0642.mp3",
+  "text": "きの みきに かくれている。",
+  "voice": "f",
+  "group": "desc"
+ },
+ {
+  "file": "v_1085299f.mp3",
+  "text": "おおきな つので なんでも もちあげる。",
+  "voice": "f",
+  "group": "desc"
+ },
+ {
+  "file": "v_cdf1d3f4.mp3",
+  "text": "せなかの とげは じつは やわらかい。",
+  "voice": "f",
+  "group": "desc"
+ },
+ {
+  "file": "v_5717f882.mp3",
+  "text": "くるっと まるまって ねる。",
+  "voice": "f",
+  "group": "desc"
+ },
+ {
+  "file": "v_5cf91085.mp3",
+  "text": "せんべいが だいこうぶつ。",
+  "voice": "f",
+  "group": "desc"
+ },
+ {
+  "file": "v_2ca55fbc.mp3",
+  "text": "わらうと はなが ひらく。",
+  "voice": "f",
+  "group": "desc"
+ },
+ {
+  "file": "v_d2c3019d.mp3",
+  "text": "なつに なると げんきに うたう。",
+  "voice": "f",
+  "group": "desc"
+ },
+ {
+  "file": "v_b1fc1d0c.mp3",
+  "text": "よこに あるくのが とくい。",
+  "voice": "f",
+  "group": "desc"
+ },
+ {
+  "file": "v_7b7f4e9f.mp3",
+  "text": "はちまきを して がんばる。",
+  "voice": "f",
+  "group": "desc"
+ },
+ {
+  "file": "v_7649a9aa.mp3",
+  "text": "すみを はいて にげる。",
+  "voice": "f",
+  "group": "desc"
+ },
+ {
+  "file": "v_e69c586c.mp3",
+  "text": "むれで およぐのが すき。",
+  "voice": "f",
+  "group": "desc"
+ },
+ {
+  "file": "v_ed65e23f.mp3",
+  "text": "こわそうだけど じつは やさしい。",
+  "voice": "f",
+  "group": "desc"
+ },
+ {
+  "file": "v_a09406dd.mp3",
+  "text": "ゆっくり でも ぜったい あきらめない。",
+  "voice": "f",
+  "group": "desc"
+ },
+ {
+  "file": "v_c90db23b.mp3",
+  "text": "うみの なかで ふわふわ うかぶ。",
+  "voice": "f",
+  "group": "desc"
+ },
+ {
+  "file": "v_de2bd71c.mp3",
+  "text": "しおを ふくと にじが できる。",
+  "voice": "f",
+  "group": "desc"
+ },
+ {
+  "file": "v_86714c68.mp3",
+  "text": "みなとで ともだちを まっている。",
+  "voice": "f",
+  "group": "desc"
+ },
+ {
+  "file": "v_bf6e2796.mp3",
+  "text": "なつの うみが だいすき。",
+  "voice": "f",
+  "group": "desc"
+ },
+ {
+  "file": "v_1a0856c2.mp3",
+  "text": "あめが ふると うたいだす。",
+  "voice": "f",
+  "group": "desc"
+ },
+ {
+  "file": "v_a29f8fcf.mp3",
+  "text": "くちは おおきいけど はは ちいさい。",
+  "voice": "f",
+  "group": "desc"
+ },
+ {
+  "file": "v_11e5717a.mp3",
+  "text": "かぜに のって たびを する。",
+  "voice": "f",
+  "group": "desc"
+ },
+ {
+  "file": "v_e0bae5ac.mp3",
+  "text": "たいこを たたくと ぴかっと ひかる。",
+  "voice": "f",
+  "group": "desc"
+ },
+ {
+  "file": "v_f412e901.mp3",
+  "text": "あめの あとに だけ あえる。",
+  "voice": "f",
+  "group": "desc"
+ },
+ {
+  "file": "v_216c2d08.mp3",
+  "text": "かわらで ひなたぼっこを する。",
+  "voice": "f",
+  "group": "desc"
+ },
+ {
+  "file": "v_456244e3.mp3",
+  "text": "とても おもくて うごかない。",
+  "voice": "f",
+  "group": "desc"
+ },
+ {
+  "file": "v_4c82e8be.mp3",
+  "text": "あたまの ゆきは ふゆに ふえる。",
+  "voice": "f",
+  "group": "desc"
+ },
+ {
+  "file": "v_b769be0f.mp3",
+  "text": "さわると つめたくて きもちいい。",
+  "voice": "f",
+  "group": "desc"
+ },
+ {
+  "file": "v_1101c888.mp3",
+  "text": "はるが くるのが すこし こわい。",
+  "voice": "f",
+  "group": "desc"
+ },
+ {
+  "file": "v_64cd2067.mp3",
+  "text": "なつは みんなの にんきもの。",
+  "voice": "f",
+  "group": "desc"
+ },
+ {
+  "file": "v_d257e9c7.mp3",
+  "text": "さかみちを すべるのが はやい。",
+  "voice": "f",
+  "group": "desc"
+ },
+ {
+  "file": "v_4812d727.mp3",
+  "text": "こたつの うえが おきにいり。",
+  "voice": "f",
+  "group": "desc"
+ },
+ {
+  "file": "v_7a0ef304.mp3",
+  "text": "いつも ねむそうに している。",
+  "voice": "f",
+  "group": "desc"
+ },
+ {
+  "file": "v_5d3637a9.mp3",
+  "text": "ふたごで いつも いっしょ。",
+  "voice": "f",
+  "group": "desc"
+ },
+ {
+  "file": "v_e03b356d.mp3",
+  "text": "おこると ゆげが でる。",
+  "voice": "f",
+  "group": "desc"
+ },
+ {
+  "file": "v_4477cae0.mp3",
+  "text": "やくと ぷくっと ふくらむ。",
+  "voice": "f",
+  "group": "desc"
+ },
+ {
+  "file": "v_b275dbd5.mp3",
+  "text": "あさに きれいな こえで うたう。",
+  "voice": "f",
+  "group": "desc"
+ },
+ {
+  "file": "v_acff8859.mp3",
+  "text": "つきの うえで おもちを つく。",
+  "voice": "f",
+  "group": "desc"
+ },
+ {
+  "file": "v_e9fbf09a.mp3",
+  "text": "まんげつの よるに だけ みられる。",
+  "voice": "f",
+  "group": "desc"
+ },
+ {
+  "file": "v_81080c25.mp3",
+  "text": "ねがいごとを きいてくれる。",
+  "voice": "f",
+  "group": "desc"
+ },
+ {
+  "file": "v_4506d3a8.mp3",
+  "text": "ひとを おどろかすのが すき。 でも こわがり。",
+  "voice": "f",
+  "group": "desc"
+ },
+ {
+  "file": "v_4a77c3b5.mp3",
+  "text": "くらい みちを てらして くれる。",
+  "voice": "f",
+  "group": "desc"
+ },
+ {
+  "file": "v_3deb38ae.mp3",
+  "text": "おまつりの よるに あらわれる。",
+  "voice": "f",
+  "group": "desc"
+ },
+ {
+  "file": "v_17670e07.mp3",
+  "text": "からだの なかに ほしが ひかる。",
+  "voice": "f",
+  "group": "desc"
+ },
+ {
+  "file": "v_2e066e80.mp3",
+  "text": "さかさまに なって ねむる。",
+  "voice": "f",
+  "group": "desc"
+ },
+ {
+  "file": "v_349d054b.mp3",
+  "text": "るりいろに かがやく ふしぎな いし。",
+  "voice": "f",
+  "group": "desc"
+ },
+ {
+  "file": "v_5082ccca.mp3",
+  "text": "ちいさい じも よく みえる。",
+  "voice": "f",
+  "group": "desc"
+ },
+ {
+  "file": "v_856b49c2.mp3",
+  "text": "じを かくのが とくい。",
+  "voice": "f",
+  "group": "desc"
+ },
+ {
+  "file": "v_cf92e793.mp3",
+  "text": "あさに みんなを おこす。",
+  "voice": "f",
+  "group": "desc"
+ },
+ {
+  "file": "v_e88a89e2.mp3",
+  "text": "だいじな ことばを はこぶ。",
+  "voice": "f",
+  "group": "desc"
+ },
+ {
+  "file": "v_9b67c64d.mp3",
+  "text": "よむと おもしろい はなしを する。",
+  "voice": "f",
+  "group": "desc"
+ },
+ {
+  "file": "v_48c4c38f.mp3",
+  "text": "かみを きれいに きる。",
+  "voice": "f",
+  "group": "desc"
+ },
+ {
+  "file": "v_948fd3dd.mp3",
+  "text": "だきしめると げんきが でる。",
+  "voice": "f",
+  "group": "desc"
+ },
+ {
+  "file": "v_a4135119.mp3",
+  "text": "おなかの なかに ごはんを しまう。",
+  "voice": "f",
+  "group": "desc"
+ },
+ {
+  "file": "v_f79e3469.mp3",
+  "text": "みんなを のせて はしる。",
+  "voice": "f",
+  "group": "desc"
+ },
+ {
+  "file": "v_b6ca31b4.mp3",
+  "text": "とても はやくて かぜに なる。",
+  "voice": "f",
+  "group": "desc"
+ },
+ {
+  "file": "v_0b45e603.mp3",
+  "text": "どこへでも つれて いって くれる。",
+  "voice": "f",
+  "group": "desc"
+ },
+ {
+  "file": "v_3b8fa262.mp3",
+  "text": "くもの うえまで とんでいく。",
+  "voice": "f",
+  "group": "desc"
+ },
+ {
+  "file": "v_27258056.mp3",
+  "text": "べるを ならして あいさつ する。",
+  "voice": "f",
+  "group": "desc"
+ },
+ {
+  "file": "v_c41db1c4.mp3",
+  "text": "てを はなすと とんでいく。",
+  "voice": "f",
+  "group": "desc"
+ },
+ {
+  "file": "v_c4d83ae2.mp3",
+  "text": "さんにんきょうだいで なかよし。",
+  "voice": "f",
+  "group": "desc"
+ },
+ {
+  "file": "v_275ad616.mp3",
+  "text": "うみの まちの にんきもの。",
+  "voice": "f",
+  "group": "desc"
+ },
+ {
+  "file": "v_098f2ba5.mp3",
+  "text": "かわから どんぶらこと ながれてきた。",
+  "voice": "f",
+  "group": "desc"
+ },
+ {
+  "file": "v_d545bf31.mp3",
+  "text": "みんなで くっついて いる。",
+  "voice": "f",
+  "group": "desc"
+ },
+ {
+  "file": "v_81399ed9.mp3",
+  "text": "たべると めが よく なる。",
+  "voice": "f",
+  "group": "desc"
+ },
+ {
+  "file": "v_b6dd7959.mp3",
+  "text": "おにぎりの いちばんの ともだち。",
+  "voice": "f",
+  "group": "desc"
+ },
+ {
+  "file": "v_dcdfb768.mp3",
+  "text": "たべると ちからが わいてくる。",
+  "voice": "f",
+  "group": "desc"
+ },
+ {
+  "file": "v_e1fef76c.mp3",
+  "text": "はなで みずを かけて くれる。",
+  "voice": "f",
+  "group": "desc"
+ },
+ {
+  "file": "v_aef11c65.mp3",
+  "text": "しりとりの おわりに あらわれる なぞの かなもん。",
+  "voice": "f",
+  "group": "desc"
+ },
+ {
+  "file": "v_01d90617.mp3",
+  "text": "まだ かなもんが いないね。 はかせの けんきゅうじょへ いこう！",
+  "voice": "m",
+  "group": "dlg"
+ },
+ {
+  "file": "v_a62671c8.mp3",
+  "text": "きを つけて いってらっしゃい！",
+  "voice": "m",
+  "group": "dlg"
+ },
+ {
+  "file": "v_8604c329.mp3",
+  "text": "きたに いくと はらっぱ だよ。",
+  "voice": "k",
+  "group": "dlg"
+ },
+ {
+  "file": "v_5a1c60f2.mp3",
+  "text": "くさむらに かなもんが いるよ！",
+  "voice": "k",
+  "group": "dlg"
+ },
+ {
+  "file": "v_ccc3eb20.mp3",
+  "text": "あいさつは だいじ だよ。 あさは おはよう！",
+  "voice": "k",
+  "group": "dlg"
+ },
+ {
+  "file": "v_b992ec92.mp3",
+  "text": "いけには さかなもんが いるんじゃ。",
+  "voice": "o",
+  "group": "dlg"
+ },
+ {
+  "file": "v_01bf5841.mp3",
+  "text": "かなもんを ごひき つかまえたら いいものを あげよう。",
+  "voice": "o",
+  "group": "dlg"
+ },
+ {
+  "file": "v_e0bb03cc.mp3",
+  "text": "つれたかな？ さかなもんは はやいぞ。",
+  "voice": "o",
+  "group": "dlg"
+ },
+ {
+  "file": "v_da84b5b1.mp3",
+  "text": "よく がんばったのう！ これを あげよう。 つりざお じゃ！",
+  "voice": "o",
+  "group": "dlg"
+ },
+ {
+  "file": "v_8a7d3fcc.mp3",
+  "text": "みずの まえで しらべると つりが できるよ。",
+  "voice": "o",
+  "group": "dlg"
+ },
+ {
+  "file": "v_8d36cef1.mp3",
+  "text": "どうじょうの せんせいは とても つよいよ。",
+  "voice": "f",
+  "group": "dlg"
+ },
+ {
+  "file": "v_a83919c5.mp3",
+  "text": "あいうえお と かきくけこ を れんしゅう してね。",
+  "voice": "f",
+  "group": "dlg"
+ },
+ {
+  "file": "v_51ca75f7.mp3",
+  "text": "さくらむら",
+  "voice": "f",
+  "group": "dlg"
+ },
+ {
+  "file": "v_0780eaae.mp3",
+  "text": "ことば はかせの けんきゅうじょ",
+  "voice": "f",
+  "group": "dlg"
+ },
+ {
+  "file": "v_dd0449f3.mp3",
+  "text": "どうじょう",
+  "voice": "f",
+  "group": "dlg"
+ },
+ {
+  "file": "v_a94600d1.mp3",
+  "text": "めが あったら しょうぶ だよ！",
+  "voice": "k",
+  "group": "dlg"
+ },
+ {
+  "file": "v_2bf17e15.mp3",
+  "text": "まけちゃった！ きみ つよいね。",
+  "voice": "k",
+  "group": "dlg"
+ },
+ {
+  "file": "v_757a1815.mp3",
+  "text": "わたしの いちごもん、 かわいいでしょ？",
+  "voice": "k",
+  "group": "dlg"
+ },
+ {
+  "file": "v_afbb0edf.mp3",
+  "text": "いちごもん、 おつかれさま！",
+  "voice": "k",
+  "group": "dlg"
+ },
+ {
+  "file": "v_f882d2cf.mp3",
+  "text": "この さきに もりの まちが あるよ。",
+  "voice": "f",
+  "group": "dlg"
+ },
+ {
+  "file": "v_4d59e46f.mp3",
+  "text": "こんこん！ もんだい だよ！ みっつ こたえてね。",
+  "voice": "k",
+  "group": "dlg"
+ },
+ {
+  "file": "v_b28d9979.mp3",
+  "text": "はらっぱ みち",
+  "voice": "f",
+  "group": "dlg"
+ },
+ {
+  "file": "v_01d5bd3b.mp3",
+  "text": "この さきへ いくには はんこが ふたつ いるよ。",
+  "voice": "m",
+  "group": "dlg"
+ },
+ {
+  "file": "v_03de8d91.mp3",
+  "text": "この おおきな きは もりの まもりがみ じゃよ。",
+  "voice": "g",
+  "group": "dlg"
+ },
+ {
+  "file": "v_ec16eaeb.mp3",
+  "text": "にしの もりには めずらしい かなもんが いるよ。",
+  "voice": "g",
+  "group": "dlg"
+ },
+ {
+  "file": "v_fed7c79f.mp3",
+  "text": "いち、 に、 さん！ かぞえるの とくい なんだ。",
+  "voice": "k",
+  "group": "dlg"
+ },
+ {
+  "file": "v_aa39fc0e.mp3",
+  "text": "よるの もりには ふくろうもんが でるよ。",
+  "voice": "m",
+  "group": "dlg"
+ },
+ {
+  "file": "v_5e5d4c1c.mp3",
+  "text": "もりの まち",
+  "voice": "f",
+  "group": "dlg"
+ },
+ {
+  "file": "v_7c0b6f1c.mp3",
+  "text": "こんこん！ もりの クイズ だよ！",
+  "voice": "k",
+  "group": "dlg"
+ },
+ {
+  "file": "v_aff40a98.mp3",
+  "text": "むしとり なら まけないよ！",
+  "voice": "k",
+  "group": "dlg"
+ },
+ {
+  "file": "v_17dc2c1b.mp3",
+  "text": "むしもんたち、 ありがとう。",
+  "voice": "k",
+  "group": "dlg"
+ },
+ {
+  "file": "v_cd5d33ff.mp3",
+  "text": "おはなと きのこ、 どっちが すき？",
+  "voice": "k",
+  "group": "dlg"
+ },
+ {
+  "file": "v_2e97680b.mp3",
+  "text": "どっちも すき だよね！",
+  "voice": "k",
+  "group": "dlg"
+ },
+ {
+  "file": "v_72729229.mp3",
+  "text": "ふしぎな もり",
+  "voice": "f",
+  "group": "dlg"
+ },
+ {
+  "file": "v_0d190f41.mp3",
+  "text": "かわで つりを していたんだ。 しょうぶ！",
+  "voice": "m",
+  "group": "dlg"
+ },
+ {
+  "file": "v_409924e0.mp3",
+  "text": "にげられた さかなは おおきい…",
+  "voice": "m",
+  "group": "dlg"
+ },
+ {
+  "file": "v_c575832e.mp3",
+  "text": "くもと くるま、 どっちが はやい？",
+  "voice": "k",
+  "group": "dlg"
+ },
+ {
+  "file": "v_a6b073f9.mp3",
+  "text": "きみが いちばん はやかった！",
+  "voice": "k",
+  "group": "dlg"
+ },
+ {
+  "file": "v_4d7d750a.mp3",
+  "text": "こんこん！ かわの クイズ だよ！",
+  "voice": "k",
+  "group": "dlg"
+ },
+ {
+  "file": "v_a4ef8a6f.mp3",
+  "text": "かわの みち",
+  "voice": "f",
+  "group": "dlg"
+ },
+ {
+  "file": "v_f13ecda6.mp3",
+  "text": "やまみちへ いくには はんこが みっつ いるよ。",
+  "voice": "m",
+  "group": "dlg"
+ },
+ {
+  "file": "v_a4980749.mp3",
+  "text": "うみは ひろくて おおきいね！",
+  "voice": "m",
+  "group": "dlg"
+ },
+ {
+  "file": "v_40157c54.mp3",
+  "text": "ふかい うみには くじらもんが いるらしい。",
+  "voice": "m",
+  "group": "dlg"
+ },
+ {
+  "file": "v_b5c1a4ac.mp3",
+  "text": "すいかわり したいな！",
+  "voice": "k",
+  "group": "dlg"
+ },
+ {
+  "file": "v_863be47b.mp3",
+  "text": "うみで およぐの だいすき！ しょうぶ！",
+  "voice": "k",
+  "group": "dlg"
+ },
+ {
+  "file": "v_7266783d.mp3",
+  "text": "ぷはー！ まけた！",
+  "voice": "k",
+  "group": "dlg"
+ },
+ {
+  "file": "v_4969016d.mp3",
+  "text": "うみの まち",
+  "voice": "f",
+  "group": "dlg"
+ },
+ {
+  "file": "v_6d2978de.mp3",
+  "text": "やまのぼりは たのしいぞ！",
+  "voice": "m",
+  "group": "dlg"
+ },
+ {
+  "file": "v_0461a39b.mp3",
+  "text": "いい しょうぶ だった！",
+  "voice": "m",
+  "group": "dlg"
+ },
+ {
+  "file": "v_f0b35ea7.mp3",
+  "text": "そらを とぶ かなもんが すき！",
+  "voice": "k",
+  "group": "dlg"
+ },
+ {
+  "file": "v_eb996bf2.mp3",
+  "text": "そらまで とんで いきそう！",
+  "voice": "k",
+  "group": "dlg"
+ },
+ {
+  "file": "v_0ab7350a.mp3",
+  "text": "こんこん！ やまの クイズ だよ！",
+  "voice": "k",
+  "group": "dlg"
+ },
+ {
+  "file": "v_5025845b.mp3",
+  "text": "やまみち",
+  "voice": "f",
+  "group": "dlg"
+ },
+ {
+  "file": "v_7f8ab9ea.mp3",
+  "text": "ほしの おかへは はんこが よっつ いるよ。",
+  "voice": "m",
+  "group": "dlg"
+ },
+ {
+  "file": "v_cab05afb.mp3",
+  "text": "ゆきだるま つくろう！",
+  "voice": "k",
+  "group": "dlg"
+ },
+ {
+  "file": "v_46532818.mp3",
+  "text": "さむいね！ でも たのしい！",
+  "voice": "k",
+  "group": "dlg"
+ },
+ {
+  "file": "v_7a3ed43e.mp3",
+  "text": "ふゆは こたつで みかんが いちばん じゃ。",
+  "voice": "o",
+  "group": "dlg"
+ },
+ {
+  "file": "v_484bddda.mp3",
+  "text": "やまの まち",
+  "voice": "f",
+  "group": "dlg"
+ },
+ {
+  "file": "v_f17a2cfa.mp3",
+  "text": "おしろへは はんこが いつつ いるよ。",
+  "voice": "m",
+  "group": "dlg"
+ },
+ {
+  "file": "v_7f50a4a3.mp3",
+  "text": "ほしが きれいだね。",
+  "voice": "k",
+  "group": "dlg"
+ },
+ {
+  "file": "v_17bf8812.mp3",
+  "text": "ながれぼしに おねがい したよ！",
+  "voice": "k",
+  "group": "dlg"
+ },
+ {
+  "file": "v_b79271fe.mp3",
+  "text": "よるの かなもんは ふしぎ でしょう？",
+  "voice": "f",
+  "group": "dlg"
+ },
+ {
+  "file": "v_9198d79a.mp3",
+  "text": "おみごと！",
+  "voice": "f",
+  "group": "dlg"
+ },
+ {
+  "file": "v_e6498e32.mp3",
+  "text": "こんこん！ ほしの クイズ だよ！",
+  "voice": "k",
+  "group": "dlg"
+ },
+ {
+  "file": "v_3d8548d8.mp3",
+  "text": "ほしの おか",
+  "voice": "f",
+  "group": "dlg"
+ },
+ {
+  "file": "v_69cd85c3.mp3",
+  "text": "かなおうさまは おしろの なかに いらっしゃる。",
+  "voice": "m",
+  "group": "dlg"
+ },
+ {
+  "file": "v_6db432b3.mp3",
+  "text": "かなの とうは おわりの ない たたかいの とう。",
+  "voice": "m",
+  "group": "dlg"
+ },
+ {
+  "file": "v_59949837.mp3",
+  "text": "かなおうに かったら はいれるよ。",
+  "voice": "m",
+  "group": "dlg"
+ },
+ {
+  "file": "v_aad9cd5c.mp3",
+  "text": "おしろの ごはんは とっても おいしいのよ。",
+  "voice": "f",
+  "group": "dlg"
+ },
+ {
+  "file": "v_ff87531e.mp3",
+  "text": "かなの しろ",
+  "voice": "f",
+  "group": "dlg"
+ },
+ {
+  "file": "v_1586a2af.mp3",
+  "text": "ようこそ どうじょうへ！ わたしは さくら せんせい。",
+  "voice": "f",
+  "group": "dlg"
+ },
+ {
+  "file": "v_8c4f756d.mp3",
+  "text": "あいうえお と かきくけこ、 ちゃんと おぼえたかな？",
+  "voice": "f",
+  "group": "dlg"
+ },
+ {
+  "file": "v_bfb12108.mp3",
+  "text": "さあ、 しょうぶ！",
+  "voice": "f",
+  "group": "dlg"
+ },
+ {
+  "file": "v_ee3ce3f6.mp3",
+  "text": "すごい！ よく できました！ この はんこを あげる。",
+  "voice": "f",
+  "group": "dlg"
+ },
+ {
+  "file": "v_c9bb7829.mp3",
+  "text": "おしい！ また ちょうせん してね。",
+  "voice": "f",
+  "group": "dlg"
+ },
+ {
+  "file": "v_c4f8541f.mp3",
+  "text": "つぎは もりの まちへ いってみて。",
+  "voice": "f",
+  "group": "dlg"
+ },
+ {
+  "file": "v_74f6fc67.mp3",
+  "text": "ほっほっ。 もりの せんせい じゃよ。",
+  "voice": "g",
+  "group": "dlg"
+ },
+ {
+  "file": "v_798a90e6.mp3",
+  "text": "さしすせそ と たちつてと、 よめるかね？",
+  "voice": "g",
+  "group": "dlg"
+ },
+ {
+  "file": "v_379272d4.mp3",
+  "text": "いくよ！",
+  "voice": "g",
+  "group": "dlg"
+ },
+ {
+  "file": "v_c014b4c6.mp3",
+  "text": "まいった！ りっぱ じゃ。 はんこを どうぞ。",
+  "voice": "g",
+  "group": "dlg"
+ },
+ {
+  "file": "v_fa420ee7.mp3",
+  "text": "もう すこし じゃ。 がんばって！",
+  "voice": "g",
+  "group": "dlg"
+ },
+ {
+  "file": "v_d531cbcf.mp3",
+  "text": "ひがしの かわを こえると うみの まち じゃよ。",
+  "voice": "g",
+  "group": "dlg"
+ },
+ {
+  "file": "v_672a9aeb.mp3",
+  "text": "おう！ うみの おとこ、 うみ せんせい だ！",
+  "voice": "m",
+  "group": "dlg"
+ },
+ {
+  "file": "v_26741295.mp3",
+  "text": "なにぬねの と はひふへほ で しょうぶ だ！",
+  "voice": "m",
+  "group": "dlg"
+ },
+ {
+  "file": "v_6b11f985.mp3",
+  "text": "いい なみ だった！ はんこを もっていけ！",
+  "voice": "m",
+  "group": "dlg"
+ },
+ {
+  "file": "v_42816cf8.mp3",
+  "text": "なみに のまれたな。 また こい！",
+  "voice": "m",
+  "group": "dlg"
+ },
+ {
+  "file": "v_9cf4137f.mp3",
+  "text": "きたの やまみちは さむいぞ。",
+  "voice": "m",
+  "group": "dlg"
+ },
+ {
+  "file": "v_4233c156.mp3",
+  "text": "さむい なかを よく きたね。 やま せんせい です。",
+  "voice": "m",
+  "group": "dlg"
+ },
+ {
+  "file": "v_da48a62a.mp3",
+  "text": "まみむめも から わをん まで、 ぜんぶ いくよ！",
+  "voice": "m",
+  "group": "dlg"
+ },
+ {
+  "file": "v_7a773f1b.mp3",
+  "text": "あったかい ちからを かんじた！ はんこ です。",
+  "voice": "m",
+  "group": "dlg"
+ },
+ {
+  "file": "v_22bec2b9.mp3",
+  "text": "こおりみたいに かたまらないで！",
+  "voice": "m",
+  "group": "dlg"
+ },
+ {
+  "file": "v_1e2bc4ae.mp3",
+  "text": "ひがしの おかでは ほしが よく みえるよ。",
+  "voice": "m",
+  "group": "dlg"
+ },
+ {
+  "file": "v_733f60e7.mp3",
+  "text": "ほしの おかへ ようこそ。 ほし せんせい よ。",
+  "voice": "f",
+  "group": "dlg"
+ },
+ {
+  "file": "v_2fe12f20.mp3",
+  "text": "てんてん と まる、 わかるかしら？",
+  "voice": "f",
+  "group": "dlg"
+ },
+ {
+  "file": "v_01333763.mp3",
+  "text": "きらきら かがやいてたわ！ はんこよ。",
+  "voice": "f",
+  "group": "dlg"
+ },
+ {
+  "file": "v_63375d27.mp3",
+  "text": "ほしに ねがいを かけて、 もう いちど。",
+  "voice": "f",
+  "group": "dlg"
+ },
+ {
+  "file": "v_24fc896e.mp3",
+  "text": "きたの おしろで かなおうが まっているわ。",
+  "voice": "f",
+  "group": "dlg"
+ },
+ {
+  "file": "v_bd7955e4.mp3",
+  "text": "よくぞ きた！ わしが かなおう じゃ！",
+  "voice": "o",
+  "group": "dlg"
+ },
+ {
+  "file": "v_0ee486d1.mp3",
+  "text": "ちいさい ゃ ゅ ょ も よめるかな？ さいごの しょうぶ じゃ！",
+  "voice": "o",
+  "group": "dlg"
+ },
+ {
+  "file": "v_e15bd6f3.mp3",
+  "text": "みごと！ きみこそ かなもんの めいじん じゃ！",
+  "voice": "o",
+  "group": "dlg"
+ },
+ {
+  "file": "v_1279a56a.mp3",
+  "text": "まだまだ！ また ちょうせん するが よい。",
+  "voice": "o",
+  "group": "dlg"
+ },
+ {
+  "file": "v_bd8e7ea3.mp3",
+  "text": "かなの とうで もっと つよく なるのじゃ。",
+  "voice": "o",
+  "group": "dlg"
+ },
+ {
+  "file": "v_ab0b935f.mp3",
+  "text": "ずかんを ぜんぶ うめると… なにかが おこるかも。",
+  "voice": "o",
+  "group": "dlg"
+ },
+ {
+  "file": "v_f24ac147.mp3",
+  "text": "やあ！ ぼくの かなもんと しょうぶ しよう！",
+  "voice": "k",
+  "group": "dlg"
+ },
+ {
+  "file": "v_df301305.mp3",
+  "text": "くやしい〜！ つぎは まけないよ！",
+  "voice": "k",
+  "group": "dlg"
+ },
+ {
+  "file": "v_b7674fea.mp3",
+  "text": "やった！ ぼくの かち！ でも また やろうね。",
+  "voice": "k",
+  "group": "dlg"
+ },
+ {
+  "file": "v_448c86bf.mp3",
+  "text": "また あったね！ ぼくも つよく なったよ！",
+  "voice": "k",
+  "group": "dlg"
+ },
+ {
+  "file": "v_2d09eeca.mp3",
+  "text": "すごい！ きみ、 ほんとうに つよいね！",
+  "voice": "k",
+  "group": "dlg"
+ },
+ {
+  "file": "v_3749ca19.mp3",
+  "text": "ぼくの かちー！ まだまだ だね！",
+  "voice": "k",
+  "group": "dlg"
+ },
+ {
+  "file": "v_17bf923b.mp3",
+  "text": "ここまで きたんだね。 さいごに ぼくと しょうぶ！",
+  "voice": "k",
+  "group": "dlg"
+ },
+ {
+  "file": "v_102af162.mp3",
+  "text": "きみは ほんとうに すごいね！ かなおうに かってね！",
+  "voice": "k",
+  "group": "dlg"
+ },
+ {
+  "file": "v_21a3867a.mp3",
+  "text": "ふふん！ もっと れんしゅう してから おいで！",
+  "voice": "k",
+  "group": "dlg"
+ },
+ {
+  "file": "v_9b5ad4e7.mp3",
+  "text": "やあ！ わしは ことば はかせ じゃ。",
+  "voice": "o",
+  "group": "dlg"
+ },
+ {
+  "file": "v_23b7728a.mp3",
+  "text": "この せかいには かなもんが すんでいる。",
+  "voice": "o",
+  "group": "dlg"
+ },
+ {
+  "file": "v_8780e796.mp3",
+  "text": "かなもんは ことばから うまれた ふしぎな いきもの じゃ。",
+  "voice": "o",
+  "group": "dlg"
+ },
+ {
+  "file": "v_02491a03.mp3",
+  "text": "きみの なまえを おしえて おくれ。",
+  "voice": "o",
+  "group": "dlg"
+ },
+ {
+  "file": "v_680990e9.mp3",
+  "text": "いい なまえ じゃ！ では、 なかまを ひとり えらんで おくれ。",
+  "voice": "o",
+  "group": "dlg"
+ },
+ {
+  "file": "v_46ec165b.mp3",
+  "text": "その こは きみの はじめての なかま じゃ。 たいせつに するんじゃよ。",
+  "voice": "o",
+  "group": "dlg"
+ },
+ {
+  "file": "v_e719d6ee.mp3",
+  "text": "これは かなもんずかん。 ぜんぶ あつめて くれるかな？",
+  "voice": "o",
+  "group": "dlg"
+ },
+ {
+  "file": "v_a8c47e29.mp3",
+  "text": "くさむらで かなもんに あったら、 ひらがなの ちからで たたかうんじゃ！",
+  "voice": "o",
+  "group": "dlg"
+ },
+ {
+  "file": "v_7b7d4f6a.mp3",
+  "text": "よわったら なまえを つくって つかまえよう！",
+  "voice": "o",
+  "group": "dlg"
+ },
+ {
+  "file": "v_3fe91a41.mp3",
+  "text": "ぼくは そら！ ぼくも かなもんを もらったよ。 まけないからね！",
+  "voice": "k",
+  "group": "dlg"
+ },
+ {
+  "file": "v_2bfaefc2.mp3",
+  "text": "ずかんは どうじゃ？ がんばっておるね！",
+  "voice": "o",
+  "group": "dlg"
+ },
+ {
+  "file": "v_7064a9d1.mp3",
+  "text": "なんと！ ずかんが ほとんど うまった！ おしろの うえに いってごらん。",
+  "voice": "o",
+  "group": "dlg"
+ },
+ {
+  "file": "v_82fcbc3e.mp3",
+  "text": "おかえり！ ゆっくり やすんでね。",
+  "voice": "f",
+  "group": "dlg"
+ },
+ {
+  "file": "v_00e1daed.mp3",
+  "text": "にわの はたけに たねを うえて みてね。",
+  "voice": "f",
+  "group": "dlg"
+ },
+ {
+  "file": "v_e2e891e4.mp3",
+  "text": "こんにちは！ かなもんを げんきに しますね。",
+  "voice": "f",
+  "group": "dlg"
+ },
+ {
+  "file": "v_87357325.mp3",
+  "text": "げんきに なったよ！ また きてね。",
+  "voice": "f",
+  "group": "dlg"
+ },
+ {
+  "file": "v_de6ede75.mp3",
+  "text": "いらっしゃいませ！ なにに しますか？",
+  "voice": "m",
+  "group": "dlg"
+ },
+ {
+  "file": "v_08396675.mp3",
+  "text": "ほしい ものを いってね。",
+  "voice": "m",
+  "group": "dlg"
+ },
+ {
+  "file": "v_f4d74fc3.mp3",
+  "text": "ありがとう ございました！",
+  "voice": "m",
+  "group": "dlg"
+ },
+ {
+  "file": "v_93ca2afc.mp3",
+  "text": "おかねが たりないよ。",
+  "voice": "m",
+  "group": "dlg"
+ },
+ {
+  "file": "v_22bee3e7.mp3",
+  "text": "でんしゃに のりますか？ いきたい まちを えらんでね。",
+  "voice": "m",
+  "group": "dlg"
+ },
+ {
+  "file": "v_7f34b18e.mp3",
+  "text": "おんせんで あったまって いってね。",
+  "voice": "g",
+  "group": "dlg"
+ },
+ {
+  "file": "v_7125401f.mp3",
+  "text": "かなの とうへ ようこそ。 どこまで のぼれるかな？",
+  "voice": "m",
+  "group": "dlg"
+ },
+ {
+  "file": "v_c74c61c4.mp3",
+  "text": "あれ？ なにか いる！",
+  "voice": "k",
+  "group": "dlg"
+ },
+ {
+  "file": "v_60170959.mp3",
+  "text": "きょうは なにも いないみたい。",
+  "voice": "k",
+  "group": "dlg"
+ },
+ {
+  "file": "v_65e7345d.mp3",
+  "text": "きょうの クイズは おしまい！ また あした きてね。",
+  "voice": "k",
+  "group": "dlg"
+ },
+ {
+  "file": "v_47790e5b.mp3",
+  "text": "よく できました！ おれいに これを あげる。",
+  "voice": "k",
+  "group": "dlg"
+ },
+ {
+  "file": "v_c6e4ad6f.mp3",
+  "text": "ざんねん！ また あした ちょうせん してね。",
+  "voice": "k",
+  "group": "dlg"
+ },
+ {
+  "file": "v_772b8789.mp3",
+  "text": "おめでとう！ きみは かなおうに かった！",
+  "voice": "o",
+  "group": "dlg"
+ },
+ {
+  "file": "v_b13e904d.mp3",
+  "text": "でも かなもんの ぼうけんは まだまだ つづく。",
+  "voice": "o",
+  "group": "dlg"
+ },
+ {
+  "file": "v_1cbce313.mp3",
+  "text": "ずかんを ぜんぶ うめよう！",
+  "voice": "o",
+  "group": "dlg"
+ },
+ {
+  "file": "v_eaa615a6.mp3",
+  "text": "…ん？ なにか ふしぎな けはいが する…",
+  "voice": "f",
+  "group": "dlg"
+ },
+ {
+  "file": "v_5f3b1fa5.mp3",
+  "text": "たまごを もらった！ あるくと かえるよ。",
+  "voice": "f",
+  "group": "dlg"
+ },
+ {
+  "file": "v_abbf1ef5.mp3",
+  "text": "みずが きれいだ。 つりざおが あれば…",
+  "voice": "f",
+  "group": "dlg"
+ },
+ {
+  "file": "v_ee20d018.mp3",
+  "text": "たねを うえた！ あしたには そだつかな？",
+  "voice": "f",
+  "group": "dlg"
+ },
+ {
+  "file": "v_3a6be954.mp3",
+  "text": "ここは さくらむら。",
+  "voice": "f",
+  "group": "dlg"
+ },
+ {
+  "file": "v_95f64eb8.mp3",
+  "text": "けんきゅうじょで はかせが まっているよ！",
+  "voice": "f",
+  "group": "dlg"
+ },
+ {
+  "file": "v_174608d2.mp3",
+  "text": "いきたい ところを タップしてね。",
+  "voice": "f",
+  "group": "dlg"
+ },
+ {
+  "file": "v_f950de7f.mp3",
+  "text": "はかせが きみを まっているよ！ けんきゅうじょへ いってね。",
+  "voice": "f",
+  "group": "dlg"
+ },
+ {
+  "file": "v_9453eb1d.mp3",
+  "text": "まずは ひらがなを いっしょに おぼえよう！",
+  "voice": "o",
+  "group": "dlg"
+ },
+ {
+  "file": "v_f6a20e92.mp3",
+  "text": "これを あげよう。 たまご じゃ。 あるくと かえるぞ。",
+  "voice": "o",
+  "group": "dlg"
+ },
+ {
+  "file": "v_bb6889d0.mp3",
+  "text": "あたらしい ひらがなを おしえて あげるね。",
+  "voice": "f",
+  "group": "dlg"
+ },
+ {
+  "file": "v_13c79623.mp3",
+  "text": "かなもんを つれて きてね。",
+  "voice": "f",
+  "group": "dlg"
+ },
+ {
+  "file": "v_a1a6c88c.mp3",
+  "text": "さすが！ また きてね。",
+  "voice": "f",
+  "group": "dlg"
+ },
+ {
+  "file": "v_59d9e974.mp3",
+  "text": "きを つけてね！",
+  "voice": "m",
+  "group": "dlg"
+ },
+ {
+  "file": "v_b0d1cd46.mp3",
+  "text": "はたけ だ。 たねは みせで かえるよ。",
+  "voice": "f",
+  "group": "dlg"
+ },
+ {
+  "file": "v_b0df2c35.mp3",
+  "text": "ばいばい！",
+  "voice": "k",
+  "group": "dlg"
+ },
+ {
+  "file": "v_62176f51.mp3",
+  "text": "ニックネームを つける？",
+  "voice": "f",
+  "group": "dlg"
+ },
+ {
+  "file": "v_216661f0.mp3",
+  "text": "ぜんぶ あつめた！",
+  "voice": "f",
+  "group": "dlg"
+ },
+ {
+  "file": "v_6656e7b2.mp3",
+  "text": "どこへ いく？",
+  "voice": "m",
+  "group": "dlg"
+ },
+ {
+  "file": "v_d7cb86f4.mp3",
+  "text": "のぼる？",
+  "voice": "m",
+  "group": "dlg"
+ },
+ {
+  "file": "v_e25d2a9c.mp3",
+  "text": "つぎの かいへ？",
+  "voice": "m",
+  "group": "dlg"
+ },
+ {
+  "file": "v_d5ed0087.mp3",
+  "text": "どの たねを うえる？",
+  "voice": "f",
+  "group": "dlg"
+ },
+ {
+  "file": "v_bc1cd9b1.mp3",
+  "text": "もう もっているよ。 つかまえる？",
+  "voice": "f",
+  "group": "dlg"
+ },
+ {
+  "file": "v_edd43774.mp3",
+  "text": "まえの データは きえるよ。 いい？",
+  "voice": "f",
+  "group": "dlg"
+ },
+ {
+  "file": "v_30cee9cb.mp3",
+  "text": "うちの ねこは こたつが すき なの。",
+  "voice": "f",
+  "group": "dlg"
+ },
+ {
+  "file": "v_fa9bf73f.mp3",
+  "text": "きょうは いい てんき だね。",
+  "voice": "m",
+  "group": "dlg"
+ },
+ {
+  "file": "v_ec3a80f7.mp3",
+  "text": "おばあちゃんの おにぎりは せかいいち！",
+  "voice": "k",
+  "group": "dlg"
+ },
+ {
+  "file": "v_ae083ae4.mp3",
+  "text": "ほんを よむのが すき なんだ。",
+  "voice": "k",
+  "group": "dlg"
+ },
+ {
+  "file": "v_5443d88a.mp3",
+  "text": "いえの なかにも かなもんが かくれているよ。",
+  "voice": "g",
+  "group": "dlg"
+ },
+ {
+  "file": "v_895e40e5.mp3",
+  "text": "まいにち くると いいこと あるよ。",
+  "voice": "o",
+  "group": "dlg"
+ }
+]
