@@ -73,7 +73,8 @@ export function dialog(lines, { who = '', portrait = '' } = {}) {
     const box = el(`<div class="dialog">
       ${portrait ? `<div class="portrait">${portrait}</div>` : ''}
       <div class="dbody"><div class="who"></div><div class="ja"></div><div class="dsub"></div></div>
-      <button class="speak" aria-label="play">🔊</button><div class="next">▼</div></div>`);
+      <button class="speak" aria-label="play">🔊</button>
+      <div class="next"><svg viewBox="0 0 24 24"><path d="M5 9l7 7 7-7"/></svg></div></div>`);
     $('#dialogs').appendChild(box);
     setTimeout(() => box.classList.add("in"), 16);
     let i = 0, typing = 0, full = false;
@@ -84,18 +85,18 @@ export function dialog(lines, { who = '', portrait = '' } = {}) {
       $('.who', box).style.display = name ? '' : 'none';
       $('.dsub', box).innerHTML = en(L.en);
       const ja = $('.ja', box);
-      ja.textContent = ''; full = false;
+      ja.textContent = ''; full = false; box.classList.remove('ready');
       const chars = [...L.ja];
       let n = 0;
       clearInterval(typing);
       typing = setInterval(() => {
         n += 1; ja.textContent = chars.slice(0, n).join('');
-        if (n >= chars.length) { clearInterval(typing); full = true; }
+        if (n >= chars.length) { clearInterval(typing); full = true; box.classList.add('ready'); }
       }, 28);
       if (L.voice !== false || L.audio) say(L.audio || L.ja);
     };
     const advance = () => {
-      if (!full) { clearInterval(typing); const L = typeof lines[i] === 'string' ? { ja: lines[i] } : lines[i]; $('.ja', box).textContent = L.ja; full = true; return; }
+      if (!full) { clearInterval(typing); const L = typeof lines[i] === 'string' ? { ja: lines[i] } : lines[i]; $('.ja', box).textContent = L.ja; full = true; box.classList.add('ready'); return; }
       sfx('tap');
       i++;
       if (i >= lines.length) {
