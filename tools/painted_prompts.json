@@ -1050,6 +1050,70 @@
   "prompt": "Small chibi game sprite (head about a third of the height), seen from a high three-quarter top-down camera as in classic handheld RPG town maps. a cheerful 7-year-old Japanese boy in a yellow round school hat, teal-green hoodie, red messenger bag, brown cargo shorts and red sneakers, side view: he is walking to the right, seen exactly from his left side in profile, only one eye visible. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
  },
  {
+  "group": "walk",
+  "file": "img/sprites/player_front_walk1.png",
+  "aspect": "3:4",
+  "rgba": true,
+  "ref": "img/sprites/player_front.png",
+  "prompt": "Redraw the boy from <image1> as a frame of a walking animation: the exact same boy, same face, hat, hoodie, bag, shorts and shoes, same art style, same size and same position in the frame, still facing the camera, but mid-stride: his left foot steps forward toward the camera and his right foot is behind, his arms swing a little in step."
+ },
+ {
+  "group": "walk",
+  "file": "img/sprites/player_front_walk2.png",
+  "aspect": "3:4",
+  "rgba": true,
+  "ref": "img/sprites/player_front.png",
+  "prompt": "Redraw the boy from <image1> as a frame of a walking animation: the exact same boy, same face, hat, hoodie, bag, shorts and shoes, same art style, same size and same position in the frame, still facing the camera, but mid-stride: his right foot steps forward toward the camera and his left foot is behind, his arms swing a little in step."
+ },
+ {
+  "group": "walk",
+  "file": "img/sprites/player_back_walk0.png",
+  "aspect": "3:4",
+  "rgba": true,
+  "ref": "img/sprites/player_back.png",
+  "prompt": "Redraw the boy from <image1> as a frame of a walking animation: the exact same boy, same face, hat, hoodie, bag, shorts and shoes, same art style, same size and same position in the frame, still seen from behind, but standing still with both feet together side by side on the ground and his arms relaxed at his sides."
+ },
+ {
+  "group": "walk",
+  "file": "img/sprites/player_back_walk1.png",
+  "aspect": "3:4",
+  "rgba": true,
+  "ref": "img/sprites/player_back_walk0.png",
+  "prompt": "Redraw the boy from <image1> as a frame of a walking animation: the exact same boy, same face, hat, hoodie, bag, shorts and shoes, same art style, same size and same position in the frame, still seen from behind walking away, but mid-stride: his left leg is forward and planted and his right heel is lifted behind him, his arms swing in step."
+ },
+ {
+  "group": "walk",
+  "file": "img/sprites/player_back_walk2.png",
+  "aspect": "3:4",
+  "rgba": true,
+  "ref": "img/sprites/player_back_walk0.png",
+  "prompt": "Redraw the boy from <image1> as a frame of a walking animation: the exact same boy, same face, hat, hoodie, bag, shorts and shoes, same art style, same size and same position in the frame, still seen from behind walking away, but mid-stride: his right leg is forward and planted and his left heel is lifted behind him, his arms swing in step."
+ },
+ {
+  "group": "walk",
+  "file": "img/sprites/player_side_walk0.png",
+  "aspect": "3:4",
+  "rgba": true,
+  "ref": "img/sprites/player_side.png",
+  "prompt": "Redraw the boy from <image1> as a frame of a walking animation: the exact same boy, same face, hat, hoodie, bag, shorts and shoes, same art style, same size and same position in the frame, still in profile facing right, but standing still with both feet together side by side on the ground and his arms relaxed at his sides."
+ },
+ {
+  "group": "walk",
+  "file": "img/sprites/player_side_walk1.png",
+  "aspect": "3:4",
+  "rgba": true,
+  "ref": "img/sprites/player_side_walk0.png",
+  "prompt": "Redraw the boy from <image1> as a frame of a walking animation: the exact same boy, same face, hat, hoodie, bag, shorts and shoes, same art style, same size and same position in the frame, still walking to the right in profile, but mid-stride: his near leg reaches forward and his far leg pushes off behind, his arms swing in step."
+ },
+ {
+  "group": "walk",
+  "file": "img/sprites/player_side_walk2.png",
+  "aspect": "3:4",
+  "rgba": true,
+  "ref": "img/sprites/player_side_walk0.png",
+  "prompt": "Redraw the boy from <image1> as a frame of a walking animation: the exact same boy, same face, hat, hoodie, bag, shorts and shoes, same art style, same size and same position in the frame, still walking to the right in profile, but mid-stride: his far leg reaches forward and his near leg pushes off behind, his arms swing in step."
+ },
+ {
   "group": "sprite",
   "file": "img/sprites/sora_front.png",
   "aspect": "3:4",

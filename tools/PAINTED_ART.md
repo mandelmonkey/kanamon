@@ -33,7 +33,8 @@ Qwen's native transparency, then are trimmed and saved as WebP in `img/`; raw PN
 | title | 1 | `img/bg/title` | logo is drawn in HTML on top |
 | room | 11 | `img/bg/in_<kind>` | building interiors; the host's portrait stands in front, behind the code-drawn counter |
 | portrait | 25 | `img/people/<pid>` | head-and-shoulders, used in scenes, dialogue and trainer intros |
-| sprite | 27 | `img/sprites/<pid>_<pose>` | overworld characters; the player has front/back/side, others front |
+| sprite | 27 | `img/sprites/<pid>_<pose>` | overworld characters; the player has front/back/side, others front (they waddle) |
+| walk | 8 | `img/sprites/player_<pose>_walk<n>` | the player's walk cycle: edits of the standing pose (walk0 = feet together, walk1/2 = each foot forward) |
 | building | 11 | `img/build/<kind>` | 3/4 top-down, fitted to the footprint with 2.2 tiles of headroom |
 | prop | 12 | `img/props/<id>` | trees, rock, bush, lantern, torii, sign, chest… |
 

@@ -15,40 +15,50 @@ export function personImage(look, dir, frame, s) {
     cv = document.createElement('canvas');
     cv.width = Math.ceil(s); cv.height = Math.ceil(s * 1.5);
     const c = cv.getContext('2d');
-    const sprite = paintedSprite(look, dir);
-    if (sprite && !sprite.complete) {
+    const sprite = paintedSprite(look, dir, frame);
+    if (sprite && !sprite.img) {
       // painted sprite still loading: draw the code version this frame without caching it
       if (look.kind === 'fox') drawFox(c, s, frame); else drawPerson(c, look, dir, frame, s);
       return cv;
     }
-    if (sprite) drawPainted(c, sprite.img, dir, frame, s, sprite.flip);
+    if (sprite) drawPainted(c, sprite, frame, s);
     else if (look.kind === 'fox') drawFox(c, s, frame); else drawPerson(c, look, dir, frame, s);
-    cache.set(key, cv);
+    if (!sprite?.partial) cache.set(key, cv);
   }
   return cv;
 }
 
-// Painted overworld sprites: the player has front/back/side poses (left is the side pose mirrored);
-// everyone else has a front pose, used for every direction.
+// Painted overworld sprites. The player has front/back/side poses (left is the side pose mirrored), each with a
+// walk cycle: frames 0/2 stand (walk0, else the pose itself), 1 and 3 are walk1/walk2. Everyone else has one
+// front pose for every direction and waddles instead. Returns { img, flip, waddle, partial }: img is null while
+// nothing has loaded, partial means a walk frame is still loading and the standing pose stands in.
 const spriteImgs = new Map();
-function paintedSprite(look, dir) {
-  if (!look.pid) return null;
-  const pose = dir === 'up' ? 'back' : dir === 'left' || dir === 'right' ? 'side' : 'front';
-  const src = painted(`sprites/${look.pid}_${pose}`) || painted(`sprites/${look.pid}_front`);
-  if (!src) return null;
+function loaded(src) {
   let img = spriteImgs.get(src);
   if (!img) { img = new Image(); img.src = src; spriteImgs.set(src, img); }
-  return { img, complete: img.complete && img.naturalWidth > 0, flip: dir === 'left' && src.includes('_side') };
+  return img.complete && img.naturalWidth > 0 ? img : null;
+}
+function paintedSprite(look, dir, frame) {
+  if (!look.pid) return null;
+  const pose = dir === 'up' ? 'back' : dir === 'left' || dir === 'right' ? 'side' : 'front';
+  const base = `sprites/${look.pid}_${pose}`;
+  const stand = painted(base + '_walk0') || painted(base) || painted(`sprites/${look.pid}_front`);
+  if (!stand) return null;
+  const step = frame % 2 ? painted(`${base}_walk${frame === 1 ? 1 : 2}`) : null;
+  const stepImg = step && loaded(step);
+  return { img: stepImg || loaded(stand), partial: !!step && !stepImg, flip: dir === 'left' && stand.includes('_side'),
+    waddle: frame % 2 && !step ? (frame === 1 ? 1 : -1) : 0 };
 }
 
-function drawPainted(c, img, dir, frame, s, flip) {
+function drawPainted(c, { img, flip, waddle }, frame, s) {
   const ground = s * 1.42, h = s * 1.36, w = h * img.naturalWidth / img.naturalHeight;
-  const bob = frame % 2 ? -s * 0.04 : 0, squash = frame % 2 ? 1.03 : 1;
+  const bob = waddle ? -s * 0.035 : 0;
   c.fillStyle = 'rgba(40,30,20,0.2)'; c.beginPath(); c.ellipse(s / 2, ground, s * 0.26, s * 0.07, 0, 0, 7); c.fill();
   c.save();
   c.translate(s / 2, ground + bob);
+  if (waddle) c.rotate(waddle * 0.08);  // one pose only: rock from foot to foot
   if (flip) c.scale(-1, 1);
-  c.drawImage(img, -w / 2, -h * squash, w, h * squash);
+  c.drawImage(img, -w / 2, -h, w, h);
   c.restore();
 }
 

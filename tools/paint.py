@@ -8,7 +8,7 @@
 Raw PNGs go to art_raw/ (kept out of the site); finished WebP files go to img/. Prompts come from
 tools/painted_prompts.json (node tools/gen_art_prompts.mjs). Set COMFY to override the server.
 """
-import json, os, sys, time, random, urllib.request, urllib.parse
+import json, os, re, sys, time, random, uuid, urllib.request, urllib.parse
 from PIL import Image
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -18,7 +18,7 @@ SIGMAS = '1.0, 0.978453, 0.95418, 0.926626, 0.89508, 0.845148, 0.704534, 0.41456
 
 # Generation canvas per aspect (multiples of 32, about 1 MP) and the shipped size (long edge).
 CANVAS = {'1:1': (1024, 1024), '16:9': (1376, 768), '2:1': (1440, 720), '3:4': (896, 1184)}
-SHIP = {'creature': 512, 'battle': 1600, 'title': 1600, 'portrait': 384, 'sprite': 256, 'building': 768, 'prop': 384, 'room': 1600}
+SHIP = {'creature': 512, 'battle': 1600, 'title': 1600, 'portrait': 384, 'sprite': 256, 'walk': 256, 'building': 768, 'prop': 384, 'room': 1600}
 
 
 def canvas_for(aspect):
@@ -36,8 +36,23 @@ def call(path, body=None):
         return r.read()
 
 
-def workflow(prompt, w, h, seed):
-    return {
+def upload(raw):
+    """Send a raw image (flattened onto white) to ComfyUI's input folder as an edit reference; returns its name."""
+    im = Image.open(raw).convert('RGBA')
+    flat = Image.new('RGBA', im.size, (255, 255, 255, 255))
+    flat.alpha_composite(im)
+    path = os.path.join(RAW, 'ref.png')
+    flat.convert('RGB').save(path)
+    boundary, name = uuid.uuid4().hex, 'kanamon_' + os.path.basename(raw)
+    body = (f'--{boundary}\r\nContent-Disposition: form-data; name="image"; filename="{name}"\r\nContent-Type: image/png\r\n\r\n'.encode()
+            + open(path, 'rb').read() + f'\r\n--{boundary}\r\nContent-Disposition: form-data; name="overwrite"\r\n\r\ntrue\r\n--{boundary}--\r\n'.encode())
+    req = urllib.request.Request(HOST + '/upload/image', data=body, headers={'Content-Type': f'multipart/form-data; boundary={boundary}'})
+    with urllib.request.urlopen(req, timeout=120) as r:
+        return json.loads(r.read())['name']
+
+
+def workflow(prompt, w, h, seed, ref=None):
+    wf = {
         '1': {'class_type': 'UNETLoader', 'inputs': {'unet_name': 'qwen_image_2.1_turbo_int8_convrot.safetensors', 'weight_dtype': 'default'}},
         '2': {'class_type': 'CLIPLoader', 'inputs': {'clip_name': 'qwen3vl_8b_int8_convrot.safetensors', 'type': 'qwen_image', 'device': 'default'}},
         '3': {'class_type': 'VAELoader', 'inputs': {'vae_name': 'qwen_image_2.1_vae_bf16.safetensors'}},
@@ -52,6 +67,10 @@ def workflow(prompt, w, h, seed):
         '12': {'class_type': 'VAEDecode', 'inputs': {'samples': ['11', 0], 'vae': ['3', 0]}},
         '13': {'class_type': 'SaveImage', 'inputs': {'images': ['12', 0], 'filename_prefix': 'kanamon/km'}},
     }
+    if ref:  # image edit: the reference is <image1> in the prompt
+        wf['r1'] = {'class_type': 'LoadImage', 'inputs': {'image': ref}}
+        wf['4']['inputs'].update({'images.image_1': ['r1', 0], 'vae': ['3', 0]})
+    return wf
 
 
 def generate(entry, dest):
@@ -59,8 +78,13 @@ def generate(entry, dest):
     if entry.get('rgba'):
         prompt = f'This is an RGBA format image with transparency. {prompt} The image has an alpha channel and a transparent background.'
     w, h = canvas_for(entry['aspect'])
+    ref = None
+    if entry.get('ref'):
+        ref_raw = os.path.join(RAW, os.path.splitext(entry['ref'])[0] + '.png')
+        w, h = Image.open(ref_raw).size
+        ref = upload(ref_raw)
     seed = entry.get('seed') or random.randint(1, 2**48)
-    pid = json.loads(call('/prompt', {'prompt': workflow(prompt, w, h, seed), 'client_id': 'kanamon'}))['prompt_id']
+    pid = json.loads(call('/prompt', {'prompt': workflow(prompt, w, h, seed, ref), 'client_id': 'kanamon'}))['prompt_id']
     while True:
         hist = json.loads(call(f'/history/{pid}'))
         if pid in hist:
@@ -77,17 +101,29 @@ def generate(entry, dest):
         time.sleep(1.5)
 
 
+def alpha_clean(raw):
+    im = Image.open(raw).convert('RGBA')
+    im.putalpha(im.getchannel('A').point(lambda v: 0 if v < 12 else v))  # drop faint halo noise
+    return im
+
+
+def set_box(raw):
+    """A sprite and its walk frames are cropped to one shared box so the frames line up when animated."""
+    base = re.sub(r'_walk\d+(?=\.png$)', '', raw)
+    members = [base] + [base[:-4] + f'_walk{i}.png' for i in (0, 1, 2)]
+    boxes = [alpha_clean(f).getchannel('A').getbbox() for f in members if os.path.exists(f)]
+    boxes = [b for b in boxes if b]
+    return (min(b[0] for b in boxes), min(b[1] for b in boxes), max(b[2] for b in boxes), max(b[3] for b in boxes)) if boxes else None
+
+
 def convert(entry, raw):
     group = entry['group']
     out = os.path.join(ROOT, os.path.splitext(entry['file'])[0] + '.webp')
     os.makedirs(os.path.dirname(out), exist_ok=True)
     im = Image.open(raw)
     if entry.get('rgba'):
-        im = im.convert('RGBA')
-        a = im.getchannel('A')
-        a = a.point(lambda v: 0 if v < 12 else v)  # drop faint halo noise
-        im.putalpha(a)
-        box = a.getbbox()
+        im = alpha_clean(raw)
+        box = set_box(raw) if group in ('sprite', 'walk') else im.getchannel('A').getbbox()
         if box:
             im = im.crop(box)
         # pad to a square-ish frame for creatures/props so sizes stay consistent in the UI

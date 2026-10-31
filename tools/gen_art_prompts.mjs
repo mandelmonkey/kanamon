@@ -104,6 +104,28 @@ for (const pose of ['front', 'back', 'side']) {
   }[pose];
   add('sprite', `img/sprites/player_${pose}.png`, '3:4', `${chibi} ${PLAYER}, ${view} ${CUTOUT}`);
 }
+// Walk frames are edits of a standing pose (ref → <image1>), so the boy stays identical from frame to frame.
+// walk0 = feet together (the back and side poses were drawn mid-stride; front already stands), walk1/walk2 = each foot forward.
+const BOY = 'Redraw the boy from <image1> as a frame of a walking animation: the exact same boy, same face, hat, hoodie, bag, shorts and shoes, '
+  + 'same art style, same size and same position in the frame, ';
+const STAND = {
+  back: 'still seen from behind, but standing still with both feet together side by side on the ground and his arms relaxed at his sides.',
+  side: 'still in profile facing right, but standing still with both feet together side by side on the ground and his arms relaxed at his sides.',
+};
+const STRIDE = {
+  front: ['still facing the camera, but mid-stride: his left foot steps forward toward the camera and his right foot is behind, his arms swing a little in step.',
+    'still facing the camera, but mid-stride: his right foot steps forward toward the camera and his left foot is behind, his arms swing a little in step.'],
+  back: ['still seen from behind walking away, but mid-stride: his left leg is forward and planted and his right heel is lifted behind him, his arms swing in step.',
+    'still seen from behind walking away, but mid-stride: his right leg is forward and planted and his left heel is lifted behind him, his arms swing in step.'],
+  side: ['still walking to the right in profile, but mid-stride: his near leg reaches forward and his far leg pushes off behind, his arms swing in step.',
+    'still walking to the right in profile, but mid-stride: his far leg reaches forward and his near leg pushes off behind, his arms swing in step.'],
+};
+const walk = (file, ref, prompt) => out.push({ group: 'walk', file: `img/sprites/${file}.png`, aspect: '3:4', rgba: true, ref: `img/sprites/${ref}.png`, prompt: BOY + prompt });
+for (const pose of ['front', 'back', 'side']) {
+  const stand = STAND[pose] ? `player_${pose}_walk0` : `player_${pose}`;
+  if (STAND[pose]) walk(stand, `player_${pose}`, STAND[pose]);
+  STRIDE[pose].forEach((prompt, i) => walk(`player_${pose}_walk${i + 1}`, stand, prompt));
+}
 for (const [id, who] of people.slice(1)) {
   if (id === 'player') continue;
   add('sprite', `img/sprites/${id}_front.png`, '3:4', `${chibi} ${who}, standing and facing the camera. ${FACE} ${CUTOUT}`);
