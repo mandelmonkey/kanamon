@@ -5,6 +5,7 @@ import a from './mon_a.js';
 import b from './mon_b.js';
 import c from './mon_c.js';
 import { MON } from '../data/kanamon.js';
+import { painted, shinyCanvas } from './painted.js';
 
 export const ART = { ...a, ...b, ...c, ...core };
 
@@ -24,8 +25,12 @@ export function monSvg(id, { shiny = false } = {}) {
   return wrapSvg(P, body, { shiny });
 }
 
+// Painted creatures win over SVG. Sparkly painted ones carry a #shiny fragment that CSS recolours
+// (img[src$="#shiny"]), so every <img> that shows a creature gets it without extra markup.
 const urlCache = new Map();
 export function monUrl(id, shiny = false) {
+  const p = painted('mon/' + id);
+  if (p) return shiny ? p + '#shiny' : p;
   const key = id + (shiny ? '*' : '');
   if (!urlCache.has(key)) {
     const svg = monSvg(id, { shiny });
@@ -39,7 +44,13 @@ export function monImg(id, shiny = false) {
   const key = id + (shiny ? '*' : '');
   if (!imgCache.has(key)) {
     const img = new Image();
-    img.src = monUrl(id, shiny);
+    const p = painted('mon/' + id);
+    if (p && shiny) {
+      // the canvas can't use the CSS recolour, so bake it into a copy once the base image loads
+      const base = new Image();
+      base.onload = () => { img.src = shinyCanvas(base).toDataURL(); };
+      base.src = p;
+    } else img.src = monUrl(id, shiny);
     imgCache.set(key, img);
   }
   return imgCache.get(key);

@@ -1,14 +1,17 @@
 // Canvas drawing for map tiles, buildings and decor. Everything is drawn procedurally and cached
-// per tile size so the overworld stays crisp on Retina iPads.
+// per tile size so the overworld stays crisp on Retina iPads. Painted art (img/props, img/build)
+// replaces the standing objects when it exists.
+import { painted } from './painted.js';
 
+// Palettes follow the trailer's painted village: warm yellow-greens, sandy paths, soft light.
 const THEMES = {
-  spring:   { grass: '#a9dd7c', grass2: '#97d06a', tuft: '#7dbb55', tall: '#5cb158', tall2: '#3f9a45', path: '#ecd4a0', path2: '#d9bc84', edge: '#c9a86e' },
-  forest:   { grass: '#93cc6b', grass2: '#84bf5d', tuft: '#6aa64a', tall: '#4fa04d', tall2: '#357f3a', path: '#e3c993', path2: '#cfb27b', edge: '#b8975e' },
-  beach:    { grass: '#b4e08a', grass2: '#a3d477', tuft: '#86bd5f', tall: '#62b45c', tall2: '#459a47', path: '#f0dcae', path2: '#e0c690', edge: '#cdb07a' },
-  mountain: { grass: '#b3d58a', grass2: '#a1c877', tuft: '#88b062', tall: '#6aa85a', tall2: '#4e8c45', path: '#dccaa6', path2: '#c8b48e', edge: '#b29c75' },
-  snow:     { grass: '#eef5fb', grass2: '#e2edf7', tuft: '#c9d9ea', tall: '#a9c8a0', tall2: '#86ad80', path: '#d9d2c7', path2: '#c5bcae', edge: '#b1a797' },
-  night:    { grass: '#8ccf7a', grass2: '#7cc26b', tuft: '#63a955', tall: '#4f9e58', tall2: '#3a8247', path: '#e2d0a6', path2: '#cdb88c', edge: '#b6a074' },
-  castle:   { grass: '#a5d97c', grass2: '#94cc6b', tuft: '#7ab656', tall: '#5aae58', tall2: '#3e9444', path: '#ddd8cf', path2: '#c9c2b6', edge: '#b0a898' },
+  spring:   { grass: '#a6da66', grass2: '#92cc55', light: '#c6ec88', tuft: '#72b244', tall: '#6cc04c', tall2: '#4aa23c', tip: '#b9ec7a', path: '#efd6a4', path2: '#dfbf88', edge: '#c9a26a' },
+  forest:   { grass: '#8fcb5c', grass2: '#7dbc4c', light: '#b1e07c', tuft: '#5f9f3c', tall: '#58ad45', tall2: '#3b8a36', tip: '#a3dc70', path: '#e6cb95', path2: '#d2b27c', edge: '#b9945c' },
+  beach:    { grass: '#b2de78', grass2: '#9fd166', light: '#d0ef9a', tuft: '#80ba52', tall: '#6ec058', tall2: '#4ea44a', tip: '#c4ee8a', path: '#f3dfb0', path2: '#e4c993', edge: '#cfb07a' },
+  mountain: { grass: '#acd47c', grass2: '#98c66a', light: '#c9e69c', tuft: '#7fab58', tall: '#68ac54', tall2: '#4c8e44', tip: '#b6e080', path: '#dfcba4', path2: '#cab48c', edge: '#b39b72' },
+  snow:     { grass: '#eef5fb', grass2: '#e2edf7', light: '#ffffff', tuft: '#c9d9ea', tall: '#a9c8a0', tall2: '#86ad80', tip: '#d8ecd2', path: '#d9d2c7', path2: '#c5bcae', edge: '#b1a797' },
+  night:    { grass: '#8ccf6c', grass2: '#7cc25e', light: '#aee08e', tuft: '#5fa64e', tall: '#55a855', tall2: '#3a8a44', tip: '#9ad882', path: '#e4d1a6', path2: '#cfb98c', edge: '#b6a074' },
+  castle:   { grass: '#a3d770', grass2: '#90ca5f', light: '#c3ea8e', tuft: '#74b04c', tall: '#62b452', tall2: '#449a42', tip: '#b2e47c', path: '#e2ddd3', path2: '#cec7ba', edge: '#b0a898' },
 };
 export const themeOf = (t) => THEMES[t] || THEMES.spring;
 
@@ -30,17 +33,58 @@ function cached(key, w, h, draw) {
 }
 export function clearTileCache() { cache.clear(); }
 
+// Painted images: null = none shipped, undefined = still loading (draw the code version meanwhile).
+const pimgs = new Map();
+function pimg(name) {
+  const src = painted(name);
+  if (!src) return null;
+  let img = pimgs.get(src);
+  if (!img) { img = new Image(); img.src = src; pimgs.set(src, img); }
+  return img.complete && img.naturalWidth ? img : undefined;
+}
+// Fit an image inside maxW×maxH, bottom-centred on (cx, bottom).
+function drawFit(c, img, cx, bottom, maxW, maxH) {
+  const k = Math.min(maxW / img.naturalWidth, maxH / img.naturalHeight);
+  const w = img.naturalWidth * k, h = img.naturalHeight * k;
+  c.drawImage(img, cx - w / 2, bottom - h, w, h);
+}
+// A standing painted prop. box = [x, y, w, h] in tiles relative to its cell, so big trees can overhang;
+// world.js reads canvas.box when drawing.
+function propTall(name, key, s, box, fallback, after) {
+  const img = pimg(name);
+  if (!img) return fallback();
+  const cv = cached('P' + key, box[2] * s, box[3] * s, c => {
+    const W = box[2] * s, H = box[3] * s, foot = H - s * 0.08;
+    shadow(c, W / 2, foot - s * 0.04, Math.min(W * 0.36, s * 0.55));
+    drawFit(c, img, W / 2, foot + s * 0.02, W, H);
+    if (after) after(c, W, H);
+  });
+  cv.box = box;
+  return cv;
+}
+const BOX = { tree: [-0.45, -1.35, 1.9, 2.35], rock: [-0.12, -0.25, 1.24, 1.25], bush: [-0.15, -0.3, 1.3, 1.3], lantern: [-0.05, -0.75, 1.1, 1.75],
+  sign: [-0.15, -0.6, 1.3, 1.6], chest: [-0.05, -0.15, 1.1, 1.15] };
+
 // ── ground ────────────────────────────────────────────────
 function grass(c, s, th, v) {
   c.fillStyle = th.grass;
   c.fillRect(0, 0, s, s);
-  c.fillStyle = th.grass2;
-  for (let i = 0; i < 3; i++) { c.beginPath(); c.ellipse(s * hash(i, v * 31 + 1), s * hash(v * 47 + 2, i), s * 0.09, s * 0.05, 0, 0, 7); c.fill(); }
-  c.strokeStyle = th.tuft; c.lineWidth = s * 0.035; c.lineCap = 'round';
-  const n = v < 0.3 ? 2 : v < 0.7 ? 1 : 0;
+  // soft painterly mottling, kept inside the tile and low-contrast so tile seams don't show
+  for (let i = 0; i < 6; i++) {
+    const r = s * (0.1 + hash(i, v * 13 + 5) * 0.1);
+    const x = r + (s - 2 * r) * hash(i, v * 31 + 1), y = r + (s - 2 * r) * hash(v * 47 + 2, i);
+    c.globalAlpha = 0.32; c.fillStyle = i % 2 ? th.grass2 : th.light;
+    c.beginPath(); c.ellipse(x, y, r, r * 0.62, 0, 0, 7); c.fill();
+  }
+  c.globalAlpha = 1;
+  // short curved blades in two tones
+  c.lineCap = 'round'; c.lineWidth = s * 0.024;
+  const n = 4 + Math.floor(v * 4);
   for (let i = 0; i < n; i++) {
-    const x = s * (0.2 + hash(i, v * 99) * 0.6), y = s * (0.3 + hash(v * 77, i) * 0.5);
-    c.beginPath(); c.moveTo(x - s * 0.06, y - s * 0.07); c.lineTo(x, y); c.lineTo(x + s * 0.06, y - s * 0.08); c.stroke();
+    const x = s * (0.1 + hash(i, v * 99 + 3) * 0.8), y = s * (0.2 + hash(v * 77, i) * 0.72), h = s * (0.07 + hash(i * 3, v) * 0.06);
+    c.strokeStyle = i % 3 ? th.tuft : th.light;
+    c.beginPath(); c.moveTo(x, y); c.quadraticCurveTo(x - s * 0.005, y - h * 0.6, x - s * 0.028, y - h); c.stroke();
+    c.beginPath(); c.moveTo(x + s * 0.02, y); c.quadraticCurveTo(x + s * 0.025, y - h * 0.5, x + s * 0.045, y - h * 0.8); c.stroke();
   }
 }
 
@@ -59,21 +103,23 @@ function flowers(c, s, th, v) {
 function tallGrass(c, s, th, frame) {
   grass(c, s, th, 0.8);
   const sway = Math.sin(frame * Math.PI / 2) * s * 0.03;
-  const blades = (y0, dark) => {
-    for (let i = 0; i < 4; i++) {
-      const bx = s * (0.12 + i * 0.25), by = y0;
-      c.fillStyle = dark ? th.tall2 : th.tall;
-      c.beginPath();
-      c.moveTo(bx - s * 0.13, by);
-      c.quadraticCurveTo(bx - s * 0.06 + sway, by - s * 0.3, bx + sway * 1.6, by - s * 0.42);
-      c.quadraticCurveTo(bx + s * 0.02 + sway, by - s * 0.22, bx + s * 0.13, by);
+  // dense, lush blades like the trailer's meadow: three rows, darker at the back, light tips
+  const row = (y0, col, n, hgt, off) => {
+    for (let i = 0; i < n; i++) {
+      const bx = s * ((i + off) / n), lean = (hash(i, y0) - 0.5) * s * 0.08 + sway * (1.2 + hash(y0, i));
+      const hh = s * hgt * (0.8 + hash(i * 7, y0) * 0.4), w = s * 0.055;
+      c.fillStyle = col;
+      c.beginPath(); c.moveTo(bx - w, y0);
+      c.quadraticCurveTo(bx - w * 0.4 + lean * 0.5, y0 - hh * 0.6, bx + lean, y0 - hh);
+      c.quadraticCurveTo(bx + w * 0.3 + lean * 0.5, y0 - hh * 0.5, bx + w, y0);
       c.closePath(); c.fill();
+      c.fillStyle = th.tip; c.globalAlpha = 0.7;
+      c.beginPath(); c.arc(bx + lean * 0.96, y0 - hh * 0.95, s * 0.014, 0, 7); c.fill(); c.globalAlpha = 1;
     }
   };
-  blades(s * 0.62, true);
-  blades(s * 1.0, false);
-  c.fillStyle = 'rgba(255,255,255,0.25)';
-  for (let i = 0; i < 4; i++) { c.beginPath(); c.arc(s * (0.12 + i * 0.25) + sway * 1.4, s * 0.6, s * 0.025, 0, 7); c.fill(); }
+  row(s * 0.5, th.tall2, 7, 0.42, 0.2);
+  row(s * 0.78, th.tall, 8, 0.46, 0.55);
+  row(s * 1.02, th.tall, 7, 0.44, 0.0);
 }
 
 // "Blob" surfaces (path/sand/snow/water) with corners rounded where neighbours differ.
@@ -115,9 +161,11 @@ function snow(c, s, v) {
 function water(c, s, mask, frame, th) {
   // shore: grass around, then water blob
   c.fillStyle = th.grass; c.fillRect(0, 0, s, s);
-  blob(c, s, '#bfe9f7', mask, 0);
-  blob(c, s, '#5cbde6', mask, s * 0.06);
-  c.strokeStyle = 'rgba(255,255,255,0.65)'; c.lineWidth = s * 0.04; c.lineCap = 'round';
+  blob(c, s, '#a98f6a', mask, 0);
+  blob(c, s, '#e8f8ff', mask, s * 0.035);
+  blob(c, s, '#73cfee', mask, s * 0.075);
+  blob(c, s, '#59bce4', mask, s * 0.2);
+  c.strokeStyle = 'rgba(255,255,255,0.7)'; c.lineWidth = s * 0.035; c.lineCap = 'round';
   const o = frame * s * 0.12;
   for (let i = 0; i < 2; i++) {
     const y = s * (0.3 + i * 0.4), x = ((s * (0.15 + i * 0.4) + o) % (s * 0.8)) + s * 0.05;
@@ -283,11 +331,13 @@ export function tileImages(map, x, y, s, frame) {
     case 'C': return { ground: cached(`cwall|${s}`, s, s, c => castleWall(c, s)) };
     case '|': return { ground: cached(`fence${T}|${s}`, s, s, c => fence(c, s, th)) };
     case 'f': return { ground: cached(`fbed${T}|${s}`, s, s, c => flowerBed(c, s, th)) };
-    case 'T': case 'S': case 'P':
-      return { ground: base(), tall: cached(`tree${ch}${T}|${s}`, s, s * 1.5, c => tree(c, s, ch, T)) };
-    case 'R': return { ground: base(), tall: cached(`rock${T}|${s}`, s, s * 1.5, c => rock(c, s, T)) };
-    case 'o': return { ground: base(), tall: cached(`bush|${s}`, s, s * 1.5, c => bush(c, s)) };
-    case 'l': return { ground: base(), tall: cached(`lantern|${s}`, s, s * 1.5, c => lantern(c, s)) };
+    case 'T': case 'S': case 'P': {
+      const name = ch === 'S' ? 'sakura' : ch === 'T' ? 'tree' : T === 'snow' || T === 'mountain' ? 'snowpine' : 'pine';
+      return { ground: base(), tall: propTall('props/' + name, `tree${name}|${s}`, s, BOX.tree, () => cached(`tree${ch}${T}|${s}`, s, s * 1.5, c => tree(c, s, ch, T))) };
+    }
+    case 'R': return { ground: base(), tall: propTall('props/rock', `rock|${s}`, s, BOX.rock, () => cached(`rock${T}|${s}`, s, s * 1.5, c => rock(c, s, T))) };
+    case 'o': return { ground: base(), tall: propTall('props/bush', `bush|${s}`, s, BOX.bush, () => cached(`bush|${s}`, s, s * 1.5, c => bush(c, s))) };
+    case 'l': return { ground: base(), tall: propTall('props/lantern', `lantern|${s}`, s, BOX.lantern, () => cached(`lantern|${s}`, s, s * 1.5, c => lantern(c, s))) };
     default: return { ground: base() };
   }
 }
@@ -301,11 +351,34 @@ const ROOFS = {
 const HOUSE_ROOFS = [['#4f7fa3', '#3b6280'], ['#c0573d', '#99432f'], ['#6b8e4e', '#55733d'], ['#8b6bb1', '#6e5490'], ['#d19a3b', '#a8792b']];
 const SIGNS = { shop: 'みせ', hospital: 'びょういん', dojo: 'どうじょう', station: 'えき', onsen: '♨ おんせん', lab: 'けんきゅうじょ', tower: 'かなの とう', observatory: 'てんもんだい' };
 
-// Returns a canvas (w*s × (h+1.2)*s) — the building overhangs upward by 1.2 tiles.
+// Returns a canvas whose .box ([x, y, w, h] in tiles from the building's top-left) says where to draw it:
+// the code version overhangs upward by 1.2 tiles, painted ones get 2.2 so tall roofs keep their full width.
 export function buildingImage(b, s) {
   const [w, h] = b.size;
-  const key = `bld:${b.kind}:${b.id || ''}:${b.label?.ja || ''}:${s}`;
-  return cached(key, w * s, (h + 1.2) * s, c => drawBuilding(c, b, s, w, h));
+  const img = pimg('build/' + b.kind);
+  if (img) {
+    const cv = cached(`pbld:${b.kind}:${b.label?.ja || ''}:${s}`, w * s, (h + 2.2) * s, c => paintedBuilding(c, b, img, s, w, h + 1));
+    cv.box = [0, -2.2, w, h + 2.2];
+    return cv;
+  }
+  const cv = cached(`bld:${b.kind}:${b.id || ''}:${b.label?.ja || ''}:${s}`, w * s, (h + 1.2) * s, c => drawBuilding(c, b, s, w, h));
+  cv.box = [0, -1.2, w, h + 1.2];
+  return cv;
+}
+
+// Painted building, plus the hiragana signboard drawn on top (the painting's own board is blank).
+function paintedBuilding(c, b, img, s, w, h) {
+  const W = w * s, H = (h + 1.2) * s;
+  const drawnW = img.naturalWidth * Math.min(W * 1.04 / img.naturalWidth, H / img.naturalHeight);
+  shadow(c, W / 2, H - s * 0.1, drawnW * 0.42);
+  drawFit(c, img, W / 2, H, W * 1.04, H);
+  const label = b.label?.ja || SIGNS[b.kind];
+  if (!label) return;
+  const font = `800 ${s * 0.3}px "M PLUS Rounded 1c","Hiragino Maru Gothic ProN","Hiragino Sans",sans-serif`;
+  c.font = font;
+  const tw = c.measureText(label).width + s * 0.4, sy = H - s * 2.75;
+  c.fillStyle = '#fff6df'; rr(c, W / 2 - tw / 2, sy, tw, s * 0.42, s * 0.1); c.fill(); outline(c, s * 0.04);
+  c.fillStyle = '#5a3b2b'; c.textAlign = 'center'; c.textBaseline = 'middle'; c.fillText(label, W / 2, sy + s * 0.22);
 }
 
 function drawBuilding(c, b, s, w, h) {
@@ -421,6 +494,8 @@ function drawTower(c, s, W, H, top, font) {
 
 // Torii gate: 4 tiles wide, drawn standing on row y (canvas 4s × 2.4s).
 export function toriiImage(s) {
+  const img = pimg('props/torii');
+  if (img) return cached(`ptorii|${s}`, 4 * s, 2.4 * s, c => { shadow(c, 2 * s, 2.3 * s, 1.6 * s); drawFit(c, img, 2 * s, 2.4 * s, 4 * s, 2.4 * s); });
   return cached(`torii|${s}`, 4 * s, 2.4 * s, c => {
     const red = '#e2483d', dark = '#b33429', base = 2.4 * s;
     for (const x of [0.5, 3.5]) {
@@ -438,6 +513,12 @@ export function toriiImage(s) {
 
 // Wooden signpost (1 tile, overhanging).
 export function signImage(s, quiz = false) {
+  const p = propTall('props/sign', `sign${quiz}|${s}`, s, BOX.sign, () => null, quiz ? (c, W) => {
+    // quiz signs get a little "?" badge so they stand out
+    c.beginPath(); c.arc(W * 0.78, s * 0.3, s * 0.2, 0, 7); c.fillStyle = '#ff9a3c'; c.fill(); outline(c, s * 0.035);
+    c.fillStyle = '#fff'; c.font = `900 ${s * 0.28}px "M PLUS Rounded 1c",sans-serif`; c.textAlign = 'center'; c.textBaseline = 'middle'; c.fillText('?', W * 0.78, s * 0.31);
+  } : null);
+  if (p) return p;
   return cached(`sign${quiz}|${s}`, s, s * 1.5, c => {
     const top = s * 0.5;
     shadow(c, s / 2, top + s * 0.88, s * 0.24);
@@ -456,6 +537,11 @@ export function signImage(s, quiz = false) {
 }
 
 export function chestImage(s, open) {
+  const p = propTall('props/chest', `chest${open}|${s}`, s, BOX.chest, () => null, open ? (c, W, H) => {
+    // opened chests fade back so finished treasure reads as done
+    c.globalCompositeOperation = 'destination-out'; c.fillStyle = 'rgba(0,0,0,0.45)'; c.fillRect(0, 0, W, H); c.globalCompositeOperation = 'source-over';
+  } : null);
+  if (p) return p;
   return cached(`chest${open}|${s}`, s, s * 1.5, c => {
     const top = s * 0.5;
     shadow(c, s / 2, top + s * 0.86, s * 0.3);

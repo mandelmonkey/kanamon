@@ -53,6 +53,7 @@ small { font-weight: 600; }
 .pic.dots b { display: block; width: .8em; height: .8em; border-radius: 50%; background: var(--orange); border: 2px solid var(--ink); }
 .pic.dots i { font-style: normal; font-family: "Apple Color Emoji", sans-serif; font-size: 1.4em; }
 img.mon { object-fit: contain; }
+img[src$="#shiny"] { filter: hue-rotate(155deg) saturate(1.25); }
 img.mon.sil { filter: brightness(0) opacity(.35); }
 
 /* ── HUD ─────────────────────────────────── */
@@ -151,8 +152,13 @@ img.mon.sil { filter: brightness(0) opacity(.35); }
 .b-bg, .b-bg svg { position: absolute; inset: 0; width: 100%; height: 100%; }
 .b-enemy { position: absolute; right: 13%; top: 8%; width: min(26vw, 36vh); height: min(26vw, 36vh); }
 .b-ally { position: absolute; left: 10%; top: 38%; width: min(30vw, 42vh); height: min(30vw, 42vh); }
-.b-mon { width: 100%; height: 100%; object-fit: contain; filter: drop-shadow(0 6px 8px rgba(0, 0, 0, .25)); }
+.b-mon { position: relative; width: 100%; height: 100%; object-fit: contain; filter: drop-shadow(0 6px 8px rgba(0, 0, 0, .25)); }
+.b-mon[src$="#shiny"] { filter: hue-rotate(155deg) saturate(1.25) drop-shadow(0 6px 8px rgba(0, 0, 0, .25)); }
 .b-mon.ally { transform: scaleX(-1); }
+.b-paint { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.b-night { position: absolute; inset: 0; background: #3c3f8f; mix-blend-mode: multiply; opacity: .55; }
+.b-pad { position: absolute; left: -8%; width: 116%; bottom: -24%; pointer-events: none; }
+.painted .b-mon { filter: drop-shadow(0 10px 6px rgba(40, 30, 20, .3)); }
 .b-mon.enemy.appear { animation: appear .6s; }
 @keyframes appear { from { transform: translateX(60%) scale(.6); opacity: 0; } }
 .b-mon.ally.enter { animation: enter .5s; }
@@ -201,8 +207,8 @@ img.mon.sil { filter: brightness(0) opacity(.35); }
 @keyframes bob { 50% { transform: translateY(-6px); } }
 .b-q:empty { display: none; }
 .b-trainer { position: absolute; right: 8%; top: 18%; opacity: 0; transition: all .4s; transform: translateX(40px); text-align: center; }
-.b-trainer img { height: min(44vh, 360px); }
-.b-tname { background: var(--panel); border: 3px solid var(--edge); border-radius: 999px; padding: 2px 16px; font-weight: 900; font-size: 20px; display: inline-block; }
+.b-trainer img { height: min(44vh, 360px); display: block; margin: 0 auto -14px; -webkit-mask-image: linear-gradient(#000 72%, transparent 98%); mask-image: linear-gradient(#000 72%, transparent 98%); }
+.b-tname { position: relative; background: var(--panel); border: 3px solid var(--edge); border-radius: 999px; padding: 2px 16px; font-weight: 900; font-size: 20px; display: inline-block; }
 .trainer-in .b-trainer { opacity: 1; transform: none; }
 .trainer-in .b-enemy { opacity: 0; }
 .pop { position: absolute; left: 50%; top: 10%; transform: translateX(-50%); font-weight: 900; font-size: 40px; color: #fff; -webkit-text-stroke: 3px var(--ink); paint-order: stroke; animation: floatup 1.3s forwards; pointer-events: none; white-space: nowrap; z-index: 3; }
@@ -407,6 +413,9 @@ img.mon.sil { filter: brightness(0) opacity(.35); }
 .scene.kind-station { background: linear-gradient(#e6f7ef 0 62%, #b9c9c0 62%); }
 .scene.kind-onsen { background: linear-gradient(#efe6ff 0 55%, #8fd0e6 55%); }
 .scene.kind-tower { background: linear-gradient(#ffe9d6 0 62%, #a35a4a 62%); }
+.sc-paint { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; pointer-events: none; }
+.scene.painted .sc-wall { display: none; }
+.scene.painted .sc-counter { box-shadow: 0 10px 18px rgba(60, 35, 15, .35); }
 .sc-wall { position: absolute; left: 0; right: 0; top: 16%; display: flex; justify-content: space-between; align-items: center; padding: 0 6%; pointer-events: none; }
 .sc-window { width: 15vw; height: 20vh; background: linear-gradient(#bfe6ff, #e8f6ff); border: 10px solid #b08a60; border-radius: 10px; box-shadow: inset 0 0 0 4px #fff; background-image: linear-gradient(90deg, transparent 47%, #b08a60 47% 53%, transparent 53%), linear-gradient(transparent 47%, #b08a60 47% 53%, transparent 53%), linear-gradient(#bfe6ff, #e8f6ff); }
 .kind-onsen .sc-window, .kind-tower .sc-window { background-image: linear-gradient(90deg, transparent 47%, #b08a60 47% 53%, transparent 53%), linear-gradient(transparent 47%, #b08a60 47% 53%, transparent 53%), linear-gradient(#2a2a6a, #5a4a96); }
@@ -449,6 +458,7 @@ img.mon.sil { filter: brightness(0) opacity(.35); }
 .t-cast { position: absolute; bottom: 4vh; display: flex; align-items: flex-end; gap: 2vw; }
 .t-cast img.mon { width: min(15vw, 20vh); height: min(15vw, 20vh); animation: bob 2s infinite; }
 .t-boy { height: min(30vh, 260px); }
+.t-paint { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
 .t-btns { position: relative; margin-top: 4vh; display: flex; gap: 16px; opacity: 0; transform: translateY(10px); transition: all .4s; pointer-events: none; }
 .title-overlay.ready .t-btns { pointer-events: auto; }
 .title.ready .t-btns, .title-overlay.ready .t-btns { opacity: 1; transform: none; }

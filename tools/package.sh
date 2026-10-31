@@ -8,5 +8,5 @@ node tools/check_art.mjs | tail -1
 node tools/build_manifest.mjs
 node tools/build_sw.mjs
 rm -f ../kanamon-site.zip
-zip -qr ../kanamon-site.zip index.html manifest.webmanifest sw.js README.md css js icons audio -x '*.DS_Store'
+zip -qr ../kanamon-site.zip index.html manifest.webmanifest sw.js README.md css js icons audio $( [ -d img ] && echo img ) -x '*.DS_Store'
 echo "wrote $(cd .. && pwd)/kanamon-site.zip ($(du -h ../kanamon-site.zip | cut -f1))"

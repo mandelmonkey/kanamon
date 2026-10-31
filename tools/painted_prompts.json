@@ -1,0 +1,1381 @@
+[
+ {
+  "group": "creature",
+  "file": "img/mon/tane.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Creature design: a cute \"seed\" creature — round mint-green blob, two-leaf sprout on top of head, tiny acorn held in front. Full body, facing the viewer at a slight three-quarter angle, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "creature",
+  "file": "img/mon/happa.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Creature design: a cute \"leaf\" creature — taller green creature with two big leaf \"ears\" and a leafy tail, small flowers on cheeks. It is the evolved form of the \"seed\" creature; keep the same colours and face. Full body, facing the viewer at a slight three-quarter angle, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "creature",
+  "file": "img/mon/mori.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Creature design: a cute \"forest\" creature — big gentle tree creature: round leafy crown with tiny flowers and a bird house, stubby trunk legs, face on trunk. It is the evolved form of the \"leaf\" creature; keep the same colours and face. Full body, facing the viewer at a slight three-quarter angle, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "creature",
+  "file": "img/mon/hinoko.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Creature design: a cute \"spark\" creature — chibi orange fox with cream chest, big ears, fluffy tail tipped with a small flame. Full body, facing the viewer at a slight three-quarter angle, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "creature",
+  "file": "img/mon/honoo.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Creature design: a cute \"flame\" creature — bigger orange fox with a flame mane around neck and a large flaming tail. It is the evolved form of the \"spark\" creature; keep the same colours and face. Full body, facing the viewer at a slight three-quarter angle, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "creature",
+  "file": "img/mon/taiyou.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Creature design: a cute \"sun\" creature — majestic golden fox with a ring of sun rays behind its head like a halo, warm glow. It is the evolved form of the \"flame\" creature; keep the same colours and face. Full body, facing the viewer at a slight three-quarter angle, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "creature",
+  "file": "img/mon/shizuku.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Creature design: a cute \"drop\" creature — light-blue chubby seal pup with a water drop shape on its head, little flippers. Full body, facing the viewer at a slight three-quarter angle, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "creature",
+  "file": "img/mon/nami.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Creature design: a cute \"wave\" creature — blue seal with a curling wave crest on its head like a mane, foam tips. It is the evolved form of the \"drop\" creature; keep the same colours and face. Full body, facing the viewer at a slight three-quarter angle, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "creature",
+  "file": "img/mon/umi.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Creature design: a cute \"sea\" creature — big round deep-blue seal with a whale tail, coral crown and a tiny shell necklace. It is the evolved form of the \"wave\" creature; keep the same colours and face. Full body, facing the viewer at a slight three-quarter angle, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "creature",
+  "file": "img/mon/ichigo.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Creature design: a cute \"strawberry\" creature — red strawberry-shaped body with yellow seeds, green leafy cap, tiny arms. Full body, facing the viewer at a slight three-quarter angle, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "creature",
+  "file": "img/mon/ahiru.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Creature design: a cute \"duck\" creature — round yellow duckling-duck with orange beak and feet, little wing flaps. Full body, facing the viewer at a slight three-quarter angle, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "creature",
+  "file": "img/mon/kasa.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Creature design: a cute \"umbrella\" creature — purple umbrella canopy as bat wings over a small purple bat body, curved handle tail. Full body, facing the viewer at a slight three-quarter angle, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "creature",
+  "file": "img/mon/kinoko.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Creature design: a cute \"mushroom\" creature — big red mushroom cap with white spots and a cream stem body with face, tiny leaf on cap. Full body, facing the viewer at a slight three-quarter angle, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "creature",
+  "file": "img/mon/sakura.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Creature design: a cute \"cherry blossom\" creature — pink five-petal cherry blossom body with face in centre, petals floating around. Full body, facing the viewer at a slight three-quarter angle, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "creature",
+  "file": "img/mon/tamago.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Creature design: a cute \"egg\" creature — white egg with a zigzag crack line, face peeking, tiny feet. Full body, facing the viewer at a slight three-quarter angle, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "creature",
+  "file": "img/mon/hiyoko.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Creature design: a cute \"chick\" creature — fluffy yellow chick with half eggshell on its head as a hat. It is the evolved form of the \"egg\" creature; keep the same colours and face. Full body, facing the viewer at a slight three-quarter angle, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "creature",
+  "file": "img/mon/niwatori.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Creature design: a cute \"chicken\" creature — round white hen with red comb and wattle, proud chest. It is the evolved form of the \"chick\" creature; keep the same colours and face. Full body, facing the viewer at a slight three-quarter angle, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "creature",
+  "file": "img/mon/kemushi.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Creature design: a cute \"caterpillar\" creature — green fuzzy caterpillar of 3-4 round segments, little antennae. Full body, facing the viewer at a slight three-quarter angle, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "creature",
+  "file": "img/mon/chouchou.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Creature design: a cute \"butterfly\" creature — small round body with big colourful wings (pink/yellow/blue patterns). It is the evolved form of the \"caterpillar\" creature; keep the same colours and face. Full body, facing the viewer at a slight three-quarter angle, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "creature",
+  "file": "img/mon/neko.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Creature design: a cute \"cat\" creature — cream/orange chibi cat with a red collar and gold bell. Full body, facing the viewer at a slight three-quarter angle, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "creature",
+  "file": "img/mon/inu.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Creature design: a cute \"dog\" creature — shiba-style dog, tan with cream face, curly tail. Full body, facing the viewer at a slight three-quarter angle, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "creature",
+  "file": "img/mon/nasu.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Creature design: a cute \"eggplant\" creature — purple eggplant body with green star cap, glossy highlight. Full body, facing the viewer at a slight three-quarter angle, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "creature",
+  "file": "img/mon/onigiri.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Creature design: a cute \"rice ball\" creature — white rice triangle with seaweed (nori) band at bottom, small red umeboshi on top. Full body, facing the viewer at a slight three-quarter angle, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "creature",
+  "file": "img/mon/tokei.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Creature design: a cute \"clock\" creature — round yellow alarm clock with red bell on top, clock face is its face, tiny feet. Full body, facing the viewer at a slight three-quarter angle, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "creature",
+  "file": "img/mon/ushi.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Creature design: a cute \"cow\" creature — white cow with black spots, pink nose, small horns, cowbell. Full body, facing the viewer at a slight three-quarter angle, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "creature",
+  "file": "img/mon/donguri.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Creature design: a cute \"acorn\" creature — brown acorn body with textured cap, small face. Full body, facing the viewer at a slight three-quarter angle, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "creature",
+  "file": "img/mon/tanuki.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Creature design: a cute \"raccoon dog\" creature — round tanuki with dark eye patches, big belly, leaf on head. Full body, facing the viewer at a slight three-quarter angle, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "creature",
+  "file": "img/mon/fukurou.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Creature design: a cute \"owl\" creature — round brown owl with big round eyes, ear tufts, cream belly. Full body, facing the viewer at a slight three-quarter angle, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "creature",
+  "file": "img/mon/hachi.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Creature design: a cute \"bee\" creature — round yellow/black striped bee, tiny wings, stubby stinger. Full body, facing the viewer at a slight three-quarter angle, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "creature",
+  "file": "img/mon/mushi.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Creature design: a cute \"bug\" creature — small brown round beetle larva/bug with a tiny nub horn. Full body, facing the viewer at a slight three-quarter angle, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "creature",
+  "file": "img/mon/kabutomushi.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Creature design: a cute \"beetle\" creature — shiny dark-brown rhinoceros beetle with big forked horn. It is the evolved form of the \"bug\" creature; keep the same colours and face. Full body, facing the viewer at a slight three-quarter angle, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "creature",
+  "file": "img/mon/ringo.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Creature design: a cute \"apple\" creature — red apple body with leaf stem on top, hedgehog face and brown spiky back. Full body, facing the viewer at a slight three-quarter angle, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "creature",
+  "file": "img/mon/hebi.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Creature design: a cute \"snake\" creature — cute green snake coiled up, cream belly stripes, little tongue. Full body, facing the viewer at a slight three-quarter angle, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "creature",
+  "file": "img/mon/shika.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Creature design: a cute \"deer\" creature — fawn-brown deer with white spots, small antlers. Full body, facing the viewer at a slight three-quarter angle, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "creature",
+  "file": "img/mon/hana.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Creature design: a cute \"flower\" creature — tulip/flower head with petals around face, little leaf arms, in a tiny pot. Full body, facing the viewer at a slight three-quarter angle, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "creature",
+  "file": "img/mon/semi.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Creature design: a cute \"cicada\" creature — green/brown cicada with clear veined wings. Full body, facing the viewer at a slight three-quarter angle, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "creature",
+  "file": "img/mon/kani.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Creature design: a cute \"crab\" creature — red round crab with big claws raised. Full body, facing the viewer at a slight three-quarter angle, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "creature",
+  "file": "img/mon/tako.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Creature design: a cute \"octopus\" creature — pink-red octopus with headband (hachimaki), curly legs. Full body, facing the viewer at a slight three-quarter angle, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "creature",
+  "file": "img/mon/ika.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Creature design: a cute \"squid\" creature — white squid with triangular head fin, tentacles. Full body, facing the viewer at a slight three-quarter angle, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "creature",
+  "file": "img/mon/sakana.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Creature design: a cute \"fish\" creature — blue round fish with fins and bubbles. Full body, facing the viewer at a slight three-quarter angle, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "creature",
+  "file": "img/mon/same.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Creature design: a cute \"shark\" creature — cute grey-blue shark with tiny teeth smile, white belly. It is the evolved form of the \"fish\" creature; keep the same colours and face. Full body, facing the viewer at a slight three-quarter angle, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "creature",
+  "file": "img/mon/kame.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Creature design: a cute \"turtle\" creature — green turtle with hexagon-pattern shell. Full body, facing the viewer at a slight three-quarter angle, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "creature",
+  "file": "img/mon/kurage.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Creature design: a cute \"jellyfish\" creature — translucent pink jellyfish dome with wavy tentacles. Full body, facing the viewer at a slight three-quarter angle, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "creature",
+  "file": "img/mon/kujira.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Creature design: a cute \"whale\" creature — big round blue whale with water spout on top. Full body, facing the viewer at a slight three-quarter angle, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "creature",
+  "file": "img/mon/fune.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Creature design: a cute \"boat\" creature — small wooden boat with white sail, face on hull. Full body, facing the viewer at a slight three-quarter angle, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "creature",
+  "file": "img/mon/suika.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Creature design: a cute \"watermelon\" creature — round green watermelon with dark stripes; a slice \"mouth\" shows red inside. Full body, facing the viewer at a slight three-quarter angle, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "creature",
+  "file": "img/mon/kaeru.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Creature design: a cute \"frog\" creature — green frog with big eyes on top, wide smile. Full body, facing the viewer at a slight three-quarter angle, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "creature",
+  "file": "img/mon/wani.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Creature design: a cute \"crocodile\" creature — green crocodile with long snout, bumpy back. Full body, facing the viewer at a slight three-quarter angle, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "creature",
+  "file": "img/mon/kumo.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Creature design: a cute \"cloud\" creature — fluffy white cloud body with face. Full body, facing the viewer at a slight three-quarter angle, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "creature",
+  "file": "img/mon/kaminari.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Creature design: a cute \"thunder\" creature — dark-grey storm cloud with lightning bolt tail and small drum. It is the evolved form of the \"cloud\" creature; keep the same colours and face. Full body, facing the viewer at a slight three-quarter angle, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "creature",
+  "file": "img/mon/niji.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Creature design: a cute \"rainbow\" creature — rainbow arch body with fluffy cloud feet at each end, face on arch. Full body, facing the viewer at a slight three-quarter angle, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "creature",
+  "file": "img/mon/ishi.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Creature design: a cute \"stone\" creature — small round grey pebble with face. Full body, facing the viewer at a slight three-quarter angle, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "creature",
+  "file": "img/mon/iwa.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Creature design: a cute \"rock\" creature — bigger rugged grey rock with moss patch and arms. It is the evolved form of the \"stone\" creature; keep the same colours and face. Full body, facing the viewer at a slight three-quarter angle, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "creature",
+  "file": "img/mon/yama.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Creature design: a cute \"mountain\" creature — mountain-shaped creature (Fuji-like) with snowy cap, little trees on its sides. It is the evolved form of the \"rock\" creature; keep the same colours and face. Full body, facing the viewer at a slight three-quarter angle, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "creature",
+  "file": "img/mon/yuki.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Creature design: a cute \"snow\" creature — round snowflake-like white fluffball with six small crystal points. Full body, facing the viewer at a slight three-quarter angle, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "creature",
+  "file": "img/mon/yukidaruma.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Creature design: a cute \"snowman\" creature — two-ball snowman with red bucket hat, scarf, stick arms. It is the evolved form of the \"snow\" creature; keep the same colours and face. Full body, facing the viewer at a slight three-quarter angle, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "creature",
+  "file": "img/mon/koori.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Creature design: a cute \"ice\" creature — translucent light-blue ice cube with face and shine. Full body, facing the viewer at a slight three-quarter angle, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "creature",
+  "file": "img/mon/sori.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Creature design: a cute \"sled\" creature — red wooden sled with face on front, curled runners. Full body, facing the viewer at a slight three-quarter angle, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "creature",
+  "file": "img/mon/mikan.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Creature design: a cute \"mandarin\" creature — orange mandarin with small green leaf, dimpled skin. Full body, facing the viewer at a slight three-quarter angle, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "creature",
+  "file": "img/mon/makura.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Creature design: a cute \"pillow\" creature — soft white/blue pillow with sleepy closed eyes and a nightcap. Full body, facing the viewer at a slight three-quarter angle, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "creature",
+  "file": "img/mon/tebukuro.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Creature design: a cute \"mitten\" creature — red knitted mitten with white cuff and snowflake pattern. Full body, facing the viewer at a slight three-quarter angle, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "creature",
+  "file": "img/mon/yakan.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Creature design: a cute \"kettle\" creature — round silver/teal kettle with spout, steam puff, handle on top. Full body, facing the viewer at a slight three-quarter angle, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "creature",
+  "file": "img/mon/mochi.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Creature design: a cute \"rice cake\" creature — soft white squishy round mochi blob, slightly flattened. Full body, facing the viewer at a slight three-quarter angle, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "creature",
+  "file": "img/mon/tori.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Creature design: a cute \"bird\" creature — small round blue bird with yellow beak, tiny wings. Full body, facing the viewer at a slight three-quarter angle, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "creature",
+  "file": "img/mon/tsuki.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Creature design: a cute \"moon\" creature — cream bunny hugging/riding a crescent moon. Full body, facing the viewer at a slight three-quarter angle, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "creature",
+  "file": "img/mon/mangetsu.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Creature design: a cute \"full moon\" creature — bunny inside a full glowing round moon with craters, star on cheek. It is the evolved form of the \"moon\" creature; keep the same colours and face. Full body, facing the viewer at a slight three-quarter angle, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "creature",
+  "file": "img/mon/hoshi.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Creature design: a cute \"star\" creature — chubby yellow five-point star with face. Full body, facing the viewer at a slight three-quarter angle, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "creature",
+  "file": "img/mon/obake.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Creature design: a cute \"ghost\" creature — white sheet ghost with wavy bottom, tongue out. Full body, facing the viewer at a slight three-quarter angle, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "creature",
+  "file": "img/mon/rousoku.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Creature design: a cute \"candle\" creature — cream candle with dripping wax, flame on top as hair. Full body, facing the viewer at a slight three-quarter angle, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "creature",
+  "file": "img/mon/chouchin.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Creature design: a cute \"lantern\" creature — red paper lantern with black top/bottom bands, eye and long tongue. Full body, facing the viewer at a slight three-quarter angle, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "creature",
+  "file": "img/mon/yoru.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Creature design: a cute \"night\" creature — dark navy blob with tiny stars inside its body and a crescent on head. Full body, facing the viewer at a slight three-quarter angle, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "creature",
+  "file": "img/mon/koumori.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Creature design: a cute \"bat\" creature — small dark-purple round bat with big wings and fangs. Full body, facing the viewer at a slight three-quarter angle, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "creature",
+  "file": "img/mon/ruri.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Creature design: a cute \"lapis gem\" creature — deep blue faceted gem creature with gold flecks, sparkles. Full body, facing the viewer at a slight three-quarter angle, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "creature",
+  "file": "img/mon/megane.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Creature design: a cute \"glasses\" creature — small round body wearing big round glasses that are its eyes. Full body, facing the viewer at a slight three-quarter angle, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "creature",
+  "file": "img/mon/enpitsu.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Creature design: a cute \"pencil\" creature — yellow pencil standing upright, pink eraser hat, sharpened tip feet. Full body, facing the viewer at a slight three-quarter angle, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "creature",
+  "file": "img/mon/rappa.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Creature design: a cute \"trumpet\" creature — gold trumpet curled into a creature, bell is its mouth. Full body, facing the viewer at a slight three-quarter angle, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "creature",
+  "file": "img/mon/tegami.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Creature design: a cute \"letter\" creature — white envelope with red heart seal, face on front. Full body, facing the viewer at a slight three-quarter angle, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "creature",
+  "file": "img/mon/hon.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Creature design: a cute \"book\" creature — red book standing, pages fluttering, face on cover. Full body, facing the viewer at a slight three-quarter angle, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "creature",
+  "file": "img/mon/hasami.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Creature design: a cute \"scissors\" creature — scissors with round pink handles as ears/eyes, blades as legs. Full body, facing the viewer at a slight three-quarter angle, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "creature",
+  "file": "img/mon/nuigurumi.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Creature design: a cute \"plush toy\" creature — stitched teddy bear plush with button eye and patch. Full body, facing the viewer at a slight three-quarter angle, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "creature",
+  "file": "img/mon/reizouko.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Creature design: a cute \"fridge\" creature — small white/mint fridge with two doors, magnets, face on top door. Full body, facing the viewer at a slight three-quarter angle, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "creature",
+  "file": "img/mon/densha.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Creature design: a cute \"train\" creature — a little cream-and-green Japanese commuter train engine with a friendly face on its front window, two short carriages behind and small round wheels. Full body, facing the viewer at a slight three-quarter angle, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "creature",
+  "file": "img/mon/shinkansen.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Creature design: a cute \"bullet train\" creature — sleek white bullet-train nose creature with blue stripe, speed lines. It is the evolved form of the \"train\" creature; keep the same colours and face. Full body, facing the viewer at a slight three-quarter angle, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "creature",
+  "file": "img/mon/kuruma.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Creature design: a cute \"car\" creature — round red toy car with headlight eyes, smiling grille. Full body, facing the viewer at a slight three-quarter angle, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "creature",
+  "file": "img/mon/hikouki.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Creature design: a cute \"airplane\" creature — chubby white airplane with face on nose, small wings. Full body, facing the viewer at a slight three-quarter angle, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "creature",
+  "file": "img/mon/jitensha.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Creature design: a cute \"bicycle\" creature — small green bicycle with basket, front wheel and bell, face on basket. Full body, facing the viewer at a slight three-quarter angle, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "creature",
+  "file": "img/mon/fuusen.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Creature design: a cute \"balloon\" creature — round red balloon with face and a curly string. Full body, facing the viewer at a slight three-quarter angle, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "creature",
+  "file": "img/mon/dango.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Creature design: a cute \"dumpling\" creature — three dango balls (pink, white, green) on a skewer, each with a face. Full body, facing the viewer at a slight three-quarter angle, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "creature",
+  "file": "img/mon/sushi.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Creature design: a cute \"sushi\" creature — nigiri sushi: white rice base with salmon slice on top as hair. Full body, facing the viewer at a slight three-quarter angle, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "creature",
+  "file": "img/mon/momo.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Creature design: a cute \"peach\" creature — pink peach with leaf, soft fuzzy blush. Full body, facing the viewer at a slight three-quarter angle, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "creature",
+  "file": "img/mon/budou.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Creature design: a cute \"grapes\" creature — bunch of purple grapes, the top grape has the face. Full body, facing the viewer at a slight three-quarter angle, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "creature",
+  "file": "img/mon/ninjin.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Creature design: a cute \"carrot\" creature — orange carrot with green leafy hair. Full body, facing the viewer at a slight three-quarter angle, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "creature",
+  "file": "img/mon/nori.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Creature design: a cute \"seaweed\" creature — square dark-green nori sheet floating like a little ghost, wavy edges. Full body, facing the viewer at a slight three-quarter angle, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "creature",
+  "file": "img/mon/gohan.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Creature design: a cute \"rice\" creature — rice bowl (red bowl with pattern) with fluffy white rice mound face. Full body, facing the viewer at a slight three-quarter angle, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "creature",
+  "file": "img/mon/zou.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Creature design: a cute \"elephant\" creature — grey-blue chibi elephant with big ears and trunk raised. Full body, facing the viewer at a slight three-quarter angle, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "creature",
+  "file": "img/mon/n.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Creature design: a cute \"the letter n\" creature — a majestic glowing white-and-gold spirit whose long curving body traces the shape of the hiragana ん, with a soft golden aura and sparkles; no letters or writing anywhere. A legendary, majestic but still cute final creature with a soft golden glow. Full body, facing the viewer at a slight three-quarter angle, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "battle",
+  "file": "img/bg/spring.jpg",
+  "aspect": "16:9",
+  "rgba": false,
+  "prompt": "An empty landscape with nobody in it, no people and no animals: a sunny meadow ringed by blossoming cherry trees, petals drifting, distant green hills and Mount Fuji. Wide backdrop, eye-level view across an open clearing; the lower half is open, even ground with nothing on it, the horizon sits a little above the middle, and the top corners are calm and simple. No platforms. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "battle",
+  "file": "img/bg/spring_pad.png",
+  "aspect": "2:1",
+  "rgba": true,
+  "prompt": "An empty round battle platform with nothing standing on it (soft grass disc with tiny flowers and a brown soil edge), seen from slightly above so it is a wide oval disc with a little visible side edge. It is an ordinary object, not a character: no face, no eyes, no people, no animals. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "battle",
+  "file": "img/bg/forest.jpg",
+  "aspect": "16:9",
+  "rgba": false,
+  "prompt": "An empty landscape with nobody in it, no people and no animals: a mossy forest clearing with tall cedar trees, ferns, little mushrooms and dappled sunlight. Wide backdrop, eye-level view across an open clearing; the lower half is open, even ground with nothing on it, the horizon sits a little above the middle, and the top corners are calm and simple. No platforms. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "battle",
+  "file": "img/bg/forest_pad.png",
+  "aspect": "2:1",
+  "rgba": true,
+  "prompt": "An empty round battle platform with nothing standing on it (mossy grass disc with clover and a soil edge), seen from slightly above so it is a wide oval disc with a little visible side edge. It is an ordinary object, not a character: no face, no eyes, no people, no animals. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "battle",
+  "file": "img/bg/beach.jpg",
+  "aspect": "16:9",
+  "rgba": false,
+  "prompt": "An empty landscape with nobody in it, no people and no animals: a Japanese seaside cove with soft sand, turquoise waves, smooth rocks, seashells and a small lighthouse far away. Wide backdrop, eye-level view across an open clearing; the lower half is open, even ground with nothing on it, the horizon sits a little above the middle, and the top corners are calm and simple. No platforms. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "battle",
+  "file": "img/bg/beach_pad.png",
+  "aspect": "2:1",
+  "rgba": true,
+  "prompt": "An empty round battle platform with nothing standing on it (smooth sand disc with a few shells), seen from slightly above so it is a wide oval disc with a little visible side edge. It is an ordinary object, not a character: no face, no eyes, no people, no animals. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "battle",
+  "file": "img/bg/mountain.jpg",
+  "aspect": "16:9",
+  "rgba": false,
+  "prompt": "An empty landscape with nobody in it, no people and no animals: a rocky mountain meadow with pine trees, alpine flowers and misty blue peaks. Wide backdrop, eye-level view across an open clearing; the lower half is open, even ground with nothing on it, the horizon sits a little above the middle, and the top corners are calm and simple. No platforms. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "battle",
+  "file": "img/bg/mountain_pad.png",
+  "aspect": "2:1",
+  "rgba": true,
+  "prompt": "An empty round battle platform with nothing standing on it (grass and flat stone disc with a rocky edge), seen from slightly above so it is a wide oval disc with a little visible side edge. It is an ordinary object, not a character: no face, no eyes, no people, no animals. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "battle",
+  "file": "img/bg/snow.jpg",
+  "aspect": "16:9",
+  "rgba": false,
+  "prompt": "An empty landscape with nobody in it, no people and no animals: a snowy clearing outside a mountain village, snow-covered pines, soft falling snow. Wide backdrop, eye-level view across an open clearing; the lower half is open, even ground with nothing on it, the horizon sits a little above the middle, and the top corners are calm and simple. No platforms. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "battle",
+  "file": "img/bg/snow_pad.png",
+  "aspect": "2:1",
+  "rgba": true,
+  "prompt": "An empty round battle platform with nothing standing on it (snowy disc with a packed-snow edge), seen from slightly above so it is a wide oval disc with a little visible side edge. It is an ordinary object, not a character: no face, no eyes, no people, no animals. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "battle",
+  "file": "img/bg/night.jpg",
+  "aspect": "16:9",
+  "rgba": false,
+  "prompt": "An empty landscape with nobody in it, no people and no animals: a grassy hilltop under a deep starry night sky with a big glowing moon, fireflies and silhouetted trees. Wide backdrop, eye-level view across an open clearing; the lower half is open, even ground with nothing on it, the horizon sits a little above the middle, and the top corners are calm and simple. No platforms. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "battle",
+  "file": "img/bg/night_pad.png",
+  "aspect": "2:1",
+  "rgba": true,
+  "prompt": "An empty round battle platform with nothing standing on it (dark grass disc with tiny glowing flowers), seen from slightly above so it is a wide oval disc with a little visible side edge. It is an ordinary object, not a character: no face, no eyes, no people, no animals. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "battle",
+  "file": "img/bg/castle.jpg",
+  "aspect": "16:9",
+  "rgba": false,
+  "prompt": "An empty landscape with nobody in it, no people and no animals: a Japanese castle courtyard with stone walls, a white castle keep, banners and cherry trees. Wide backdrop, eye-level view across an open clearing; the lower half is open, even ground with nothing on it, the horizon sits a little above the middle, and the top corners are calm and simple. No platforms. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "battle",
+  "file": "img/bg/castle_pad.png",
+  "aspect": "2:1",
+  "rgba": true,
+  "prompt": "An empty round battle platform with nothing standing on it (round stone-tiled disc with a stone edge), seen from slightly above so it is a wide oval disc with a little visible side edge. It is an ordinary object, not a character: no face, no eyes, no people, no animals. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "title",
+  "file": "img/bg/title.jpg",
+  "aspect": "16:9",
+  "rgba": false,
+  "prompt": "An empty landscape with nobody in it, no people and no animals: a sunny cherry-blossom park with a small red torii gate off to one side and Mount Fuji behind, open grass across the lower half, soft clouds in the upper third. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "room",
+  "file": "img/bg/in_home.jpg",
+  "aspect": "16:9",
+  "rgba": false,
+  "prompt": "An empty room interior with nobody in it, no people and no animals: a cozy Japanese family living room with tatami mats, a low table, a cabinet, sliding shoji doors and a window with potted plants. Eye-level view straight at the back wall; the centre of the picture is calm and uncluttered, and the floor across the lower third is open and empty. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "room",
+  "file": "img/bg/in_house.jpg",
+  "aspect": "16:9",
+  "rgba": false,
+  "prompt": "An empty room interior with nobody in it, no people and no animals: a cozy villager's home with tatami mats, a low table with a tea set, a wooden cabinet and a round window. Eye-level view straight at the back wall; the centre of the picture is calm and uncluttered, and the floor across the lower third is open and empty. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "room",
+  "file": "img/bg/in_lab.jpg",
+  "aspect": "16:9",
+  "rgba": false,
+  "prompt": "An empty room interior with nobody in it, no people and no animals: a friendly professor's research lab with tall bookshelves, glass jars, a big map on the wall, a computer and a round capsule machine. Eye-level view straight at the back wall; the centre of the picture is calm and uncluttered, and the floor across the lower third is open and empty. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "room",
+  "file": "img/bg/in_hospital.jpg",
+  "aspect": "16:9",
+  "rgba": false,
+  "prompt": "An empty room interior with nobody in it, no people and no animals: a bright village clinic with pink and white walls, a healing machine with glowing round pods, potted plants and soft lamps. Eye-level view straight at the back wall; the centre of the picture is calm and uncluttered, and the floor across the lower third is open and empty. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "room",
+  "file": "img/bg/in_shop.jpg",
+  "aspect": "16:9",
+  "rgba": false,
+  "prompt": "An empty room interior with nobody in it, no people and no animals: a cozy village shop with wooden shelves full of snacks, jars, baskets and colourful goods, lanterns overhead. Eye-level view straight at the back wall; the centre of the picture is calm and uncluttered, and the floor across the lower third is open and empty. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "room",
+  "file": "img/bg/in_dojo.jpg",
+  "aspect": "16:9",
+  "rgba": false,
+  "prompt": "An empty room interior with nobody in it, no people and no animals: a traditional wooden dojo hall with a polished wooden floor, wooden pillars, paper lanterns and a hanging scroll painting of a mountain. Eye-level view straight at the back wall; the centre of the picture is calm and uncluttered, and the floor across the lower third is open and empty. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "room",
+  "file": "img/bg/in_station.jpg",
+  "aspect": "16:9",
+  "rgba": false,
+  "prompt": "An empty room interior with nobody in it, no people and no animals: a small countryside train station waiting room with wooden benches, a ticket window, a big round clock and a window onto the platform. Eye-level view straight at the back wall; the centre of the picture is calm and uncluttered, and the floor across the lower third is open and empty. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "room",
+  "file": "img/bg/in_onsen.jpg",
+  "aspect": "16:9",
+  "rgba": false,
+  "prompt": "An empty room interior with nobody in it, no people and no animals: a hot-spring bathhouse lobby with warm wooden walls, a noren curtain over a doorway, steam drifting from a stone pool beyond. Eye-level view straight at the back wall; the centre of the picture is calm and uncluttered, and the floor across the lower third is open and empty. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "room",
+  "file": "img/bg/in_tower.jpg",
+  "aspect": "16:9",
+  "rgba": false,
+  "prompt": "An empty room interior with nobody in it, no people and no animals: inside a tall pagoda tower: red pillars, golden hanging lanterns, a wooden staircase going up and a hanging scroll painting. Eye-level view straight at the back wall; the centre of the picture is calm and uncluttered, and the floor across the lower third is open and empty. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "room",
+  "file": "img/bg/in_castle.jpg",
+  "aspect": "16:9",
+  "rgba": false,
+  "prompt": "An empty room interior with nobody in it, no people and no animals: a grand Japanese castle throne room with golden sliding doors painted with pine trees, a tatami floor and red pillars. Eye-level view straight at the back wall; the centre of the picture is calm and uncluttered, and the floor across the lower third is open and empty. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "room",
+  "file": "img/bg/in_observatory.jpg",
+  "aspect": "16:9",
+  "rgba": false,
+  "prompt": "An empty room interior with nobody in it, no people and no animals: an observatory room with a big brass telescope pointing through the open dome at a starry night sky, star charts on the walls. Eye-level view straight at the back wall; the centre of the picture is calm and uncluttered, and the floor across the lower third is open and empty. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "portrait",
+  "file": "img/people/player.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Head-and-shoulders bust portrait of a cheerful 7-year-old Japanese boy in a yellow round school hat and a teal-green hoodie with a red bag strap across his chest. Only the head, shoulders and upper chest are shown; the picture is cut off at mid-chest, so legs and shoes are not visible. Facing slightly to the right, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "portrait",
+  "file": "img/people/sora.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Head-and-shoulders bust portrait of the rival, a confident kid with spiky navy-blue hair, a red t-shirt and dark trousers, big grin. Only the head, shoulders and upper chest are shown; the picture is cut off at mid-chest, so legs and shoes are not visible. Facing slightly to the right, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "portrait",
+  "file": "img/people/professor.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Head-and-shoulders bust portrait of a kind grandfatherly professor with white hair, round glasses and a white lab coat over a green sweater. Only the head, shoulders and upper chest are shown; the picture is cut off at mid-chest, so legs and shoes are not visible. Facing slightly to the right, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "portrait",
+  "file": "img/people/mom.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Head-and-shoulders bust portrait of a warm young mother with a brown ponytail and an apron. Only the head, shoulders and upper chest are shown; the picture is cut off at mid-chest, so legs and shoes are not visible. Facing slightly to the right, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "portrait",
+  "file": "img/people/nurse.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Head-and-shoulders bust portrait of a gentle nurse with a pink cap and a pink uniform. Only the head, shoulders and upper chest are shown; the picture is cut off at mid-chest, so legs and shoes are not visible. Facing slightly to the right, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "portrait",
+  "file": "img/people/shopkeeper.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Head-and-shoulders bust portrait of a smiling shopkeeper with a headband and a blue happi coat. Only the head, shoulders and upper chest are shown; the picture is cut off at mid-chest, so legs and shoes are not visible. Facing slightly to the right, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "portrait",
+  "file": "img/people/fox.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Head-and-shoulders bust portrait of a small white fox spirit with red markings and a floating blue flame, mysterious but friendly. Only the head, shoulders and upper chest are shown; the picture is cut off at mid-chest, so legs and shoes are not visible. Facing slightly to the right, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "portrait",
+  "file": "img/people/stationmaster.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Head-and-shoulders bust portrait of a cheerful train station master in a green uniform and cap. Only the head, shoulders and upper chest are shown; the picture is cut off at mid-chest, so legs and shoes are not visible. Facing slightly to the right, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "portrait",
+  "file": "img/people/m1.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Head-and-shoulders bust portrait of the cherry-blossom village teacher: an adult with long dark brown hair, wearing a pink top and plum trousers. Only the head, shoulders and upper chest are shown; the picture is cut off at mid-chest, so legs and shoes are not visible. Facing slightly to the right, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "portrait",
+  "file": "img/people/m2.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Head-and-shoulders bust portrait of the wise forest-town teacher: an older person with silver-grey hair in a bun, wearing a green top and chestnut brown trousers. Only the head, shoulders and upper chest are shown; the picture is cut off at mid-chest, so legs and shoes are not visible. Facing slightly to the right, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "portrait",
+  "file": "img/people/m3.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Head-and-shoulders bust portrait of the sea-town teacher, sporty: an adult with short dark brown hair, wearing a blue top and white trousers and a hat. Only the head, shoulders and upper chest are shown; the picture is cut off at mid-chest, so legs and shoes are not visible. Facing slightly to the right, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "portrait",
+  "file": "img/people/m4.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Head-and-shoulders bust portrait of the mountain-town teacher, outdoorsy: an adult with short chestnut brown hair, wearing a pale blue top and slate trousers and a hat. Only the head, shoulders and upper chest are shown; the picture is cut off at mid-chest, so legs and shoes are not visible. Facing slightly to the right, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "portrait",
+  "file": "img/people/m5.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Head-and-shoulders bust portrait of the star-hill teacher, dreamy: an adult with long lavender hair, wearing a deep purple top and black trousers. Only the head, shoulders and upper chest are shown; the picture is cut off at mid-chest, so legs and shoes are not visible. Facing slightly to the right, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "portrait",
+  "file": "img/people/m6.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Head-and-shoulders bust portrait of the Kana King, the final teacher who lives in the castle: an older person with a bald head and a long white beard, wearing a gold top and maroon trousers and a small golden crown. Only the head, shoulders and upper chest are shown; the picture is cut off at mid-chest, so legs and shoes are not visible. Facing slightly to the right, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "portrait",
+  "file": "img/people/girl.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Head-and-shoulders bust portrait of a friendly villager (girl). Only the head, shoulders and upper chest are shown; the picture is cut off at mid-chest, so legs and shoes are not visible. Facing slightly to the right, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "portrait",
+  "file": "img/people/boy.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Head-and-shoulders bust portrait of a friendly villager (boy). Only the head, shoulders and upper chest are shown; the picture is cut off at mid-chest, so legs and shoes are not visible. Facing slightly to the right, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "portrait",
+  "file": "img/people/boy2.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Head-and-shoulders bust portrait of a friendly villager (boy). Only the head, shoulders and upper chest are shown; the picture is cut off at mid-chest, so legs and shoes are not visible. Facing slightly to the right, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "portrait",
+  "file": "img/people/girl2.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Head-and-shoulders bust portrait of a friendly villager (girl). Only the head, shoulders and upper chest are shown; the picture is cut off at mid-chest, so legs and shoes are not visible. Facing slightly to the right, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "portrait",
+  "file": "img/people/woman.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Head-and-shoulders bust portrait of a friendly villager (woman). Only the head, shoulders and upper chest are shown; the picture is cut off at mid-chest, so legs and shoes are not visible. Facing slightly to the right, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "portrait",
+  "file": "img/people/woman2.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Head-and-shoulders bust portrait of a friendly villager (woman). Only the head, shoulders and upper chest are shown; the picture is cut off at mid-chest, so legs and shoes are not visible. Facing slightly to the right, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "portrait",
+  "file": "img/people/man.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Head-and-shoulders bust portrait of a friendly villager (man). Only the head, shoulders and upper chest are shown; the picture is cut off at mid-chest, so legs and shoes are not visible. Facing slightly to the right, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "portrait",
+  "file": "img/people/man2.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Head-and-shoulders bust portrait of a friendly villager (man). Only the head, shoulders and upper chest are shown; the picture is cut off at mid-chest, so legs and shoes are not visible. Facing slightly to the right, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "portrait",
+  "file": "img/people/grandpa.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Head-and-shoulders bust portrait of a friendly villager (grandpa). Only the head, shoulders and upper chest are shown; the picture is cut off at mid-chest, so legs and shoes are not visible. Facing slightly to the right, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "portrait",
+  "file": "img/people/grandma.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Head-and-shoulders bust portrait of a friendly villager (grandma). Only the head, shoulders and upper chest are shown; the picture is cut off at mid-chest, so legs and shoes are not visible. Facing slightly to the right, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "portrait",
+  "file": "img/people/guard.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Head-and-shoulders bust portrait of a friendly villager (guard). Only the head, shoulders and upper chest are shown; the picture is cut off at mid-chest, so legs and shoes are not visible. Facing slightly to the right, friendly expression. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "sprite",
+  "file": "img/sprites/player_front.png",
+  "aspect": "3:4",
+  "rgba": true,
+  "prompt": "Small chibi game sprite (head about a third of the height), seen from a high three-quarter top-down camera as in classic handheld RPG town maps. a cheerful 7-year-old Japanese boy in a yellow round school hat, teal-green hoodie, red messenger bag, brown cargo shorts and red sneakers, standing and facing the camera. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "sprite",
+  "file": "img/sprites/player_back.png",
+  "aspect": "3:4",
+  "rgba": true,
+  "prompt": "Small chibi game sprite (head about a third of the height), seen from a high three-quarter top-down camera as in classic handheld RPG town maps. a cheerful 7-year-old Japanese boy in a yellow round school hat, teal-green hoodie, red messenger bag, brown cargo shorts and red sneakers, back view: he is walking away from the camera, so we see the back of his yellow hat, the back of his teal hoodie and his red bag; his face is hidden. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "sprite",
+  "file": "img/sprites/player_side.png",
+  "aspect": "3:4",
+  "rgba": true,
+  "prompt": "Small chibi game sprite (head about a third of the height), seen from a high three-quarter top-down camera as in classic handheld RPG town maps. a cheerful 7-year-old Japanese boy in a yellow round school hat, teal-green hoodie, red messenger bag, brown cargo shorts and red sneakers, side view: he is walking to the right, seen exactly from his left side in profile, only one eye visible. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "sprite",
+  "file": "img/sprites/sora_front.png",
+  "aspect": "3:4",
+  "rgba": true,
+  "prompt": "Small chibi game sprite (head about a third of the height), seen from a high three-quarter top-down camera as in classic handheld RPG town maps. the rival, a confident kid with spiky navy-blue hair, a red t-shirt and dark trousers, big grin, standing and facing the camera. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "sprite",
+  "file": "img/sprites/professor_front.png",
+  "aspect": "3:4",
+  "rgba": true,
+  "prompt": "Small chibi game sprite (head about a third of the height), seen from a high three-quarter top-down camera as in classic handheld RPG town maps. a kind grandfatherly professor with white hair, round glasses and a white lab coat over a green sweater, standing and facing the camera. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "sprite",
+  "file": "img/sprites/mom_front.png",
+  "aspect": "3:4",
+  "rgba": true,
+  "prompt": "Small chibi game sprite (head about a third of the height), seen from a high three-quarter top-down camera as in classic handheld RPG town maps. a warm young mother with a brown ponytail and an apron, standing and facing the camera. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "sprite",
+  "file": "img/sprites/nurse_front.png",
+  "aspect": "3:4",
+  "rgba": true,
+  "prompt": "Small chibi game sprite (head about a third of the height), seen from a high three-quarter top-down camera as in classic handheld RPG town maps. a gentle nurse with a pink cap and a pink uniform, standing and facing the camera. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "sprite",
+  "file": "img/sprites/shopkeeper_front.png",
+  "aspect": "3:4",
+  "rgba": true,
+  "prompt": "Small chibi game sprite (head about a third of the height), seen from a high three-quarter top-down camera as in classic handheld RPG town maps. a smiling shopkeeper with a headband and a blue happi coat, standing and facing the camera. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "sprite",
+  "file": "img/sprites/fox_front.png",
+  "aspect": "3:4",
+  "rgba": true,
+  "prompt": "Small chibi game sprite (head about a third of the height), seen from a high three-quarter top-down camera as in classic handheld RPG town maps. a small white fox spirit with red markings and a floating blue flame, mysterious but friendly, standing and facing the camera. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "sprite",
+  "file": "img/sprites/stationmaster_front.png",
+  "aspect": "3:4",
+  "rgba": true,
+  "prompt": "Small chibi game sprite (head about a third of the height), seen from a high three-quarter top-down camera as in classic handheld RPG town maps. a cheerful train station master in a green uniform and cap, standing and facing the camera. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "sprite",
+  "file": "img/sprites/m1_front.png",
+  "aspect": "3:4",
+  "rgba": true,
+  "prompt": "Small chibi game sprite (head about a third of the height), seen from a high three-quarter top-down camera as in classic handheld RPG town maps. the cherry-blossom village teacher: an adult with long dark brown hair, wearing a pink top and plum trousers, standing and facing the camera. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "sprite",
+  "file": "img/sprites/m2_front.png",
+  "aspect": "3:4",
+  "rgba": true,
+  "prompt": "Small chibi game sprite (head about a third of the height), seen from a high three-quarter top-down camera as in classic handheld RPG town maps. the wise forest-town teacher: an older person with silver-grey hair in a bun, wearing a green top and chestnut brown trousers, standing and facing the camera. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "sprite",
+  "file": "img/sprites/m3_front.png",
+  "aspect": "3:4",
+  "rgba": true,
+  "prompt": "Small chibi game sprite (head about a third of the height), seen from a high three-quarter top-down camera as in classic handheld RPG town maps. the sea-town teacher, sporty: an adult with short dark brown hair, wearing a blue top and white trousers and a hat, standing and facing the camera. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "sprite",
+  "file": "img/sprites/m4_front.png",
+  "aspect": "3:4",
+  "rgba": true,
+  "prompt": "Small chibi game sprite (head about a third of the height), seen from a high three-quarter top-down camera as in classic handheld RPG town maps. the mountain-town teacher, outdoorsy: an adult with short chestnut brown hair, wearing a pale blue top and slate trousers and a hat, standing and facing the camera. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "sprite",
+  "file": "img/sprites/m5_front.png",
+  "aspect": "3:4",
+  "rgba": true,
+  "prompt": "Small chibi game sprite (head about a third of the height), seen from a high three-quarter top-down camera as in classic handheld RPG town maps. the star-hill teacher, dreamy: an adult with long lavender hair, wearing a deep purple top and black trousers, standing and facing the camera. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "sprite",
+  "file": "img/sprites/m6_front.png",
+  "aspect": "3:4",
+  "rgba": true,
+  "prompt": "Small chibi game sprite (head about a third of the height), seen from a high three-quarter top-down camera as in classic handheld RPG town maps. the Kana King, the final teacher who lives in the castle: an older person with a bald head and a long white beard, wearing a gold top and maroon trousers and a small golden crown, standing and facing the camera. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "sprite",
+  "file": "img/sprites/girl_front.png",
+  "aspect": "3:4",
+  "rgba": true,
+  "prompt": "Small chibi game sprite (head about a third of the height), seen from a high three-quarter top-down camera as in classic handheld RPG town maps. a friendly villager (girl), standing and facing the camera. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "sprite",
+  "file": "img/sprites/boy_front.png",
+  "aspect": "3:4",
+  "rgba": true,
+  "prompt": "Small chibi game sprite (head about a third of the height), seen from a high three-quarter top-down camera as in classic handheld RPG town maps. a friendly villager (boy), standing and facing the camera. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "sprite",
+  "file": "img/sprites/boy2_front.png",
+  "aspect": "3:4",
+  "rgba": true,
+  "prompt": "Small chibi game sprite (head about a third of the height), seen from a high three-quarter top-down camera as in classic handheld RPG town maps. a friendly villager (boy), standing and facing the camera. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "sprite",
+  "file": "img/sprites/girl2_front.png",
+  "aspect": "3:4",
+  "rgba": true,
+  "prompt": "Small chibi game sprite (head about a third of the height), seen from a high three-quarter top-down camera as in classic handheld RPG town maps. a friendly villager (girl), standing and facing the camera. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "sprite",
+  "file": "img/sprites/woman_front.png",
+  "aspect": "3:4",
+  "rgba": true,
+  "prompt": "Small chibi game sprite (head about a third of the height), seen from a high three-quarter top-down camera as in classic handheld RPG town maps. a friendly villager (woman), standing and facing the camera. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "sprite",
+  "file": "img/sprites/woman2_front.png",
+  "aspect": "3:4",
+  "rgba": true,
+  "prompt": "Small chibi game sprite (head about a third of the height), seen from a high three-quarter top-down camera as in classic handheld RPG town maps. a friendly villager (woman), standing and facing the camera. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "sprite",
+  "file": "img/sprites/man_front.png",
+  "aspect": "3:4",
+  "rgba": true,
+  "prompt": "Small chibi game sprite (head about a third of the height), seen from a high three-quarter top-down camera as in classic handheld RPG town maps. a friendly villager (man), standing and facing the camera. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "sprite",
+  "file": "img/sprites/man2_front.png",
+  "aspect": "3:4",
+  "rgba": true,
+  "prompt": "Small chibi game sprite (head about a third of the height), seen from a high three-quarter top-down camera as in classic handheld RPG town maps. a friendly villager (man), standing and facing the camera. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "sprite",
+  "file": "img/sprites/grandpa_front.png",
+  "aspect": "3:4",
+  "rgba": true,
+  "prompt": "Small chibi game sprite (head about a third of the height), seen from a high three-quarter top-down camera as in classic handheld RPG town maps. a friendly villager (grandpa), standing and facing the camera. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "sprite",
+  "file": "img/sprites/grandma_front.png",
+  "aspect": "3:4",
+  "rgba": true,
+  "prompt": "Small chibi game sprite (head about a third of the height), seen from a high three-quarter top-down camera as in classic handheld RPG town maps. a friendly villager (grandma), standing and facing the camera. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "sprite",
+  "file": "img/sprites/guard_front.png",
+  "aspect": "3:4",
+  "rgba": true,
+  "prompt": "Small chibi game sprite (head about a third of the height), seen from a high three-quarter top-down camera as in classic handheld RPG town maps. a friendly villager (guard), standing and facing the camera. Big glossy eyes with two highlights and rosy blush. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "building",
+  "file": "img/build/home.png",
+  "aspect": "4:4",
+  "rgba": true,
+  "prompt": "Single game building sprite: the player's family home: a two-room Japanese house with a dark kawara tile roof, white plaster walls, wooden beams and a sliding door. High three-quarter top-down view as in classic handheld RPG town maps, front facing straight down (not at a diagonal), roof and front wall both visible, entrance at the bottom centre. It stands on a thin strip of ground only; no hill, no grass island. It is an ordinary object, not a character: no face, no eyes, no people, no animals. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "building",
+  "file": "img/build/house.png",
+  "aspect": "4:4",
+  "rgba": true,
+  "prompt": "Single game building sprite: a traditional Japanese village house with a grey kawara tile roof, wooden walls, a sliding door and a few potted plants by the door. High three-quarter top-down view as in classic handheld RPG town maps, front facing straight down (not at a diagonal), roof and front wall both visible, entrance at the bottom centre. It stands on a thin strip of ground only; no hill, no grass island. It is an ordinary object, not a character: no face, no eyes, no people, no animals. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "building",
+  "file": "img/build/lab.png",
+  "aspect": "5:4",
+  "rgba": true,
+  "prompt": "Single game building sprite: the professor's research lab: a larger Japanese building with a green tile roof, round window and a small satellite dish. High three-quarter top-down view as in classic handheld RPG town maps, front facing straight down (not at a diagonal), roof and front wall both visible, entrance at the bottom centre. It stands on a thin strip of ground only; no hill, no grass island. It is an ordinary object, not a character: no face, no eyes, no people, no animals. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "building",
+  "file": "img/build/shop.png",
+  "aspect": "4:4",
+  "rgba": true,
+  "prompt": "Single game building sprite: a small village shop with a blue noren curtain over the door, an awning, crates of fruit outside and a blank wooden signboard. High three-quarter top-down view as in classic handheld RPG town maps, front facing straight down (not at a diagonal), roof and front wall both visible, entrance at the bottom centre. It stands on a thin strip of ground only; no hill, no grass island. It is an ordinary object, not a character: no face, no eyes, no people, no animals. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "building",
+  "file": "img/build/hospital.png",
+  "aspect": "4:4",
+  "rgba": true,
+  "prompt": "Single game building sprite: a friendly village clinic with a pink tile roof, white walls and a blank round sign. High three-quarter top-down view as in classic handheld RPG town maps, front facing straight down (not at a diagonal), roof and front wall both visible, entrance at the bottom centre. It stands on a thin strip of ground only; no hill, no grass island. It is an ordinary object, not a character: no face, no eyes, no people, no animals. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "building",
+  "file": "img/build/dojo.png",
+  "aspect": "5:5",
+  "rgba": true,
+  "prompt": "Single game building sprite: a traditional wooden dojo with a big curved tile roof, wide steps and paper lanterns. High three-quarter top-down view as in classic handheld RPG town maps, front facing straight down (not at a diagonal), roof and front wall both visible, entrance at the bottom centre. It stands on a thin strip of ground only; no hill, no grass island. It is an ordinary object, not a character: no face, no eyes, no people, no animals. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "building",
+  "file": "img/build/station.png",
+  "aspect": "6:4",
+  "rgba": true,
+  "prompt": "Single game building sprite: a small countryside train station with a platform roof, a bench and a clock. High three-quarter top-down view as in classic handheld RPG town maps, front facing straight down (not at a diagonal), roof and front wall both visible, entrance at the bottom centre. It stands on a thin strip of ground only; no hill, no grass island. It is an ordinary object, not a character: no face, no eyes, no people, no animals. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "building",
+  "file": "img/build/onsen.png",
+  "aspect": "5:4",
+  "rgba": true,
+  "prompt": "Single game building sprite: a hot-spring bathhouse with a wooden roof, steam rising and a blank noren curtain. High three-quarter top-down view as in classic handheld RPG town maps, front facing straight down (not at a diagonal), roof and front wall both visible, entrance at the bottom centre. It stands on a thin strip of ground only; no hill, no grass island. It is an ordinary object, not a character: no face, no eyes, no people, no animals. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "building",
+  "file": "img/build/observatory.png",
+  "aspect": "5:5",
+  "rgba": true,
+  "prompt": "Single game building sprite: a small observatory: a round white dome on a short round wooden building with a door. High three-quarter top-down view as in classic handheld RPG town maps, front facing straight down (not at a diagonal), roof and front wall both visible, entrance at the bottom centre. It stands on a thin strip of ground only; no hill, no grass island. It is an ordinary object, not a character: no face, no eyes, no people, no animals. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "building",
+  "file": "img/build/castle.png",
+  "aspect": "9:6",
+  "rgba": true,
+  "prompt": "Single game building sprite: a grand Japanese castle keep with white walls, layered dark roofs with gold trim, on a stone base. High three-quarter top-down view as in classic handheld RPG town maps, front facing straight down (not at a diagonal), roof and front wall both visible, entrance at the bottom centre. It stands on a thin strip of ground only; no hill, no grass island. It is an ordinary object, not a character: no face, no eyes, no people, no animals. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "building",
+  "file": "img/build/tower.png",
+  "aspect": "4:6",
+  "rgba": true,
+  "prompt": "Single game building sprite: a tall five-storey pagoda tower with red pillars and dark roofs. High three-quarter top-down view as in classic handheld RPG town maps, front facing straight down (not at a diagonal), roof and front wall both visible, entrance at the bottom centre. It stands on a thin strip of ground only; no hill, no grass island. It is an ordinary object, not a character: no face, no eyes, no people, no animals. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "prop",
+  "file": "img/props/sakura.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Single game map prop: a round blossoming cherry tree, high three-quarter top-down view as in classic handheld RPG town maps. Just the object itself with no ground under it: no base, no pedestal, no grass disc. It is an ordinary object, not a character: no face, no eyes, no people, no animals. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "prop",
+  "file": "img/props/tree.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Single game map prop: a round leafy green tree, high three-quarter top-down view as in classic handheld RPG town maps. Just the object itself with no ground under it: no base, no pedestal, no grass disc. It is an ordinary object, not a character: no face, no eyes, no people, no animals. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "prop",
+  "file": "img/props/pine.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Single game map prop: a Japanese black pine tree, high three-quarter top-down view as in classic handheld RPG town maps. Just the object itself with no ground under it: no base, no pedestal, no grass disc. It is an ordinary object, not a character: no face, no eyes, no people, no animals. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "prop",
+  "file": "img/props/snowpine.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Single game map prop: a snow-covered pine tree, high three-quarter top-down view as in classic handheld RPG town maps. Just the object itself with no ground under it: no base, no pedestal, no grass disc. It is an ordinary object, not a character: no face, no eyes, no people, no animals. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "prop",
+  "file": "img/props/bush.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Single game map prop: a small round bush, high three-quarter top-down view as in classic handheld RPG town maps. Just the object itself with no ground under it: no base, no pedestal, no grass disc. It is an ordinary object, not a character: no face, no eyes, no people, no animals. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "prop",
+  "file": "img/props/rock.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Single game map prop: a mossy grey boulder, high three-quarter top-down view as in classic handheld RPG town maps. Just the object itself with no ground under it: no base, no pedestal, no grass disc. It is an ordinary object, not a character: no face, no eyes, no people, no animals. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "prop",
+  "file": "img/props/lantern.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Single game map prop: a stone tōrō lantern, high three-quarter top-down view as in classic handheld RPG town maps. Just the object itself with no ground under it: no base, no pedestal, no grass disc. It is an ordinary object, not a character: no face, no eyes, no people, no animals. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "prop",
+  "file": "img/props/torii.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Single game map prop: a red torii gate, high three-quarter top-down view as in classic handheld RPG town maps. Just the object itself with no ground under it: no base, no pedestal, no grass disc. It is an ordinary object, not a character: no face, no eyes, no people, no animals. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "prop",
+  "file": "img/props/sign.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Single game map prop: a wooden signpost with a blank board, high three-quarter top-down view as in classic handheld RPG town maps. Just the object itself with no ground under it: no base, no pedestal, no grass disc. It is an ordinary object, not a character: no face, no eyes, no people, no animals. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "prop",
+  "file": "img/props/chest.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Single game map prop: a small wooden treasure chest with gold trim, high three-quarter top-down view as in classic handheld RPG town maps. Just the object itself with no ground under it: no base, no pedestal, no grass disc. It is an ordinary object, not a character: no face, no eyes, no people, no animals. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "prop",
+  "file": "img/props/flowers.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Single game map prop: a patch of colourful flowers, high three-quarter top-down view as in classic handheld RPG town maps. Just the plants itself with no ground under it: no base, no pedestal, no grass disc. It is an ordinary object, not a character: no face, no eyes, no people, no animals. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ },
+ {
+  "group": "prop",
+  "file": "img/props/grass.png",
+  "aspect": "1:1",
+  "rgba": true,
+  "prompt": "Single game map prop: a clump of tall wild grass, high three-quarter top-down view as in classic handheld RPG town maps. Just the plants itself with no ground under it: no base, no pedestal, no grass disc. It is an ordinary object, not a character: no face, no eyes, no people, no animals. Single subject, no ground shadow, no scenery, whole subject visible with a small margin. Soft painted anime storybook illustration for a cozy Japanese kids' game: gentle cel shading with soft gradients, warm brown line art, pastel colours, warm afternoon light, rounded friendly shapes. Clean, cute, detailed. No text, no letters, no watermark."
+ }
+]

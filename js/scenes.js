@@ -9,6 +9,7 @@ import { battle } from './battle.js';
 import { overlay, closeOverlay, dialog, choose, yesNo, toast, onTap, $, $$, sleep, esc, en, askQuestion, celebrate, kanaKeyboard, picHtml } from './ui.js';
 import { say, sfx, music, jingle } from './audio.js';
 import { portraitUrl } from './art/people.js';
+import { painted } from './art/painted.js';
 import { monTag, monUrl } from './art/creatures.js';
 import { catchCard } from './screens/card.js';
 import { lesson } from './screens/lesson.js';
@@ -23,12 +24,12 @@ const TITLES = {
   dojo: ['どうじょう', 'Dojo'], house: ['いえ', 'House'], station: ['えき', 'Station'], onsen: ['おんせん', 'Hot spring'], tower: ['かなの とう', 'Kana Tower'],
 };
 const HOST = {
-  home: { look: { kind: 'adult', hair: '#5a3220', hairStyle: 'bun', shirt: '#ffb26b', pants: '#6b4f8a' }, name: 'おかあさん' },
-  lab: { look: { kind: 'old', hair: '#eeeeee', hairStyle: 'bald', shirt: '#ffffff', pants: '#5b6b8a' }, name: 'ことば はかせ' },
-  hospital: { look: { kind: 'adult', hair: '#c45c7a', hairStyle: 'bun', shirt: '#ffc2d6', pants: '#ffffff', hat: '#ffffff' }, name: 'かんごしさん' },
-  shop: { look: { kind: 'adult', hair: '#2b1d16', hairStyle: 'short', shirt: '#3f8fe0', pants: '#2f3b55' }, name: 'てんいんさん' },
-  station: { look: { kind: 'adult', hair: '#2b1d16', hairStyle: 'short', shirt: '#2c7d61', pants: '#1f3b30', hat: '#2c7d61' }, name: 'えきいんさん' },
-  onsen: { look: { kind: 'old', hair: '#dcdcdc', hairStyle: 'bun', shirt: '#7a5a9e', pants: '#5e4580' }, name: 'おばあさん' },
+  home: { look: { pid: 'mom', kind: 'adult', hair: '#5a3220', hairStyle: 'bun', shirt: '#ffb26b', pants: '#6b4f8a' }, name: 'おかあさん' },
+  lab: { look: { pid: 'professor', kind: 'old', hair: '#eeeeee', hairStyle: 'bald', shirt: '#ffffff', pants: '#5b6b8a' }, name: 'ことば はかせ' },
+  hospital: { look: { pid: 'nurse', kind: 'adult', hair: '#c45c7a', hairStyle: 'bun', shirt: '#ffc2d6', pants: '#ffffff', hat: '#ffffff' }, name: 'かんごしさん' },
+  shop: { look: { pid: 'shopkeeper', kind: 'adult', hair: '#2b1d16', hairStyle: 'short', shirt: '#3f8fe0', pants: '#2f3b55' }, name: 'てんいんさん' },
+  station: { look: { pid: 'stationmaster', kind: 'adult', hair: '#2b1d16', hairStyle: 'short', shirt: '#2c7d61', pants: '#1f3b30', hat: '#2c7d61' }, name: 'えきいんさん' },
+  onsen: { look: { pid: 'grandma', kind: 'old', hair: '#dcdcdc', hairStyle: 'bun', shirt: '#7a5a9e', pants: '#5e4580' }, name: 'おばあさん' },
   tower: { look: LOOK.man, name: 'とうの ばんにん' },
 };
 
@@ -38,9 +39,12 @@ const DECO = {
   station: ['🚃', '🕰️', '🗺️', '🎫', '🚄'], onsen: ['🎋', '🧺', '♨️', '🪣', '🎋'], tower: ['🏮', '⚔️', '🗼', '⚔️', '🏮'],
 };
 
-function sceneShell(kind, title, host) {
+// room: which painted backdrop to use when it differs from kind (the dojo scene also serves the castle and observatory).
+function sceneShell(kind, title, host, room = kind) {
   const [ja, e] = title || TITLES[kind] || TITLES.house;
-  return overlay(`<div class="scene kind-${kind}">
+  const bg = painted('bg/in_' + room);
+  return overlay(`<div class="scene kind-${kind}${bg ? ' painted' : ''}">
+    ${bg ? `<img class="sc-paint" src="${bg}" alt="">` : ''}
     <div class="sc-wall"><div class="sc-window"></div><div class="sc-shelf">${(DECO[kind] || DECO.house).map(d => `<span>${d}</span>`).join('')}</div><div class="sc-window"></div></div>
     <div class="sc-title">${esc(ja)}${en(e)}</div>
     <div class="sc-room"><div class="sc-host">${host ? `<img src="${portraitUrl(host, 220)}" alt="">` : ''}</div><div class="sc-counter"></div></div>
@@ -212,7 +216,8 @@ async function shop() {
 // ── dojo: teachers ────────────────────────────────────────
 async function dojo(b) {
   const s = st(), M = MASTERS[b.master];
-  const o = sceneShell('dojo', b.master === 'm6' ? ['かなの しろ', 'Kana Castle'] : b.master === 'm5' ? ['てんもんだい', 'Observatory'] : null, M.look);
+  const o = sceneShell('dojo', b.master === 'm6' ? ['かなの しろ', 'Kana Castle'] : b.master === 'm5' ? ['てんもんだい', 'Observatory'] : null, M.look,
+    b.master === 'm6' ? 'castle' : b.master === 'm5' ? 'observatory' : 'dojo');
   const who = M.name;
   const beaten = s.badges.includes(b.master);
   if (!s.party.length) { await dialog(said([STORY.extra[7]], who)); return exitScene(o); }

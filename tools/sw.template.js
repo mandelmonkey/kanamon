@@ -12,11 +12,13 @@ self.addEventListener('activate', (e) => {
   e.waitUntil((async () => {
     const keys = await caches.keys();
     const old = keys.filter(k => k.startsWith('kanamon-') && k !== CACHE);
-    // carry over audio from the previous version so it isn't downloaded again
+    // carry over audio and images this version still lists, so they aren't downloaded again
+    // (image URLs carry a content hash, so a repainted image has a new URL and is fetched fresh)
     const c = await caches.open(CACHE);
+    const keep = new Set(AUDIO.filter(f => !f.endsWith('manifest.json')).map(f => new URL(f, location).href));
     for (const k of old) {
       const prev = await caches.open(k);
-      for (const req of await prev.keys()) if (/\/audio\//.test(req.url) && !(await c.match(req))) await c.put(req, await prev.match(req));
+      for (const req of await prev.keys()) if (keep.has(req.url) && !(await c.match(req))) await c.put(req, await prev.match(req));
       await caches.delete(k);
     }
     await self.clients.claim();
@@ -37,7 +39,7 @@ self.addEventListener('fetch', (e) => {
   const sameOrigin = url.origin === location.origin;
   const font = /fonts\.(googleapis|gstatic)\.com$/.test(url.hostname);
   if (!sameOrigin && !font) return;
-  const isAudio = sameOrigin && url.pathname.includes('/audio/') && !url.pathname.endsWith('manifest.json');
+  const isAudio = sameOrigin && /\/(audio|img)\//.test(url.pathname) && !url.pathname.endsWith('manifest.json');
   if (sameOrigin && !isAudio) {
     // code & pages: network first so updates arrive automatically, cache when offline
     e.respondWith(fetch(req).then(r => {
@@ -47,7 +49,7 @@ self.addEventListener('fetch', (e) => {
     return;
   }
   // audio & fonts: cache first
-  e.respondWith(caches.match(req, { ignoreSearch: sameOrigin }).then(hit => hit || fetch(req).then(r => {
+  e.respondWith(caches.match(req, { ignoreSearch: sameOrigin && !url.pathname.includes('/img/') }).then(hit => hit || fetch(req).then(r => {
     if (r.ok || r.type === 'opaque') { const cl = r.clone(); caches.open(CACHE).then(c => c.put(req, cl)); }
     return r;
   })));

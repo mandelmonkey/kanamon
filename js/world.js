@@ -148,7 +148,8 @@ export function interactFacing() {
   const p = W.player, [dx, dy] = DIRS[p.dir];
   const t = thingAt(p.x + dx, p.y + dy);
   if (t && t.type !== 'decor') {
-    if (t.type === 'building' && !(p.x === t.b.door[0] && p.y === t.b.door[1] + 1 && p.dir === 'up')) return;
+    // any tile of the front wall counts as the door: painted doors don't always sit on the centre tile
+    if (t.type === 'building' && !(p.y === t.b.door[1] + 1 && p.dir === 'up')) return;
     hooks.interact?.(t);
   }
 }
@@ -225,9 +226,9 @@ function update(dt) {
       const [dx, dy] = DIRS[dir];
       if (!passable(p.x + dx, p.y + dy)) {
         if (p.dir !== dir) p.dir = dir;
-        // walking up into a door enters the building
+        // walking up into a building's front wall enters it
         const t = thingAt(p.x + dx, p.y + dy);
-        if (t?.type === 'building' && dir === 'up' && t.b.door[0] === p.x && t.b.door[1] === p.y - 1) { W.held = null; hooks.interact?.(t); }
+        if (t?.type === 'building' && dir === 'up' && t.b.door[1] === p.y - 1) { W.held = null; hooks.interact?.(t); }
         else if (t?.type === 'water' || !t) { /* bump */ }
         dir = null;
       }
@@ -346,6 +347,12 @@ function lerpPos(e) {
   return [e.from[0] + (e.x - e.from[0]) * t, e.from[1] + (e.y - e.from[1]) * t];
 }
 
+// Standing objects: code-drawn ones are 1×1.5 tiles; painted ones carry their own box (see art/tiles.js).
+function drawTall(cv, x, y, S) {
+  const [bx, by, bw, bh] = cv.box || [0, -0.5, 1, 1.5];
+  ctx.drawImage(cv, (x + bx) * S, (y + by) * S, bw * S, bh * S);
+}
+
 function render() {
   const S = W.S, dpr = W.dpr, m = W.map;
   const mw = m.tiles[0].length * S, mh = m.tiles.length * S;
@@ -382,17 +389,17 @@ function render() {
   const objs = [];
   for (let y = y0; y <= y1; y++) for (let x = x0; x <= x1; x++) {
     const im = imgs[y][x];
-    if (im.tall) objs.push({ y: y + 0.01, draw: () => ctx.drawImage(im.tall, x * S, (y - 0.5) * S, S, S * 1.5) });
+    if (im.tall) objs.push({ y: y + 0.01, draw: () => drawTall(im.tall, x, y, S) });
   }
   for (const b of W.buildings) {
-    const [w, h] = b.size;
-    objs.push({ y: b.y + h - 1 + 0.2, draw: () => ctx.drawImage(buildingImage(b, ts), b.x * S, (b.y - 1.2) * S, w * S, (h + 1.2) * S) });
+    const h = b.size[1];
+    objs.push({ y: b.y + h - 1 + 0.2, draw: () => drawTall(buildingImage(b, ts), b.x, b.y, S) });
   }
   for (const d of m.decor || []) if (d.t === 'torii') objs.push({ y: d.y + 0.3, draw: () => ctx.drawImage(toriiImage(ts), d.x * S, (d.y - 1.4) * S, 4 * S, 2.4 * S) });
-  for (const sg of m.signs || []) objs.push({ y: sg.y, draw: () => ctx.drawImage(signImage(ts, !!sg.quiz), sg.x * S, (sg.y - 0.5) * S, S, S * 1.5) });
+  for (const sg of m.signs || []) objs.push({ y: sg.y, draw: () => drawTall(signImage(ts, !!sg.quiz), sg.x, sg.y, S) });
   for (const tr of m.treasure || []) {
     const open = !!st().flags['t_' + tr.id];
-    objs.push({ y: tr.y, draw: () => ctx.drawImage(chestImage(ts, open), tr.x * S, (tr.y - 0.5) * S, S, S * 1.5) });
+    objs.push({ y: tr.y, draw: () => drawTall(chestImage(ts, open), tr.x, tr.y, S) });
   }
   for (const n of W.npcs) {
     if (n.block && !n.open) for (const [bx, by] of n.block) objs.push({ y: by, draw: () => ctx.drawImage(gateImage(ts), bx * S, (by - 0.5) * S, S, S * 1.5) });

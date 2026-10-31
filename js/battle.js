@@ -7,7 +7,7 @@ import { nextQuestion, spellTiles } from './srs.js';
 import { overlay, closeOverlay, askQuestion, onTap, $, $$, sleep, esc, en, choose, picHtml } from './ui.js';
 import { say, sfx, music, jingle, preload, stopVoice } from './audio.js';
 import { monUrl } from './art/creatures.js';
-import { battleBg } from './art/scenes.js';
+import { battleBg, battlePad } from './art/scenes.js';
 import { portraitUrl } from './art/people.js';
 import { catchCard, evolveScene } from './screens/card.js';
 import { progress } from './daily.js';
@@ -32,10 +32,12 @@ export async function battle(opts) {
   music(opts.music || (kind === 'master' || kind === 'rival' ? 'master' : 'battle'));
   for (const e of enemies) seeMon(e.id);
 
-  const o = overlay(`<div class="battle">
-    <div class="b-bg">${battleBg(opts.theme || W.map?.theme || 'spring', isNight())}</div>
-    <div class="b-enemy"><img class="b-mon enemy" alt=""></div>
-    <div class="b-ally"><img class="b-mon ally" alt=""></div>
+  const theme = opts.theme || W.map?.theme || 'spring', pad = battlePad(theme);
+  const padTag = pad ? `<img class="b-pad" src="${pad}" alt="">` : '';
+  const o = overlay(`<div class="battle${pad ? ' painted' : ''}">
+    <div class="b-bg">${battleBg(theme, isNight())}</div>
+    <div class="b-enemy">${padTag}<img class="b-mon enemy" alt=""></div>
+    <div class="b-ally">${padTag}<img class="b-mon ally" alt=""></div>
     <div class="b-plate enemy"><div class="b-row"><span class="b-name"></span><span class="b-lv"></span></div><div class="hp"><i></i></div><div class="b-party"></div></div>
     <div class="b-plate ally"><div class="b-row"><span class="b-name"></span><span class="b-lv"></span></div><div class="hp"><i></i></div><div class="b-hpnum"></div><div class="xp"><i></i></div></div>
     <div class="b-fx"></div>

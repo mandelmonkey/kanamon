@@ -12,10 +12,11 @@ import { MON, STARTERS } from './data/kanamon.js';
 import { ITEMS } from './data/items.js';
 import { monTag } from './art/creatures.js';
 import { portraitUrl, PLAYER_LOOK } from './art/people.js';
+import { loadPainted, painted } from './art/painted.js';
 
 async function boot() {
   load();
-  await loadManifest();
+  await Promise.all([loadManifest(), loadPainted()]);
   initWorld($('#world'));
   installHooks();
   initHud({
@@ -40,10 +41,10 @@ function logo() {
 function title() {
   const cont = hasSave() && st().name;
   const o = overlay(`<div class="title">
-    <div class="t-sky"><div class="t-sun"></div><div class="t-fuji"></div><div class="t-torii"></div><div class="t-tree a"></div><div class="t-tree b"></div><div class="t-tree c"></div><div class="t-tree d"></div></div>
+    ${painted('bg/title') ? `<img class="t-paint" src="${painted('bg/title')}" alt="">` : '<div class="t-sky"><div class="t-sun"></div><div class="t-fuji"></div><div class="t-torii"></div><div class="t-tree a"></div><div class="t-tree b"></div><div class="t-tree c"></div><div class="t-tree d"></div></div>'}
     <div class="t-petals">${Array.from({ length: 18 }, (_, i) => `<i style="--x:${(i * 53) % 100}%;--d:${(i * 0.7) % 6}s;--s:${0.7 + (i % 4) * 0.2}"></i>`).join('')}</div>
     ${logo()}
-    <div class="t-cast"><span class="t-mon">${monTag('tane')}</span><img class="t-boy" src="${portraitUrl(PLAYER_LOOK, 240)}" alt=""><span class="t-mon">${monTag('hinoko')}</span><span class="t-mon">${monTag('shizuku')}</span></div>
+    <div class="t-cast"><span class="t-mon">${monTag('tane')}</span><img class="t-boy" src="${painted('sprites/player_front') || portraitUrl(PLAYER_LOOK, 240)}" alt=""><span class="t-mon">${monTag('hinoko')}</span><span class="t-mon">${monTag('shizuku')}</span></div>
     <div class="t-btns">
       ${cont ? `<button class="btn primary big t-cont">▶ つづきから<small>Continue — ${esc(st().name)}</small></button>` : ''}
       <button class="btn big t-new ${cont ? '' : 'primary'}">✨ はじめから<small>New game</small></button>

@@ -743,3 +743,7 @@ export function allDialogue() {
   for (const arr of Object.values(STORY)) push(arr);
   return out;
 }
+
+// Painted portraits and sprites are looked up by these ids (tools/gen_art_prompts.mjs uses the same names).
+for (const [k, v] of Object.entries(LOOK)) v.pid = k;
+for (const [k, m] of Object.entries(MASTERS)) m.look.pid = k;

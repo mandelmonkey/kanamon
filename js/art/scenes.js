@@ -1,4 +1,5 @@
 // SVG battle backdrops per map theme (like the trailer's dusky cherry-blossom clearing).
+import { painted } from './painted.js';
 
 const SKY = {
   spring:   ['#ffd6e8', '#c9b6f2', '#9d8fd8'],
@@ -27,7 +28,12 @@ function platform(cx, cy, rx, top, side) {
     `<ellipse cx="${cx - rx * 0.25}" cy="${cy - rx * 0.05}" rx="${rx * 0.45}" ry="${rx * 0.07}" fill="#fff" opacity=".18"/>`;
 }
 
+// Painted round platform the creatures stand on (null until that theme's art exists).
+export function battlePad(theme) { return painted('bg/' + theme + '_pad'); }
+
 export function battleBg(theme, night = false) {
+  const p = painted('bg/' + theme);
+  if (p) return `<img class="b-paint" src="${p}" alt="">${night && theme !== 'night' ? '<div class="b-night"></div>' : ''}`;
   const t = night && theme !== 'night' ? 'night' : theme;
   const [a, b, c] = SKY[t] || SKY.spring;
   let far = '', near = '', ground = '#9fd27a', ground2 = '#86bd62', ptop = '#a7d97f', pside = '#6f9f4f', extra = '';

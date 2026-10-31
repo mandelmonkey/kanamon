@@ -1,7 +1,8 @@
 // Chibi character sprites for the overworld (canvas), with 4 directions and a 4-frame walk.
+import { painted } from './painted.js';
 
 const OUT = '#4a3022';
-export const PLAYER_LOOK = { kind: 'kid', skin: '#ffe0c4', hair: '#2b1d16', hairStyle: 'short', shirt: '#2f9e7a', pants: '#8a6a45', hat: 'school', bag: '#d9443a' };
+export const PLAYER_LOOK = { pid: 'player', kind: 'kid', skin: '#ffe0c4', hair: '#2b1d16', hairStyle: 'short', shirt: '#2f9e7a', pants: '#8a6a45', hat: 'school', bag: '#d9443a' };
 
 const cache = new Map();
 function rr(c, x, y, w, h, r) { c.beginPath(); c.roundRect ? c.roundRect(x, y, w, h, r) : c.rect(x, y, w, h); }
@@ -14,13 +15,46 @@ export function personImage(look, dir, frame, s) {
     cv = document.createElement('canvas');
     cv.width = Math.ceil(s); cv.height = Math.ceil(s * 1.5);
     const c = cv.getContext('2d');
-    if (look.kind === 'fox') drawFox(c, s, frame); else drawPerson(c, look, dir, frame, s);
+    const sprite = paintedSprite(look, dir);
+    if (sprite && !sprite.complete) {
+      // painted sprite still loading: draw the code version this frame without caching it
+      if (look.kind === 'fox') drawFox(c, s, frame); else drawPerson(c, look, dir, frame, s);
+      return cv;
+    }
+    if (sprite) drawPainted(c, sprite.img, dir, frame, s, sprite.flip);
+    else if (look.kind === 'fox') drawFox(c, s, frame); else drawPerson(c, look, dir, frame, s);
     cache.set(key, cv);
   }
   return cv;
 }
 
+// Painted overworld sprites: the player has front/back/side poses (left is the side pose mirrored);
+// everyone else has a front pose, used for every direction.
+const spriteImgs = new Map();
+function paintedSprite(look, dir) {
+  if (!look.pid) return null;
+  const pose = dir === 'up' ? 'back' : dir === 'left' || dir === 'right' ? 'side' : 'front';
+  const src = painted(`sprites/${look.pid}_${pose}`) || painted(`sprites/${look.pid}_front`);
+  if (!src) return null;
+  let img = spriteImgs.get(src);
+  if (!img) { img = new Image(); img.src = src; spriteImgs.set(src, img); }
+  return { img, complete: img.complete && img.naturalWidth > 0, flip: dir === 'left' && src.includes('_side') };
+}
+
+function drawPainted(c, img, dir, frame, s, flip) {
+  const ground = s * 1.42, h = s * 1.36, w = h * img.naturalWidth / img.naturalHeight;
+  const bob = frame % 2 ? -s * 0.04 : 0, squash = frame % 2 ? 1.03 : 1;
+  c.fillStyle = 'rgba(40,30,20,0.2)'; c.beginPath(); c.ellipse(s / 2, ground, s * 0.26, s * 0.07, 0, 0, 7); c.fill();
+  c.save();
+  c.translate(s / 2, ground + bob);
+  if (flip) c.scale(-1, 1);
+  c.drawImage(img, -w / 2, -h * squash, w, h * squash);
+  c.restore();
+}
+
 export function portraitUrl(look, size = 160) {
+  const p = look.pid && painted('people/' + look.pid);
+  if (p) return p;
   const cv = personImage(look, 'down', 0, size);
   return cv.toDataURL();
 }
